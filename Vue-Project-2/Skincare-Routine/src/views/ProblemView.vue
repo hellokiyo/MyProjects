@@ -6,7 +6,7 @@
     -->
     <div class="d-flex justify-content-center align-items-center">
       <div>
-        <span class="fs-1 fw-bold text-primary">피부 고민 해결!</span>
+        <span class="fs-1 fw-bold text-primary">{{skinType}} 피부 고민 해결!</span>
       </div>
     </div>
 
@@ -44,7 +44,9 @@ const appStore = useAppStore();
 // 4. 반응형으로 가져오기
 const { title } = storeToRefs(appStore);
 
-
+import axios from 'axios';
+// 서버 주소 담김
+import {requestConfig} from "../../app.config.js";
 
 // 스킨 스토어 불러오기
 import { useSkinStore } from "@/stores/skin";
@@ -52,14 +54,40 @@ import { useSkinStore } from "@/stores/skin";
 // 스킨 스토어 실행(실제로 가져오기)
 const skinStore = useSkinStore();
 
+const { skins, mode, selectedIndex } = storeToRefs(skinStore)
 
+
+const skinType = skins.value[selectedIndex.value].skin_type
 
 onMounted(() => {
   console.log(`ProblemView::onMounted 호출됨`);
 
   title.value ='홈';
 
+  console.log(`현재 선택된 인덱스 > ${selectedIndex.value}`)
+  console.log(`현재 선택된 객체 > ${skins.value[selectedIndex.value].skin_type}`);
+
+  requestSkinList()
 })
+// ===== API 호출 (목록) =====
+async function requestSkinList() {
+  try{
+    const response = await axios({
+      method: 'get',  //값 가져오기만 할때
+      baseURL: requestConfig.baseUrl,
+      url: '/skin/list',
+      timeout: 5000,
+      responseType: "json"
+    })
+    console.log(`응답 -> ${JSON.stringify(response.data.data.data[selectedIndex.value])}`)
+    skins.value = response.data.data.data
+
+  } catch (err) {
+    console.error(`에러 -> ${err}`);
+  }
+}
+
+
 
 /* 스킨 타입별
 

@@ -6,13 +6,13 @@
     -->
     <div class="d-flex justify-content-center align-items-center">
       <div>
-        <span class="fs-1 fw-bold text-primary">피부 고민 해결!</span>
+        <span class="fs-1 fw-bold text-primary">무슨 피부 타입이세요?</span>
       </div>
     </div>
 
     <div v-for="(item, index) in cards" :key="item.id" class="col-6 d-flex justify-content-center align-items-center mb-10">
 
-      <div class="d-flex flex-column align-items-center" @click="item.method">
+      <div class="d-flex flex-column align-items-center" @click="item.method(index)">
         <span class="text-gray fs-5 fw-bold mb-2 bg-light-primary rounded p-3">{{item.type}}</span>
       </div>
 
@@ -49,12 +49,6 @@ const appStore = useAppStore();
 // 4. 반응형으로 가져오기
 const { title } = storeToRefs(appStore);
 
-/*
-// 페이지네이션 가져오기
-const { makePagination } = usePagination()
-const pagination1 = ref({})
-*/
-
 // 서버 주소 담김
 import {requestConfig} from "../../app.config.js";
 
@@ -70,8 +64,8 @@ onMounted(() => {
   console.log(`HomeView::onMounted 호출됨`);
 
   title.value ='홈';
-  requestSkinList()
 
+  requestSkinList()
 })
 
 
@@ -85,7 +79,7 @@ async function requestSkinList() {
       timeout: 5000,
       responseType: "json"
     })
-    console.log(`응답 -> ${JSON.stringify(response.data)}`)
+    console.log(`응답 -> ${JSON.stringify(response.data.data.data)}`)
     skins.value = response.data.data.data
 
   } catch (err) {
@@ -133,7 +127,7 @@ function combinationType(index) {
   console.log(`combinationType 함수 호출됨, index: ${index}`);
   mode.value = 'combination';
   selectedIndex.value = index;
-  router.replace({ path: '/problem' });
+  router.replace('/problem',{index});
 }
 
 
