@@ -1,0 +1,17 @@
+2025-08-27 19:06:55.201 - INFO: [logger.js:246:9] service loader called.
+2025-08-27 19:06:55.218 - INFO: [logger.js:246:9] controller loader called.
+2025-08-27 19:06:55.219 - DEBUG: [logger.js:246:9] external_loader called.
+2025-08-27 19:06:55.219 - DEBUG: [logger.js:246:9] No external configuration.
+2025-08-27 19:06:55.466 - INFO: [logger.js:246:9] Http Server started.
+2025-08-27 19:06:55.467 - INFO: [logger.js:246:9] Base URL -> http://localhost:8001
+2025-08-27 19:06:55.467 - INFO: [logger.js:246:9] Namespace -> ::_8001_9844
+2025-08-27 19:06:55.471 - DEBUG: [logger.js:246:9] database SQL file loaded.
+2025-08-27 19:06:59.275 - DEBUG: [logger.js:246:9] skin::list 호출됨.
+2025-08-27 19:06:59.289 - DEBUG: [logger.js:246:9] GET /skin/list requested
+2025-08-27 19:06:59.293 - DEBUG: [logger.js:246:9] PARAMS -> {}
+2025-08-27 19:06:59.356 - DEBUG: [logger.js:246:9] SQL -> select count(*) as total from skincare.skin_care_info
+2025-08-27 19:06:59.362 - DEBUG: [logger.js:246:9] SQL -> 
+            select id, skin_type, features, care_tips, morning_routine, evening_routine, seasonal_routine, recommended_products, key_ingredients,
+                purchase_link, created_at, updated_at
+            from skincare.skin_care_info
+        

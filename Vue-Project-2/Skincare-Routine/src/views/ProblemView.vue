@@ -44,8 +44,18 @@ const appStore = useAppStore();
 // 4. 반응형으로 가져오기
 const { title } = storeToRefs(appStore);
 
+
+
+// 스킨 스토어 불러오기
+import { useSkinStore } from "@/stores/skin";
+
+// 스킨 스토어 실행(실제로 가져오기)
+const skinStore = useSkinStore();
+
+
+
 onMounted(() => {
-  console.log(`HomeView::onMounted 호출됨`);
+  console.log(`ProblemView::onMounted 호출됨`);
 
   title.value ='홈';
 
