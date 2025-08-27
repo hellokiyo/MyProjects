@@ -1,0 +1,1574 @@
+2025-08-25 16:21:57.106 - INFO: [logger.js:246:9] service loader called.
+2025-08-25 16:21:57.120 - INFO: [logger.js:246:9] controller loader called.
+2025-08-25 16:21:57.120 - DEBUG: [logger.js:246:9] external_loader called.
+2025-08-25 16:21:57.121 - DEBUG: [logger.js:246:9] No external configuration.
+2025-08-25 16:21:57.419 - INFO: [logger.js:246:9] Http Server started.
+2025-08-25 16:21:57.419 - INFO: [logger.js:246:9] Base URL -> http://localhost:8001
+2025-08-25 16:21:57.420 - INFO: [logger.js:246:9] Namespace -> ::_8001_6736
+2025-08-25 16:21:57.424 - DEBUG: [logger.js:246:9] database SQL file loaded.
+2025-08-25 16:22:19.855 - INFO: [logger.js:246:9] service loader called.
+2025-08-25 16:22:19.868 - INFO: [logger.js:246:9] controller loader called.
+2025-08-25 16:22:19.868 - DEBUG: [logger.js:246:9] external_loader called.
+2025-08-25 16:22:19.868 - DEBUG: [logger.js:246:9] No external configuration.
+2025-08-25 16:22:20.045 - INFO: [logger.js:246:9] Http Server started.
+2025-08-25 16:22:20.046 - INFO: [logger.js:246:9] Base URL -> http://localhost:8001
+2025-08-25 16:22:20.047 - INFO: [logger.js:246:9] Namespace -> ::_8001_15764
+2025-08-25 16:22:20.050 - DEBUG: [logger.js:246:9] database SQL file loaded.
+2025-08-25 16:23:20.375 - INFO: [logger.js:246:9] service loader called.
+2025-08-25 16:23:20.386 - INFO: [logger.js:246:9] controller loader called.
+2025-08-25 16:23:20.386 - DEBUG: [logger.js:246:9] external_loader called.
+2025-08-25 16:23:20.387 - DEBUG: [logger.js:246:9] No external configuration.
+2025-08-25 16:23:20.568 - INFO: [logger.js:246:9] Http Server started.
+2025-08-25 16:23:20.569 - INFO: [logger.js:246:9] Base URL -> http://localhost:8001
+2025-08-25 16:23:20.570 - INFO: [logger.js:246:9] Namespace -> ::_8001_20744
+2025-08-25 16:23:20.573 - DEBUG: [logger.js:246:9] database SQL file loaded.
+2025-08-25 16:24:29.574 - INFO: [logger.js:246:9] service loader called.
+2025-08-25 16:24:29.586 - INFO: [logger.js:246:9] controller loader called.
+2025-08-25 16:24:29.586 - DEBUG: [logger.js:246:9] external_loader called.
+2025-08-25 16:24:29.586 - DEBUG: [logger.js:246:9] No external configuration.
+2025-08-25 16:24:29.770 - INFO: [logger.js:246:9] Http Server started.
+2025-08-25 16:24:29.771 - INFO: [logger.js:246:9] Base URL -> http://localhost:8001
+2025-08-25 16:24:29.772 - INFO: [logger.js:246:9] Namespace -> ::_8001_2368
+2025-08-25 16:24:29.775 - DEBUG: [logger.js:246:9] database SQL file loaded.
+2025-08-25 16:37:19.975 - INFO: [logger.js:246:9] service loader called.
+2025-08-25 16:37:19.987 - INFO: [logger.js:246:9] controller loader called.
+2025-08-25 16:37:19.987 - DEBUG: [logger.js:246:9] external_loader called.
+2025-08-25 16:37:19.988 - DEBUG: [logger.js:246:9] No external configuration.
+2025-08-25 16:37:20.162 - INFO: [logger.js:246:9] Http Server started.
+2025-08-25 16:37:20.163 - INFO: [logger.js:246:9] Base URL -> http://localhost:8001
+2025-08-25 16:37:20.163 - INFO: [logger.js:246:9] Namespace -> ::_8001_9940
+2025-08-25 16:37:20.168 - DEBUG: [logger.js:246:9] database SQL file loaded.
+2025-08-25 16:38:21.080 - INFO: [logger.js:246:9] service loader called.
+2025-08-25 16:38:21.092 - INFO: [logger.js:246:9] controller loader called.
+2025-08-25 16:38:21.093 - DEBUG: [logger.js:246:9] external_loader called.
+2025-08-25 16:38:21.093 - DEBUG: [logger.js:246:9] No external configuration.
+2025-08-25 16:38:21.263 - INFO: [logger.js:246:9] Http Server started.
+2025-08-25 16:38:21.263 - INFO: [logger.js:246:9] Base URL -> http://localhost:8001
+2025-08-25 16:38:21.264 - INFO: [logger.js:246:9] Namespace -> ::_8001_3028
+2025-08-25 16:38:21.267 - DEBUG: [logger.js:246:9] database SQL file loaded.
+2025-08-25 16:39:24.243 - INFO: [logger.js:246:9] service loader called.
+2025-08-25 16:39:24.255 - INFO: [logger.js:246:9] controller loader called.
+2025-08-25 16:39:24.255 - DEBUG: [logger.js:246:9] external_loader called.
+2025-08-25 16:39:24.256 - DEBUG: [logger.js:246:9] No external configuration.
+2025-08-25 16:39:24.431 - INFO: [logger.js:246:9] Http Server started.
+2025-08-25 16:39:24.431 - INFO: [logger.js:246:9] Base URL -> http://localhost:8001
+2025-08-25 16:39:24.432 - INFO: [logger.js:246:9] Namespace -> ::_8001_984
+2025-08-25 16:39:24.437 - DEBUG: [logger.js:246:9] database SQL file loaded.
+2025-08-25 16:39:54.466 - INFO: [logger.js:246:9] service loader called.
+2025-08-25 16:39:54.481 - INFO: [logger.js:246:9] controller loader called.
+2025-08-25 16:39:54.481 - DEBUG: [logger.js:246:9] external_loader called.
+2025-08-25 16:39:54.482 - DEBUG: [logger.js:246:9] No external configuration.
+2025-08-25 16:39:54.686 - INFO: [logger.js:246:9] Http Server started.
+2025-08-25 16:39:54.687 - INFO: [logger.js:246:9] Base URL -> http://localhost:8001
+2025-08-25 16:39:54.688 - INFO: [logger.js:246:9] Namespace -> ::_8001_13432
+2025-08-25 16:39:54.692 - DEBUG: [logger.js:246:9] database SQL file loaded.
+2025-08-25 16:39:59.077 - DEBUG: [logger.js:246:9] Animal::list 호출됨.
+2025-08-25 16:39:59.079 - DEBUG: [logger.js:246:9] POST /animal/v1/list requested
+2025-08-25 16:39:59.081 - DEBUG: [logger.js:246:9] PARAMS -> {"page":1,"perPage":10}
+2025-08-25 16:39:59.115 - DEBUG: [logger.js:246:9] SQL -> select count(*) as total
+                from test.animal
+2025-08-25 16:39:59.118 - DEBUG: [logger.js:246:9] SQL -> select id,type, name, age, mobile, path
+              from test.animal  limit 0, 10 
+2025-08-25 16:40:00.177 - DEBUG: [logger.js:246:9] Animal::list 호출됨.
+2025-08-25 16:40:00.177 - DEBUG: [logger.js:246:9] POST /animal/v1/list requested
+2025-08-25 16:40:00.179 - DEBUG: [logger.js:246:9] PARAMS -> {"page":1,"perPage":10}
+2025-08-25 16:40:00.181 - DEBUG: [logger.js:246:9] SQL -> select count(*) as total
+                from test.animal
+2025-08-25 16:40:00.183 - DEBUG: [logger.js:246:9] SQL -> select id,type, name, age, mobile, path
+              from test.animal  limit 0, 10 
+2025-08-25 16:59:18.914 - INFO: [logger.js:246:9] service loader called.
+2025-08-25 16:59:18.926 - INFO: [logger.js:246:9] controller loader called.
+2025-08-25 16:59:18.926 - DEBUG: [logger.js:246:9] external_loader called.
+2025-08-25 16:59:18.926 - DEBUG: [logger.js:246:9] No external configuration.
+2025-08-25 16:59:19.103 - INFO: [logger.js:246:9] Http Server started.
+2025-08-25 16:59:19.103 - INFO: [logger.js:246:9] Base URL -> http://localhost:8001
+2025-08-25 16:59:19.104 - INFO: [logger.js:246:9] Namespace -> ::_8001_10768
+2025-08-25 16:59:19.107 - DEBUG: [logger.js:246:9] database SQL file loaded.
+2025-08-25 16:59:23.593 - DEBUG: [logger.js:246:9] Animal::list 호출됨.
+2025-08-25 16:59:23.594 - DEBUG: [logger.js:246:9] POST /animal/v1/list requested
+2025-08-25 16:59:23.594 - DEBUG: [logger.js:246:9] PARAMS -> {"page":1,"perPage":10}
+2025-08-25 16:59:23.619 - DEBUG: [logger.js:246:9] SQL -> select count(*) as total
+                from test.animal
+2025-08-25 16:59:23.620 - DEBUG: [logger.js:246:9] SQL -> select id,type, name, age, mobile, path
+              from test.animal  limit 0, 10 
+2025-08-25 16:59:25.408 - DEBUG: [logger.js:246:9] Animal::add 호출됨.
+2025-08-25 16:59:25.409 - DEBUG: [logger.js:246:9] POST /animal/v1/add requested
+2025-08-25 16:59:25.409 - DEBUG: [logger.js:246:9] PARAMS -> {"type":"","name":"","age":"","mobile":"","path":""}
+2025-08-25 16:59:25.412 - DEBUG: [logger.js:246:9] SQL -> insert into test.animal(type, name, age, mobile, path)
+              values
+                  ('', '', '', '', '')
+2025-08-25 16:59:25.412 - DEBUG: [logger.js:246:9] Error in executing SQL -> Error: ER_TRUNCATED_WRONG_VALUE_FOR_FIELD: Incorrect integer value: '' for column `test`.`animal`.`age` at row 1
+2025-08-25 16:59:55.736 - DEBUG: [logger.js:246:9] Animal::list 호출됨.
+2025-08-25 16:59:55.738 - DEBUG: [logger.js:246:9] POST /animal/v1/list requested
+2025-08-25 16:59:55.739 - DEBUG: [logger.js:246:9] PARAMS -> {"page":1,"perPage":10}
+2025-08-25 16:59:55.743 - DEBUG: [logger.js:246:9] SQL -> select count(*) as total
+                from test.animal
+2025-08-25 16:59:55.746 - DEBUG: [logger.js:246:9] SQL -> select id,type, name, age, mobile, path
+              from test.animal  limit 0, 10 
+2025-08-25 17:07:47.524 - DEBUG: [logger.js:246:9] Animal::list 호출됨.
+2025-08-25 17:07:47.525 - DEBUG: [logger.js:246:9] POST /animal/v1/list requested
+2025-08-25 17:07:47.525 - DEBUG: [logger.js:246:9] PARAMS -> {"page":1,"perPage":10}
+2025-08-25 17:07:47.527 - DEBUG: [logger.js:246:9] SQL -> select count(*) as total
+                from test.animal
+2025-08-25 17:07:47.529 - DEBUG: [logger.js:246:9] SQL -> select id,type, name, age, mobile, path
+              from test.animal  limit 0, 10 
+2025-08-25 17:08:14.541 - DEBUG: [logger.js:246:9] Animal::add 호출됨.
+2025-08-25 17:08:14.541 - DEBUG: [logger.js:246:9] POST /animal/v1/add requested
+2025-08-25 17:08:14.542 - DEBUG: [logger.js:246:9] PARAMS -> {"type":"cat","name":"고양이3","age":"5","mobile":"010-5000-5000","path":"/images/cat2.jpg"}
+2025-08-25 17:08:14.545 - DEBUG: [logger.js:246:9] SQL -> insert into test.animal(type, name, age, mobile, path)
+              values
+                  ('cat', '고양이3', '5', '010-5000-5000', '/images/cat2.jpg')
+2025-08-25 17:08:15.379 - DEBUG: [logger.js:246:9] Animal::add 호출됨.
+2025-08-25 17:08:15.379 - DEBUG: [logger.js:246:9] POST /animal/v1/add requested
+2025-08-25 17:08:15.380 - DEBUG: [logger.js:246:9] PARAMS -> {"type":"cat","name":"고양이3","age":"5","mobile":"010-5000-5000","path":"/images/cat2.jpg"}
+2025-08-25 17:08:15.390 - DEBUG: [logger.js:246:9] SQL -> insert into test.animal(type, name, age, mobile, path)
+              values
+                  ('cat', '고양이3', '5', '010-5000-5000', '/images/cat2.jpg')
+2025-08-25 17:08:15.715 - DEBUG: [logger.js:246:9] Animal::add 호출됨.
+2025-08-25 17:08:15.715 - DEBUG: [logger.js:246:9] POST /animal/v1/add requested
+2025-08-25 17:08:15.716 - DEBUG: [logger.js:246:9] PARAMS -> {"type":"cat","name":"고양이3","age":"5","mobile":"010-5000-5000","path":"/images/cat2.jpg"}
+2025-08-25 17:08:15.718 - DEBUG: [logger.js:246:9] SQL -> insert into test.animal(type, name, age, mobile, path)
+              values
+                  ('cat', '고양이3', '5', '010-5000-5000', '/images/cat2.jpg')
+2025-08-25 17:08:16.035 - DEBUG: [logger.js:246:9] Animal::add 호출됨.
+2025-08-25 17:08:16.035 - DEBUG: [logger.js:246:9] POST /animal/v1/add requested
+2025-08-25 17:08:16.036 - DEBUG: [logger.js:246:9] PARAMS -> {"type":"cat","name":"고양이3","age":"5","mobile":"010-5000-5000","path":"/images/cat2.jpg"}
+2025-08-25 17:08:16.038 - DEBUG: [logger.js:246:9] SQL -> insert into test.animal(type, name, age, mobile, path)
+              values
+                  ('cat', '고양이3', '5', '010-5000-5000', '/images/cat2.jpg')
+2025-08-25 17:08:16.203 - DEBUG: [logger.js:246:9] Animal::add 호출됨.
+2025-08-25 17:08:16.204 - DEBUG: [logger.js:246:9] POST /animal/v1/add requested
+2025-08-25 17:08:16.204 - DEBUG: [logger.js:246:9] PARAMS -> {"type":"cat","name":"고양이3","age":"5","mobile":"010-5000-5000","path":"/images/cat2.jpg"}
+2025-08-25 17:08:16.207 - DEBUG: [logger.js:246:9] SQL -> insert into test.animal(type, name, age, mobile, path)
+              values
+                  ('cat', '고양이3', '5', '010-5000-5000', '/images/cat2.jpg')
+2025-08-25 17:08:16.331 - DEBUG: [logger.js:246:9] Animal::add 호출됨.
+2025-08-25 17:08:16.331 - DEBUG: [logger.js:246:9] POST /animal/v1/add requested
+2025-08-25 17:08:16.332 - DEBUG: [logger.js:246:9] PARAMS -> {"type":"cat","name":"고양이3","age":"5","mobile":"010-5000-5000","path":"/images/cat2.jpg"}
+2025-08-25 17:08:16.334 - DEBUG: [logger.js:246:9] SQL -> insert into test.animal(type, name, age, mobile, path)
+              values
+                  ('cat', '고양이3', '5', '010-5000-5000', '/images/cat2.jpg')
+2025-08-25 17:08:16.499 - DEBUG: [logger.js:246:9] Animal::add 호출됨.
+2025-08-25 17:08:16.499 - DEBUG: [logger.js:246:9] POST /animal/v1/add requested
+2025-08-25 17:08:16.500 - DEBUG: [logger.js:246:9] PARAMS -> {"type":"cat","name":"고양이3","age":"5","mobile":"010-5000-5000","path":"/images/cat2.jpg"}
+2025-08-25 17:08:16.502 - DEBUG: [logger.js:246:9] SQL -> insert into test.animal(type, name, age, mobile, path)
+              values
+                  ('cat', '고양이3', '5', '010-5000-5000', '/images/cat2.jpg')
+2025-08-25 17:08:16.675 - DEBUG: [logger.js:246:9] Animal::add 호출됨.
+2025-08-25 17:08:16.675 - DEBUG: [logger.js:246:9] POST /animal/v1/add requested
+2025-08-25 17:08:16.676 - DEBUG: [logger.js:246:9] PARAMS -> {"type":"cat","name":"고양이3","age":"5","mobile":"010-5000-5000","path":"/images/cat2.jpg"}
+2025-08-25 17:08:16.679 - DEBUG: [logger.js:246:9] SQL -> insert into test.animal(type, name, age, mobile, path)
+              values
+                  ('cat', '고양이3', '5', '010-5000-5000', '/images/cat2.jpg')
+2025-08-25 17:09:39.595 - DEBUG: [logger.js:246:9] Animal::list 호출됨.
+2025-08-25 17:09:39.595 - DEBUG: [logger.js:246:9] POST /animal/v1/list requested
+2025-08-25 17:09:39.596 - DEBUG: [logger.js:246:9] PARAMS -> {"page":1,"perPage":10}
+2025-08-25 17:09:39.597 - DEBUG: [logger.js:246:9] SQL -> select count(*) as total
+                from test.animal
+2025-08-25 17:09:39.598 - DEBUG: [logger.js:246:9] SQL -> select id,type, name, age, mobile, path
+              from test.animal  limit 0, 10 
+2025-08-25 17:10:10.998 - DEBUG: [logger.js:246:9] Animal::add 호출됨.
+2025-08-25 17:10:10.998 - DEBUG: [logger.js:246:9] POST /animal/v1/add requested
+2025-08-25 17:10:10.999 - DEBUG: [logger.js:246:9] PARAMS -> {"type":"cat","name":"고양이3","age":"6","mobile":"010-6000-6000","path":"/images/cat2.jpg"}
+2025-08-25 17:10:11.008 - DEBUG: [logger.js:246:9] SQL -> insert into test.animal(type, name, age, mobile, path)
+              values
+                  ('cat', '고양이3', '6', '010-6000-6000', '/images/cat2.jpg')
+2025-08-25 17:10:11.468 - DEBUG: [logger.js:246:9] Animal::add 호출됨.
+2025-08-25 17:10:11.468 - DEBUG: [logger.js:246:9] POST /animal/v1/add requested
+2025-08-25 17:10:11.469 - DEBUG: [logger.js:246:9] PARAMS -> {"type":"cat","name":"고양이3","age":"6","mobile":"010-6000-6000","path":"/images/cat2.jpg"}
+2025-08-25 17:10:11.473 - DEBUG: [logger.js:246:9] SQL -> insert into test.animal(type, name, age, mobile, path)
+              values
+                  ('cat', '고양이3', '6', '010-6000-6000', '/images/cat2.jpg')
+2025-08-25 17:10:11.603 - DEBUG: [logger.js:246:9] Animal::add 호출됨.
+2025-08-25 17:10:11.604 - DEBUG: [logger.js:246:9] POST /animal/v1/add requested
+2025-08-25 17:10:11.604 - DEBUG: [logger.js:246:9] PARAMS -> {"type":"cat","name":"고양이3","age":"6","mobile":"010-6000-6000","path":"/images/cat2.jpg"}
+2025-08-25 17:10:11.606 - DEBUG: [logger.js:246:9] SQL -> insert into test.animal(type, name, age, mobile, path)
+              values
+                  ('cat', '고양이3', '6', '010-6000-6000', '/images/cat2.jpg')
+2025-08-25 17:10:11.763 - DEBUG: [logger.js:246:9] Animal::add 호출됨.
+2025-08-25 17:10:11.763 - DEBUG: [logger.js:246:9] POST /animal/v1/add requested
+2025-08-25 17:10:11.764 - DEBUG: [logger.js:246:9] PARAMS -> {"type":"cat","name":"고양이3","age":"6","mobile":"010-6000-6000","path":"/images/cat2.jpg"}
+2025-08-25 17:10:11.766 - DEBUG: [logger.js:246:9] SQL -> insert into test.animal(type, name, age, mobile, path)
+              values
+                  ('cat', '고양이3', '6', '010-6000-6000', '/images/cat2.jpg')
+2025-08-25 17:10:11.899 - DEBUG: [logger.js:246:9] Animal::add 호출됨.
+2025-08-25 17:10:11.899 - DEBUG: [logger.js:246:9] POST /animal/v1/add requested
+2025-08-25 17:10:11.900 - DEBUG: [logger.js:246:9] PARAMS -> {"type":"cat","name":"고양이3","age":"6","mobile":"010-6000-6000","path":"/images/cat2.jpg"}
+2025-08-25 17:10:11.902 - DEBUG: [logger.js:246:9] SQL -> insert into test.animal(type, name, age, mobile, path)
+              values
+                  ('cat', '고양이3', '6', '010-6000-6000', '/images/cat2.jpg')
+2025-08-25 17:10:12.043 - DEBUG: [logger.js:246:9] Animal::add 호출됨.
+2025-08-25 17:10:12.043 - DEBUG: [logger.js:246:9] POST /animal/v1/add requested
+2025-08-25 17:10:12.044 - DEBUG: [logger.js:246:9] PARAMS -> {"type":"cat","name":"고양이3","age":"6","mobile":"010-6000-6000","path":"/images/cat2.jpg"}
+2025-08-25 17:10:12.046 - DEBUG: [logger.js:246:9] SQL -> insert into test.animal(type, name, age, mobile, path)
+              values
+                  ('cat', '고양이3', '6', '010-6000-6000', '/images/cat2.jpg')
+2025-08-25 17:10:12.179 - DEBUG: [logger.js:246:9] Animal::add 호출됨.
+2025-08-25 17:10:12.179 - DEBUG: [logger.js:246:9] POST /animal/v1/add requested
+2025-08-25 17:10:12.180 - DEBUG: [logger.js:246:9] PARAMS -> {"type":"cat","name":"고양이3","age":"6","mobile":"010-6000-6000","path":"/images/cat2.jpg"}
+2025-08-25 17:10:12.182 - DEBUG: [logger.js:246:9] SQL -> insert into test.animal(type, name, age, mobile, path)
+              values
+                  ('cat', '고양이3', '6', '010-6000-6000', '/images/cat2.jpg')
+2025-08-25 17:10:12.323 - DEBUG: [logger.js:246:9] Animal::add 호출됨.
+2025-08-25 17:10:12.323 - DEBUG: [logger.js:246:9] POST /animal/v1/add requested
+2025-08-25 17:10:12.324 - DEBUG: [logger.js:246:9] PARAMS -> {"type":"cat","name":"고양이3","age":"6","mobile":"010-6000-6000","path":"/images/cat2.jpg"}
+2025-08-25 17:10:12.326 - DEBUG: [logger.js:246:9] SQL -> insert into test.animal(type, name, age, mobile, path)
+              values
+                  ('cat', '고양이3', '6', '010-6000-6000', '/images/cat2.jpg')
+2025-08-25 17:10:12.459 - DEBUG: [logger.js:246:9] Animal::add 호출됨.
+2025-08-25 17:10:12.460 - DEBUG: [logger.js:246:9] POST /animal/v1/add requested
+2025-08-25 17:10:12.460 - DEBUG: [logger.js:246:9] PARAMS -> {"type":"cat","name":"고양이3","age":"6","mobile":"010-6000-6000","path":"/images/cat2.jpg"}
+2025-08-25 17:10:12.462 - DEBUG: [logger.js:246:9] SQL -> insert into test.animal(type, name, age, mobile, path)
+              values
+                  ('cat', '고양이3', '6', '010-6000-6000', '/images/cat2.jpg')
+2025-08-25 17:10:15.620 - DEBUG: [logger.js:246:9] Animal::add 호출됨.
+2025-08-25 17:10:15.620 - DEBUG: [logger.js:246:9] POST /animal/v1/add requested
+2025-08-25 17:10:15.621 - DEBUG: [logger.js:246:9] PARAMS -> {"type":"cat","name":"고양이3","age":"6","mobile":"010-6000-6000","path":"/images/cat2.jpg"}
+2025-08-25 17:10:15.631 - DEBUG: [logger.js:246:9] SQL -> insert into test.animal(type, name, age, mobile, path)
+              values
+                  ('cat', '고양이3', '6', '010-6000-6000', '/images/cat2.jpg')
+2025-08-25 17:10:16.476 - DEBUG: [logger.js:246:9] Animal::add 호출됨.
+2025-08-25 17:10:16.477 - DEBUG: [logger.js:246:9] POST /animal/v1/add requested
+2025-08-25 17:10:16.477 - DEBUG: [logger.js:246:9] PARAMS -> {"type":"cat","name":"고양이3","age":"6","mobile":"010-6000-6000","path":"/images/cat2.jpg"}
+2025-08-25 17:10:16.481 - DEBUG: [logger.js:246:9] SQL -> insert into test.animal(type, name, age, mobile, path)
+              values
+                  ('cat', '고양이3', '6', '010-6000-6000', '/images/cat2.jpg')
+2025-08-25 17:12:36.562 - DEBUG: [logger.js:246:9] Animal::list 호출됨.
+2025-08-25 17:12:36.562 - DEBUG: [logger.js:246:9] POST /animal/v1/list requested
+2025-08-25 17:12:36.562 - DEBUG: [logger.js:246:9] PARAMS -> {"page":1,"perPage":10}
+2025-08-25 17:12:36.563 - DEBUG: [logger.js:246:9] SQL -> select count(*) as total
+                from test.animal
+2025-08-25 17:12:36.564 - DEBUG: [logger.js:246:9] SQL -> select id,type, name, age, mobile, path
+              from test.animal  limit 0, 10 
+2025-08-25 17:12:38.733 - DEBUG: [logger.js:246:9] Animal::remove 호출됨.
+2025-08-25 17:12:38.733 - DEBUG: [logger.js:246:9] POST /animal/v1/remove requested
+2025-08-25 17:12:38.734 - DEBUG: [logger.js:246:9] PARAMS -> {"id":2}
+2025-08-25 17:12:38.736 - DEBUG: [logger.js:246:9] SQL -> delete from test.animal
+              where id = '2' 
+2025-08-25 17:12:38.739 - DEBUG: [logger.js:246:9] Animal::list 호출됨.
+2025-08-25 17:12:38.740 - DEBUG: [logger.js:246:9] POST /animal/v1/list requested
+2025-08-25 17:12:38.740 - DEBUG: [logger.js:246:9] PARAMS -> {"page":1,"perPage":10}
+2025-08-25 17:12:38.741 - DEBUG: [logger.js:246:9] SQL -> select count(*) as total
+                from test.animal
+2025-08-25 17:12:38.742 - DEBUG: [logger.js:246:9] SQL -> select id,type, name, age, mobile, path
+              from test.animal  limit 0, 10 
+2025-08-25 17:12:39.843 - DEBUG: [logger.js:246:9] Animal::remove 호출됨.
+2025-08-25 17:12:39.843 - DEBUG: [logger.js:246:9] POST /animal/v1/remove requested
+2025-08-25 17:12:39.844 - DEBUG: [logger.js:246:9] PARAMS -> {"id":3}
+2025-08-25 17:12:39.846 - DEBUG: [logger.js:246:9] SQL -> delete from test.animal
+              where id = '3' 
+2025-08-25 17:12:39.849 - DEBUG: [logger.js:246:9] Animal::list 호출됨.
+2025-08-25 17:12:39.850 - DEBUG: [logger.js:246:9] POST /animal/v1/list requested
+2025-08-25 17:12:39.850 - DEBUG: [logger.js:246:9] PARAMS -> {"page":1,"perPage":10}
+2025-08-25 17:12:39.851 - DEBUG: [logger.js:246:9] SQL -> select count(*) as total
+                from test.animal
+2025-08-25 17:12:39.853 - DEBUG: [logger.js:246:9] SQL -> select id,type, name, age, mobile, path
+              from test.animal  limit 0, 10 
+2025-08-25 17:12:40.346 - DEBUG: [logger.js:246:9] Animal::remove 호출됨.
+2025-08-25 17:12:40.347 - DEBUG: [logger.js:246:9] POST /animal/v1/remove requested
+2025-08-25 17:12:40.347 - DEBUG: [logger.js:246:9] PARAMS -> {"id":4}
+2025-08-25 17:12:40.356 - DEBUG: [logger.js:246:9] SQL -> delete from test.animal
+              where id = '4' 
+2025-08-25 17:12:40.359 - DEBUG: [logger.js:246:9] Animal::list 호출됨.
+2025-08-25 17:12:40.359 - DEBUG: [logger.js:246:9] POST /animal/v1/list requested
+2025-08-25 17:12:40.360 - DEBUG: [logger.js:246:9] PARAMS -> {"page":1,"perPage":10}
+2025-08-25 17:12:40.360 - DEBUG: [logger.js:246:9] SQL -> select count(*) as total
+                from test.animal
+2025-08-25 17:12:40.361 - DEBUG: [logger.js:246:9] SQL -> select id,type, name, age, mobile, path
+              from test.animal  limit 0, 10 
+2025-08-25 17:12:40.859 - DEBUG: [logger.js:246:9] Animal::remove 호출됨.
+2025-08-25 17:12:40.859 - DEBUG: [logger.js:246:9] POST /animal/v1/remove requested
+2025-08-25 17:12:40.860 - DEBUG: [logger.js:246:9] PARAMS -> {"id":5}
+2025-08-25 17:12:40.869 - DEBUG: [logger.js:246:9] SQL -> delete from test.animal
+              where id = '5' 
+2025-08-25 17:12:40.872 - DEBUG: [logger.js:246:9] Animal::list 호출됨.
+2025-08-25 17:12:40.872 - DEBUG: [logger.js:246:9] POST /animal/v1/list requested
+2025-08-25 17:12:40.872 - DEBUG: [logger.js:246:9] PARAMS -> {"page":1,"perPage":10}
+2025-08-25 17:12:40.874 - DEBUG: [logger.js:246:9] SQL -> select count(*) as total
+                from test.animal
+2025-08-25 17:12:40.874 - DEBUG: [logger.js:246:9] SQL -> select id,type, name, age, mobile, path
+              from test.animal  limit 0, 10 
+2025-08-25 17:12:41.283 - DEBUG: [logger.js:246:9] Animal::remove 호출됨.
+2025-08-25 17:12:41.283 - DEBUG: [logger.js:246:9] POST /animal/v1/remove requested
+2025-08-25 17:12:41.284 - DEBUG: [logger.js:246:9] PARAMS -> {"id":6}
+2025-08-25 17:12:41.293 - DEBUG: [logger.js:246:9] SQL -> delete from test.animal
+              where id = '6' 
+2025-08-25 17:12:41.296 - DEBUG: [logger.js:246:9] Animal::list 호출됨.
+2025-08-25 17:12:41.296 - DEBUG: [logger.js:246:9] POST /animal/v1/list requested
+2025-08-25 17:12:41.297 - DEBUG: [logger.js:246:9] PARAMS -> {"page":1,"perPage":10}
+2025-08-25 17:12:41.298 - DEBUG: [logger.js:246:9] SQL -> select count(*) as total
+                from test.animal
+2025-08-25 17:12:41.299 - DEBUG: [logger.js:246:9] SQL -> select id,type, name, age, mobile, path
+              from test.animal  limit 0, 10 
+2025-08-25 17:12:41.650 - DEBUG: [logger.js:246:9] Animal::remove 호출됨.
+2025-08-25 17:12:41.651 - DEBUG: [logger.js:246:9] POST /animal/v1/remove requested
+2025-08-25 17:12:41.651 - DEBUG: [logger.js:246:9] PARAMS -> {"id":7}
+2025-08-25 17:12:41.660 - DEBUG: [logger.js:246:9] SQL -> delete from test.animal
+              where id = '7' 
+2025-08-25 17:12:41.663 - DEBUG: [logger.js:246:9] Animal::list 호출됨.
+2025-08-25 17:12:41.663 - DEBUG: [logger.js:246:9] POST /animal/v1/list requested
+2025-08-25 17:12:41.664 - DEBUG: [logger.js:246:9] PARAMS -> {"page":1,"perPage":10}
+2025-08-25 17:12:41.664 - DEBUG: [logger.js:246:9] SQL -> select count(*) as total
+                from test.animal
+2025-08-25 17:12:41.665 - DEBUG: [logger.js:246:9] SQL -> select id,type, name, age, mobile, path
+              from test.animal  limit 0, 10 
+2025-08-25 17:12:41.876 - DEBUG: [logger.js:246:9] Animal::remove 호출됨.
+2025-08-25 17:12:41.876 - DEBUG: [logger.js:246:9] POST /animal/v1/remove requested
+2025-08-25 17:12:41.877 - DEBUG: [logger.js:246:9] PARAMS -> {"id":8}
+2025-08-25 17:12:41.879 - DEBUG: [logger.js:246:9] SQL -> delete from test.animal
+              where id = '8' 
+2025-08-25 17:12:41.881 - DEBUG: [logger.js:246:9] Animal::list 호출됨.
+2025-08-25 17:12:41.881 - DEBUG: [logger.js:246:9] POST /animal/v1/list requested
+2025-08-25 17:12:41.882 - DEBUG: [logger.js:246:9] PARAMS -> {"page":1,"perPage":10}
+2025-08-25 17:12:41.882 - DEBUG: [logger.js:246:9] SQL -> select count(*) as total
+                from test.animal
+2025-08-25 17:12:41.883 - DEBUG: [logger.js:246:9] SQL -> select id,type, name, age, mobile, path
+              from test.animal  limit 0, 10 
+2025-08-25 17:12:42.963 - DEBUG: [logger.js:246:9] Animal::remove 호출됨.
+2025-08-25 17:12:42.963 - DEBUG: [logger.js:246:9] POST /animal/v1/remove requested
+2025-08-25 17:12:42.964 - DEBUG: [logger.js:246:9] PARAMS -> {"id":10}
+2025-08-25 17:12:42.968 - DEBUG: [logger.js:246:9] SQL -> delete from test.animal
+              where id = '10' 
+2025-08-25 17:12:42.971 - DEBUG: [logger.js:246:9] Animal::list 호출됨.
+2025-08-25 17:12:42.971 - DEBUG: [logger.js:246:9] POST /animal/v1/list requested
+2025-08-25 17:12:42.972 - DEBUG: [logger.js:246:9] PARAMS -> {"page":1,"perPage":10}
+2025-08-25 17:12:42.973 - DEBUG: [logger.js:246:9] SQL -> select count(*) as total
+                from test.animal
+2025-08-25 17:12:42.974 - DEBUG: [logger.js:246:9] SQL -> select id,type, name, age, mobile, path
+              from test.animal  limit 0, 10 
+2025-08-25 17:12:43.098 - DEBUG: [logger.js:246:9] Animal::remove 호출됨.
+2025-08-25 17:12:43.099 - DEBUG: [logger.js:246:9] POST /animal/v1/remove requested
+2025-08-25 17:12:43.099 - DEBUG: [logger.js:246:9] PARAMS -> {"id":11}
+2025-08-25 17:12:43.101 - DEBUG: [logger.js:246:9] SQL -> delete from test.animal
+              where id = '11' 
+2025-08-25 17:12:43.103 - DEBUG: [logger.js:246:9] Animal::list 호출됨.
+2025-08-25 17:12:43.104 - DEBUG: [logger.js:246:9] POST /animal/v1/list requested
+2025-08-25 17:12:43.104 - DEBUG: [logger.js:246:9] PARAMS -> {"page":1,"perPage":10}
+2025-08-25 17:12:43.105 - DEBUG: [logger.js:246:9] SQL -> select count(*) as total
+                from test.animal
+2025-08-25 17:12:43.106 - DEBUG: [logger.js:246:9] SQL -> select id,type, name, age, mobile, path
+              from test.animal  limit 0, 10 
+2025-08-25 17:12:43.266 - DEBUG: [logger.js:246:9] Animal::remove 호출됨.
+2025-08-25 17:12:43.267 - DEBUG: [logger.js:246:9] POST /animal/v1/remove requested
+2025-08-25 17:12:43.267 - DEBUG: [logger.js:246:9] PARAMS -> {"id":12}
+2025-08-25 17:12:43.270 - DEBUG: [logger.js:246:9] SQL -> delete from test.animal
+              where id = '12' 
+2025-08-25 17:12:43.273 - DEBUG: [logger.js:246:9] Animal::list 호출됨.
+2025-08-25 17:12:43.273 - DEBUG: [logger.js:246:9] POST /animal/v1/list requested
+2025-08-25 17:12:43.274 - DEBUG: [logger.js:246:9] PARAMS -> {"page":1,"perPage":10}
+2025-08-25 17:12:43.275 - DEBUG: [logger.js:246:9] SQL -> select count(*) as total
+                from test.animal
+2025-08-25 17:12:43.276 - DEBUG: [logger.js:246:9] SQL -> select id,type, name, age, mobile, path
+              from test.animal  limit 0, 10 
+2025-08-25 17:12:47.669 - DEBUG: [logger.js:246:9] Animal::remove 호출됨.
+2025-08-25 17:12:47.669 - DEBUG: [logger.js:246:9] POST /animal/v1/remove requested
+2025-08-25 17:12:47.670 - DEBUG: [logger.js:246:9] PARAMS -> {"id":16}
+2025-08-25 17:12:47.673 - DEBUG: [logger.js:246:9] SQL -> delete from test.animal
+              where id = '16' 
+2025-08-25 17:12:47.677 - DEBUG: [logger.js:246:9] Animal::list 호출됨.
+2025-08-25 17:12:47.677 - DEBUG: [logger.js:246:9] POST /animal/v1/list requested
+2025-08-25 17:12:47.678 - DEBUG: [logger.js:246:9] PARAMS -> {"page":1,"perPage":10}
+2025-08-25 17:12:47.679 - DEBUG: [logger.js:246:9] SQL -> select count(*) as total
+                from test.animal
+2025-08-25 17:12:47.680 - DEBUG: [logger.js:246:9] SQL -> select id,type, name, age, mobile, path
+              from test.animal  limit 0, 10 
+2025-08-25 17:12:47.850 - DEBUG: [logger.js:246:9] Animal::remove 호출됨.
+2025-08-25 17:12:47.851 - DEBUG: [logger.js:246:9] POST /animal/v1/remove requested
+2025-08-25 17:12:47.851 - DEBUG: [logger.js:246:9] PARAMS -> {"id":17}
+2025-08-25 17:12:47.853 - DEBUG: [logger.js:246:9] SQL -> delete from test.animal
+              where id = '17' 
+2025-08-25 17:12:47.856 - DEBUG: [logger.js:246:9] Animal::list 호출됨.
+2025-08-25 17:12:47.856 - DEBUG: [logger.js:246:9] POST /animal/v1/list requested
+2025-08-25 17:12:47.856 - DEBUG: [logger.js:246:9] PARAMS -> {"page":1,"perPage":10}
+2025-08-25 17:12:47.857 - DEBUG: [logger.js:246:9] SQL -> select count(*) as total
+                from test.animal
+2025-08-25 17:12:47.858 - DEBUG: [logger.js:246:9] SQL -> select id,type, name, age, mobile, path
+              from test.animal  limit 0, 10 
+2025-08-25 17:12:47.987 - DEBUG: [logger.js:246:9] Animal::remove 호출됨.
+2025-08-25 17:12:47.987 - DEBUG: [logger.js:246:9] POST /animal/v1/remove requested
+2025-08-25 17:12:47.987 - DEBUG: [logger.js:246:9] PARAMS -> {"id":18}
+2025-08-25 17:12:47.989 - DEBUG: [logger.js:246:9] SQL -> delete from test.animal
+              where id = '18' 
+2025-08-25 17:12:47.991 - DEBUG: [logger.js:246:9] Animal::list 호출됨.
+2025-08-25 17:12:47.992 - DEBUG: [logger.js:246:9] POST /animal/v1/list requested
+2025-08-25 17:12:47.992 - DEBUG: [logger.js:246:9] PARAMS -> {"page":1,"perPage":10}
+2025-08-25 17:12:47.992 - DEBUG: [logger.js:246:9] SQL -> select count(*) as total
+                from test.animal
+2025-08-25 17:12:47.993 - DEBUG: [logger.js:246:9] SQL -> select id,type, name, age, mobile, path
+              from test.animal  limit 0, 10 
+2025-08-25 17:12:48.106 - DEBUG: [logger.js:246:9] Animal::remove 호출됨.
+2025-08-25 17:12:48.107 - DEBUG: [logger.js:246:9] POST /animal/v1/remove requested
+2025-08-25 17:12:48.107 - DEBUG: [logger.js:246:9] PARAMS -> {"id":19}
+2025-08-25 17:12:48.109 - DEBUG: [logger.js:246:9] SQL -> delete from test.animal
+              where id = '19' 
+2025-08-25 17:12:48.113 - DEBUG: [logger.js:246:9] Animal::list 호출됨.
+2025-08-25 17:12:48.113 - DEBUG: [logger.js:246:9] POST /animal/v1/list requested
+2025-08-25 17:12:48.113 - DEBUG: [logger.js:246:9] PARAMS -> {"page":1,"perPage":10}
+2025-08-25 17:12:48.115 - DEBUG: [logger.js:246:9] SQL -> select count(*) as total
+                from test.animal
+2025-08-25 17:12:48.116 - DEBUG: [logger.js:246:9] SQL -> select id,type, name, age, mobile, path
+              from test.animal  limit 0, 10 
+2025-08-25 17:12:48.251 - DEBUG: [logger.js:246:9] Animal::remove 호출됨.
+2025-08-25 17:12:48.251 - DEBUG: [logger.js:246:9] POST /animal/v1/remove requested
+2025-08-25 17:12:48.251 - DEBUG: [logger.js:246:9] PARAMS -> {"id":20}
+2025-08-25 17:12:48.254 - DEBUG: [logger.js:246:9] SQL -> delete from test.animal
+              where id = '20' 
+2025-08-25 17:12:48.257 - DEBUG: [logger.js:246:9] Animal::list 호출됨.
+2025-08-25 17:12:48.257 - DEBUG: [logger.js:246:9] POST /animal/v1/list requested
+2025-08-25 17:12:48.257 - DEBUG: [logger.js:246:9] PARAMS -> {"page":1,"perPage":10}
+2025-08-25 17:12:48.258 - DEBUG: [logger.js:246:9] SQL -> select count(*) as total
+                from test.animal
+2025-08-25 17:12:48.259 - DEBUG: [logger.js:246:9] SQL -> select id,type, name, age, mobile, path
+              from test.animal  limit 0, 10 
+2025-08-25 17:12:48.378 - DEBUG: [logger.js:246:9] Animal::remove 호출됨.
+2025-08-25 17:12:48.379 - DEBUG: [logger.js:246:9] POST /animal/v1/remove requested
+2025-08-25 17:12:48.379 - DEBUG: [logger.js:246:9] PARAMS -> {"id":21}
+2025-08-25 17:12:48.382 - DEBUG: [logger.js:246:9] SQL -> delete from test.animal
+              where id = '21' 
+2025-08-25 17:12:48.386 - DEBUG: [logger.js:246:9] Animal::list 호출됨.
+2025-08-25 17:12:48.386 - DEBUG: [logger.js:246:9] POST /animal/v1/list requested
+2025-08-25 17:12:48.387 - DEBUG: [logger.js:246:9] PARAMS -> {"page":1,"perPage":10}
+2025-08-25 17:12:48.388 - DEBUG: [logger.js:246:9] SQL -> select count(*) as total
+                from test.animal
+2025-08-25 17:12:48.388 - DEBUG: [logger.js:246:9] SQL -> select id,type, name, age, mobile, path
+              from test.animal  limit 0, 10 
+2025-08-25 17:12:48.506 - DEBUG: [logger.js:246:9] Animal::remove 호출됨.
+2025-08-25 17:12:48.507 - DEBUG: [logger.js:246:9] POST /animal/v1/remove requested
+2025-08-25 17:12:48.507 - DEBUG: [logger.js:246:9] PARAMS -> {"id":22}
+2025-08-25 17:12:48.509 - DEBUG: [logger.js:246:9] SQL -> delete from test.animal
+              where id = '22' 
+2025-08-25 17:12:48.512 - DEBUG: [logger.js:246:9] Animal::list 호출됨.
+2025-08-25 17:12:48.513 - DEBUG: [logger.js:246:9] POST /animal/v1/list requested
+2025-08-25 17:12:48.513 - DEBUG: [logger.js:246:9] PARAMS -> {"page":1,"perPage":10}
+2025-08-25 17:12:48.514 - DEBUG: [logger.js:246:9] SQL -> select count(*) as total
+                from test.animal
+2025-08-25 17:12:48.515 - DEBUG: [logger.js:246:9] SQL -> select id,type, name, age, mobile, path
+              from test.animal  limit 0, 10 
+2025-08-25 17:12:49.490 - DEBUG: [logger.js:246:9] Animal::remove 호출됨.
+2025-08-25 17:12:49.490 - DEBUG: [logger.js:246:9] POST /animal/v1/remove requested
+2025-08-25 17:12:49.491 - DEBUG: [logger.js:246:9] PARAMS -> {"id":23}
+2025-08-25 17:12:49.500 - DEBUG: [logger.js:246:9] SQL -> delete from test.animal
+              where id = '23' 
+2025-08-25 17:12:49.502 - DEBUG: [logger.js:246:9] Animal::list 호출됨.
+2025-08-25 17:12:49.503 - DEBUG: [logger.js:246:9] POST /animal/v1/list requested
+2025-08-25 17:12:49.503 - DEBUG: [logger.js:246:9] PARAMS -> {"page":1,"perPage":10}
+2025-08-25 17:12:49.504 - DEBUG: [logger.js:246:9] SQL -> select count(*) as total
+                from test.animal
+2025-08-25 17:12:49.504 - DEBUG: [logger.js:246:9] SQL -> select id,type, name, age, mobile, path
+              from test.animal  limit 0, 10 
+2025-08-25 17:12:50.723 - DEBUG: [logger.js:246:9] Animal::remove 호출됨.
+2025-08-25 17:12:50.723 - DEBUG: [logger.js:246:9] POST /animal/v1/remove requested
+2025-08-25 17:12:50.723 - DEBUG: [logger.js:246:9] PARAMS -> {"id":14}
+2025-08-25 17:12:50.733 - DEBUG: [logger.js:246:9] SQL -> delete from test.animal
+              where id = '14' 
+2025-08-25 17:12:50.736 - DEBUG: [logger.js:246:9] Animal::list 호출됨.
+2025-08-25 17:12:50.737 - DEBUG: [logger.js:246:9] POST /animal/v1/list requested
+2025-08-25 17:12:50.737 - DEBUG: [logger.js:246:9] PARAMS -> {"page":1,"perPage":10}
+2025-08-25 17:12:50.739 - DEBUG: [logger.js:246:9] SQL -> select count(*) as total
+                from test.animal
+2025-08-25 17:12:50.740 - DEBUG: [logger.js:246:9] SQL -> select id,type, name, age, mobile, path
+              from test.animal  limit 0, 10 
+2025-08-25 17:12:51.474 - DEBUG: [logger.js:246:9] Animal::remove 호출됨.
+2025-08-25 17:12:51.474 - DEBUG: [logger.js:246:9] POST /animal/v1/remove requested
+2025-08-25 17:12:51.475 - DEBUG: [logger.js:246:9] PARAMS -> {"id":15}
+2025-08-25 17:12:51.477 - DEBUG: [logger.js:246:9] SQL -> delete from test.animal
+              where id = '15' 
+2025-08-25 17:12:51.480 - DEBUG: [logger.js:246:9] Animal::list 호출됨.
+2025-08-25 17:12:51.480 - DEBUG: [logger.js:246:9] POST /animal/v1/list requested
+2025-08-25 17:12:51.481 - DEBUG: [logger.js:246:9] PARAMS -> {"page":1,"perPage":10}
+2025-08-25 17:12:51.481 - DEBUG: [logger.js:246:9] SQL -> select count(*) as total
+                from test.animal
+2025-08-25 17:12:51.482 - DEBUG: [logger.js:246:9] SQL -> select id,type, name, age, mobile, path
+              from test.animal  limit 0, 10 
+2025-08-25 17:12:51.730 - DEBUG: [logger.js:246:9] Animal::remove 호출됨.
+2025-08-25 17:12:51.731 - DEBUG: [logger.js:246:9] POST /animal/v1/remove requested
+2025-08-25 17:12:51.731 - DEBUG: [logger.js:246:9] PARAMS -> {"id":13}
+2025-08-25 17:12:51.742 - DEBUG: [logger.js:246:9] SQL -> delete from test.animal
+              where id = '13' 
+2025-08-25 17:12:51.745 - DEBUG: [logger.js:246:9] Animal::list 호출됨.
+2025-08-25 17:12:51.745 - DEBUG: [logger.js:246:9] POST /animal/v1/list requested
+2025-08-25 17:12:51.746 - DEBUG: [logger.js:246:9] PARAMS -> {"page":1,"perPage":10}
+2025-08-25 17:12:51.747 - DEBUG: [logger.js:246:9] SQL -> select count(*) as total
+                from test.animal
+2025-08-25 17:12:51.748 - DEBUG: [logger.js:246:9] SQL -> select id,type, name, age, mobile, path
+              from test.animal  limit 0, 10 
+2025-08-25 17:12:53.251 - DEBUG: [logger.js:246:9] Animal::remove 호출됨.
+2025-08-25 17:12:53.252 - DEBUG: [logger.js:246:9] POST /animal/v1/remove requested
+2025-08-25 17:12:53.252 - DEBUG: [logger.js:246:9] PARAMS -> {"id":1}
+2025-08-25 17:12:53.256 - DEBUG: [logger.js:246:9] SQL -> delete from test.animal
+              where id = '1' 
+2025-08-25 17:12:53.260 - DEBUG: [logger.js:246:9] Animal::list 호출됨.
+2025-08-25 17:12:53.260 - DEBUG: [logger.js:246:9] POST /animal/v1/list requested
+2025-08-25 17:12:53.260 - DEBUG: [logger.js:246:9] PARAMS -> {"page":1,"perPage":10}
+2025-08-25 17:12:53.261 - DEBUG: [logger.js:246:9] SQL -> select count(*) as total
+                from test.animal
+2025-08-25 17:12:53.262 - DEBUG: [logger.js:246:9] SQL -> select id,type, name, age, mobile, path
+              from test.animal  limit 0, 10 
+2025-08-25 17:12:53.699 - DEBUG: [logger.js:246:9] Animal::remove 호출됨.
+2025-08-25 17:12:53.700 - DEBUG: [logger.js:246:9] POST /animal/v1/remove requested
+2025-08-25 17:12:53.700 - DEBUG: [logger.js:246:9] PARAMS -> {"id":9}
+2025-08-25 17:12:53.702 - DEBUG: [logger.js:246:9] SQL -> delete from test.animal
+              where id = '9' 
+2025-08-25 17:12:53.704 - DEBUG: [logger.js:246:9] Animal::list 호출됨.
+2025-08-25 17:12:53.704 - DEBUG: [logger.js:246:9] POST /animal/v1/list requested
+2025-08-25 17:12:53.705 - DEBUG: [logger.js:246:9] PARAMS -> {"page":1,"perPage":10}
+2025-08-25 17:12:53.705 - DEBUG: [logger.js:246:9] SQL -> select count(*) as total
+                from test.animal
+2025-08-25 17:12:53.706 - DEBUG: [logger.js:246:9] SQL -> select id,type, name, age, mobile, path
+              from test.animal  limit 0, 10 
+2025-08-25 17:12:55.474 - DEBUG: [logger.js:246:9] Animal::list 호출됨.
+2025-08-25 17:12:55.475 - DEBUG: [logger.js:246:9] POST /animal/v1/list requested
+2025-08-25 17:12:55.475 - DEBUG: [logger.js:246:9] PARAMS -> {"page":1,"perPage":10}
+2025-08-25 17:12:55.477 - DEBUG: [logger.js:246:9] SQL -> select count(*) as total
+                from test.animal
+2025-08-25 17:12:55.478 - DEBUG: [logger.js:246:9] SQL -> select id,type, name, age, mobile, path
+              from test.animal  limit 0, 10 
+2025-08-25 17:13:31.581 - DEBUG: [logger.js:246:9] Animal::add 호출됨.
+2025-08-25 17:13:31.581 - DEBUG: [logger.js:246:9] POST /animal/v1/add requested
+2025-08-25 17:13:31.581 - DEBUG: [logger.js:246:9] PARAMS -> {"type":"dog","name":"강아지1","age":"1","mobile":"010-1000-1000","path":"/images/dog1.png"}
+2025-08-25 17:13:31.591 - DEBUG: [logger.js:246:9] SQL -> insert into test.animal(type, name, age, mobile, path)
+              values
+                  ('dog', '강아지1', '1', '010-1000-1000', '/images/dog1.png')
+2025-08-25 17:13:46.404 - DEBUG: [logger.js:246:9] Animal::add 호출됨.
+2025-08-25 17:13:46.404 - DEBUG: [logger.js:246:9] POST /animal/v1/add requested
+2025-08-25 17:13:46.405 - DEBUG: [logger.js:246:9] PARAMS -> {"type":"dog","name":"강아지2","age":"2","mobile":"010-2000-2000","path":"/images/dog2.jpg"}
+2025-08-25 17:13:46.414 - DEBUG: [logger.js:246:9] SQL -> insert into test.animal(type, name, age, mobile, path)
+              values
+                  ('dog', '강아지2', '2', '010-2000-2000', '/images/dog2.jpg')
+2025-08-25 17:14:00.036 - DEBUG: [logger.js:246:9] Animal::add 호출됨.
+2025-08-25 17:14:00.036 - DEBUG: [logger.js:246:9] POST /animal/v1/add requested
+2025-08-25 17:14:00.037 - DEBUG: [logger.js:246:9] PARAMS -> {"type":"caat","name":"고양이1","age":"3","mobile":"010-3000-3000","path":"/images/cat1.jpg"}
+2025-08-25 17:14:00.040 - DEBUG: [logger.js:246:9] SQL -> insert into test.animal(type, name, age, mobile, path)
+              values
+                  ('caat', '고양이1', '3', '010-3000-3000', '/images/cat1.jpg')
+2025-08-25 17:14:00.394 - DEBUG: [logger.js:246:9] Animal::add 호출됨.
+2025-08-25 17:14:00.395 - DEBUG: [logger.js:246:9] POST /animal/v1/add requested
+2025-08-25 17:14:00.395 - DEBUG: [logger.js:246:9] PARAMS -> {"type":"caat","name":"고양이1","age":"3","mobile":"010-3000-3000","path":"/images/cat1.jpg"}
+2025-08-25 17:14:00.404 - DEBUG: [logger.js:246:9] SQL -> insert into test.animal(type, name, age, mobile, path)
+              values
+                  ('caat', '고양이1', '3', '010-3000-3000', '/images/cat1.jpg')
+2025-08-25 17:14:07.147 - DEBUG: [logger.js:246:9] Animal::add 호출됨.
+2025-08-25 17:14:07.148 - DEBUG: [logger.js:246:9] POST /animal/v1/add requested
+2025-08-25 17:14:07.148 - DEBUG: [logger.js:246:9] PARAMS -> {"type":"caat","name":"고양이2","age":"4","mobile":"010-4000-4000","path":"/images/cat2.jpg"}
+2025-08-25 17:14:07.157 - DEBUG: [logger.js:246:9] SQL -> insert into test.animal(type, name, age, mobile, path)
+              values
+                  ('caat', '고양이2', '4', '010-4000-4000', '/images/cat2.jpg')
+2025-08-25 17:14:08.351 - DEBUG: [logger.js:246:9] Animal::list 호출됨.
+2025-08-25 17:14:08.352 - DEBUG: [logger.js:246:9] POST /animal/v1/list requested
+2025-08-25 17:14:08.352 - DEBUG: [logger.js:246:9] PARAMS -> {"page":1,"perPage":10}
+2025-08-25 17:14:08.353 - DEBUG: [logger.js:246:9] SQL -> select count(*) as total
+                from test.animal
+2025-08-25 17:14:08.354 - DEBUG: [logger.js:246:9] SQL -> select id,type, name, age, mobile, path
+              from test.animal  limit 0, 10 
+2025-08-25 17:14:11.484 - DEBUG: [logger.js:246:9] Animal::remove 호출됨.
+2025-08-25 17:14:11.484 - DEBUG: [logger.js:246:9] POST /animal/v1/remove requested
+2025-08-25 17:14:11.484 - DEBUG: [logger.js:246:9] PARAMS -> {"id":27}
+2025-08-25 17:14:11.493 - DEBUG: [logger.js:246:9] SQL -> delete from test.animal
+              where id = '27' 
+2025-08-25 17:14:11.496 - DEBUG: [logger.js:246:9] Animal::list 호출됨.
+2025-08-25 17:14:11.496 - DEBUG: [logger.js:246:9] POST /animal/v1/list requested
+2025-08-25 17:14:11.496 - DEBUG: [logger.js:246:9] PARAMS -> {"page":1,"perPage":10}
+2025-08-25 17:14:11.497 - DEBUG: [logger.js:246:9] SQL -> select count(*) as total
+                from test.animal
+2025-08-25 17:14:11.498 - DEBUG: [logger.js:246:9] SQL -> select id,type, name, age, mobile, path
+              from test.animal  limit 0, 10 
+2025-08-25 17:14:56.520 - DEBUG: [logger.js:246:9] Animal::list 호출됨.
+2025-08-25 17:14:56.521 - DEBUG: [logger.js:246:9] POST /animal/v1/list requested
+2025-08-25 17:14:56.521 - DEBUG: [logger.js:246:9] PARAMS -> {"page":1,"perPage":10}
+2025-08-25 17:14:56.522 - DEBUG: [logger.js:246:9] SQL -> select count(*) as total
+                from test.animal
+2025-08-25 17:14:56.523 - DEBUG: [logger.js:246:9] SQL -> select id,type, name, age, mobile, path
+              from test.animal  limit 0, 10 
+2025-08-25 17:35:24.101 - INFO: [logger.js:246:9] service loader called.
+2025-08-25 17:35:24.114 - INFO: [logger.js:246:9] controller loader called.
+2025-08-25 17:35:24.114 - DEBUG: [logger.js:246:9] external_loader called.
+2025-08-25 17:35:24.114 - DEBUG: [logger.js:246:9] No external configuration.
+2025-08-25 17:35:24.312 - INFO: [logger.js:246:9] Http Server started.
+2025-08-25 17:35:24.313 - INFO: [logger.js:246:9] Base URL -> http://localhost:8001
+2025-08-25 17:35:24.313 - INFO: [logger.js:246:9] Namespace -> ::_8001_14580
+2025-08-25 17:35:24.317 - DEBUG: [logger.js:246:9] database SQL file loaded.
+2025-08-25 17:36:16.356 - DEBUG: [logger.js:246:9] Animal::list 호출됨.
+2025-08-25 17:36:16.357 - DEBUG: [logger.js:246:9] POST /animal/v1/list requested
+2025-08-25 17:36:16.357 - DEBUG: [logger.js:246:9] PARAMS -> {"page":1,"perPage":10}
+2025-08-25 17:36:16.383 - DEBUG: [logger.js:246:9] SQL -> select count(*) as total
+                from test.animal
+2025-08-25 17:36:16.386 - DEBUG: [logger.js:246:9] SQL -> select id,type, name, age, mobile, path
+              from test.animal  limit 0, 10 
+2025-08-25 17:36:58.964 - DEBUG: [logger.js:246:9] Animal::list 호출됨.
+2025-08-25 17:36:58.966 - DEBUG: [logger.js:246:9] POST /animal/v1/list requested
+2025-08-25 17:36:58.969 - DEBUG: [logger.js:246:9] PARAMS -> {"page":1,"perPage":5}
+2025-08-25 17:36:58.971 - DEBUG: [logger.js:246:9] SQL -> select count(*) as total
+                from test.animal
+2025-08-25 17:36:58.972 - DEBUG: [logger.js:246:9] SQL -> select id,type, name, age, mobile, path
+              from test.animal  limit 0, 5 
+2025-08-25 17:37:02.363 - DEBUG: [logger.js:246:9] Animal::list 호출됨.
+2025-08-25 17:37:02.364 - DEBUG: [logger.js:246:9] POST /animal/v1/list requested
+2025-08-25 17:37:02.369 - DEBUG: [logger.js:246:9] PARAMS -> {"page":1,"perPage":1}
+2025-08-25 17:37:02.375 - DEBUG: [logger.js:246:9] SQL -> select count(*) as total
+                from test.animal
+2025-08-25 17:37:02.377 - DEBUG: [logger.js:246:9] SQL -> select id,type, name, age, mobile, path
+              from test.animal  limit 0, 1 
+2025-08-25 17:37:04.172 - DEBUG: [logger.js:246:9] Animal::list 호출됨.
+2025-08-25 17:37:04.173 - DEBUG: [logger.js:246:9] POST /animal/v1/list requested
+2025-08-25 17:37:04.173 - DEBUG: [logger.js:246:9] PARAMS -> {"page":2,"perPage":1}
+2025-08-25 17:37:04.175 - DEBUG: [logger.js:246:9] SQL -> select count(*) as total
+                from test.animal
+2025-08-25 17:37:04.176 - DEBUG: [logger.js:246:9] SQL -> select id,type, name, age, mobile, path
+              from test.animal  limit 1, 1 
+2025-08-25 17:37:05.147 - DEBUG: [logger.js:246:9] Animal::list 호출됨.
+2025-08-25 17:37:05.147 - DEBUG: [logger.js:246:9] POST /animal/v1/list requested
+2025-08-25 17:37:05.148 - DEBUG: [logger.js:246:9] PARAMS -> {"page":3,"perPage":1}
+2025-08-25 17:37:05.149 - DEBUG: [logger.js:246:9] SQL -> select count(*) as total
+                from test.animal
+2025-08-25 17:37:05.152 - DEBUG: [logger.js:246:9] SQL -> select id,type, name, age, mobile, path
+              from test.animal  limit 2, 1 
+2025-08-25 17:37:05.851 - DEBUG: [logger.js:246:9] Animal::list 호출됨.
+2025-08-25 17:37:05.851 - DEBUG: [logger.js:246:9] POST /animal/v1/list requested
+2025-08-25 17:37:05.852 - DEBUG: [logger.js:246:9] PARAMS -> {"page":4,"perPage":1}
+2025-08-25 17:37:05.853 - DEBUG: [logger.js:246:9] SQL -> select count(*) as total
+                from test.animal
+2025-08-25 17:37:05.856 - DEBUG: [logger.js:246:9] SQL -> select id,type, name, age, mobile, path
+              from test.animal  limit 3, 1 
+2025-08-25 17:37:08.355 - DEBUG: [logger.js:246:9] Animal::list 호출됨.
+2025-08-25 17:37:08.356 - DEBUG: [logger.js:246:9] POST /animal/v1/list requested
+2025-08-25 17:37:08.356 - DEBUG: [logger.js:246:9] PARAMS -> {"page":3,"perPage":1}
+2025-08-25 17:37:08.358 - DEBUG: [logger.js:246:9] SQL -> select count(*) as total
+                from test.animal
+2025-08-25 17:37:08.359 - DEBUG: [logger.js:246:9] SQL -> select id,type, name, age, mobile, path
+              from test.animal  limit 2, 1 
+2025-08-25 17:37:09.347 - DEBUG: [logger.js:246:9] Animal::list 호출됨.
+2025-08-25 17:37:09.348 - DEBUG: [logger.js:246:9] POST /animal/v1/list requested
+2025-08-25 17:37:09.348 - DEBUG: [logger.js:246:9] PARAMS -> {"page":2,"perPage":1}
+2025-08-25 17:37:09.350 - DEBUG: [logger.js:246:9] SQL -> select count(*) as total
+                from test.animal
+2025-08-25 17:37:09.352 - DEBUG: [logger.js:246:9] SQL -> select id,type, name, age, mobile, path
+              from test.animal  limit 1, 1 
+2025-08-25 17:37:09.755 - DEBUG: [logger.js:246:9] Animal::list 호출됨.
+2025-08-25 17:37:09.755 - DEBUG: [logger.js:246:9] POST /animal/v1/list requested
+2025-08-25 17:37:09.756 - DEBUG: [logger.js:246:9] PARAMS -> {"page":1,"perPage":1}
+2025-08-25 17:37:09.758 - DEBUG: [logger.js:246:9] SQL -> select count(*) as total
+                from test.animal
+2025-08-25 17:37:09.760 - DEBUG: [logger.js:246:9] SQL -> select id,type, name, age, mobile, path
+              from test.animal  limit 0, 1 
+2025-08-25 18:44:00.254 - INFO: [logger.js:246:9] service loader called.
+2025-08-25 18:44:00.347 - INFO: [logger.js:246:9] controller loader called.
+2025-08-25 18:44:00.358 - DEBUG: [logger.js:246:9] external_loader called.
+2025-08-25 18:44:00.383 - DEBUG: [logger.js:246:9] No external configuration.
+2025-08-25 18:44:00.944 - INFO: [logger.js:246:9] Http Server started.
+2025-08-25 18:44:00.947 - INFO: [logger.js:246:9] Base URL -> http://localhost:8001
+2025-08-25 18:44:00.948 - INFO: [logger.js:246:9] Namespace -> ::_8001_1644
+2025-08-25 18:44:00.970 - DEBUG: [logger.js:246:9] database SQL file loaded.
+2025-08-25 18:45:53.364 - DEBUG: [logger.js:246:9] Animal::list 호출됨.
+2025-08-25 18:45:53.365 - DEBUG: [logger.js:246:9] POST /animal/v1/list requested
+2025-08-25 18:45:53.366 - DEBUG: [logger.js:246:9] PARAMS -> {"page":1,"perPage":1}
+2025-08-25 18:45:53.394 - DEBUG: [logger.js:246:9] SQL -> select count(*) as total
+                from test.animal
+2025-08-25 18:45:53.396 - DEBUG: [logger.js:246:9] SQL -> select id,type, name, age, mobile, path
+              from test.animal  limit 0, 1 
+2025-08-25 18:45:59.442 - DEBUG: [logger.js:246:9] Animal::list 호출됨.
+2025-08-25 18:45:59.443 - DEBUG: [logger.js:246:9] POST /animal/v1/list requested
+2025-08-25 18:45:59.443 - DEBUG: [logger.js:246:9] PARAMS -> {"page":2,"perPage":1}
+2025-08-25 18:45:59.446 - DEBUG: [logger.js:246:9] SQL -> select count(*) as total
+                from test.animal
+2025-08-25 18:45:59.448 - DEBUG: [logger.js:246:9] SQL -> select id,type, name, age, mobile, path
+              from test.animal  limit 1, 1 
+2025-08-25 18:46:00.784 - DEBUG: [logger.js:246:9] Animal::list 호출됨.
+2025-08-25 18:46:00.785 - DEBUG: [logger.js:246:9] POST /animal/v1/list requested
+2025-08-25 18:46:00.785 - DEBUG: [logger.js:246:9] PARAMS -> {"page":3,"perPage":1}
+2025-08-25 18:46:00.788 - DEBUG: [logger.js:246:9] SQL -> select count(*) as total
+                from test.animal
+2025-08-25 18:46:00.790 - DEBUG: [logger.js:246:9] SQL -> select id,type, name, age, mobile, path
+              from test.animal  limit 2, 1 
+2025-08-25 18:46:01.576 - DEBUG: [logger.js:246:9] Animal::list 호출됨.
+2025-08-25 18:46:01.576 - DEBUG: [logger.js:246:9] POST /animal/v1/list requested
+2025-08-25 18:46:01.576 - DEBUG: [logger.js:246:9] PARAMS -> {"page":4,"perPage":1}
+2025-08-25 18:46:01.577 - DEBUG: [logger.js:246:9] SQL -> select count(*) as total
+                from test.animal
+2025-08-25 18:46:01.579 - DEBUG: [logger.js:246:9] SQL -> select id,type, name, age, mobile, path
+              from test.animal  limit 3, 1 
+2025-08-25 18:51:50.540 - DEBUG: [logger.js:246:9] Animal::list 호출됨.
+2025-08-25 18:51:50.541 - DEBUG: [logger.js:246:9] POST /animal/v1/list requested
+2025-08-25 18:51:50.541 - DEBUG: [logger.js:246:9] PARAMS -> {"page":1,"perPage":1}
+2025-08-25 18:51:50.543 - DEBUG: [logger.js:246:9] SQL -> select count(*) as total
+                from test.animal
+2025-08-25 18:51:50.545 - DEBUG: [logger.js:246:9] SQL -> select id,type, name, age, mobile, path
+              from test.animal  limit 0, 1 
+2025-08-25 19:10:00.544 - DEBUG: [logger.js:246:9] Animal::list 호출됨.
+2025-08-25 19:10:00.544 - DEBUG: [logger.js:246:9] POST /animal/v1/list requested
+2025-08-25 19:10:00.544 - DEBUG: [logger.js:246:9] PARAMS -> {"page":1,"perPage":1}
+2025-08-25 19:10:00.546 - DEBUG: [logger.js:246:9] SQL -> select count(*) as total
+                from test.animal
+2025-08-25 19:10:00.548 - DEBUG: [logger.js:246:9] SQL -> select id,type, name, age, mobile, path
+              from test.animal  limit 0, 1 
+2025-08-25 19:10:23.347 - DEBUG: [logger.js:246:9] Animal::list 호출됨.
+2025-08-25 19:10:23.347 - DEBUG: [logger.js:246:9] POST /animal/v1/list requested
+2025-08-25 19:10:23.347 - DEBUG: [logger.js:246:9] PARAMS -> {"page":1,"perPage":1}
+2025-08-25 19:10:23.349 - DEBUG: [logger.js:246:9] SQL -> select count(*) as total
+                from test.animal
+2025-08-25 19:10:23.351 - DEBUG: [logger.js:246:9] SQL -> select id,type, name, age, mobile, path
+              from test.animal  limit 0, 1 
+2025-08-25 19:11:23.190 - DEBUG: [logger.js:246:9] Animal::list 호출됨.
+2025-08-25 19:11:23.193 - DEBUG: [logger.js:246:9] POST /animal/v1/list requested
+2025-08-25 19:11:23.194 - DEBUG: [logger.js:246:9] PARAMS -> {"page":1,"perPage":2}
+2025-08-25 19:11:23.197 - DEBUG: [logger.js:246:9] SQL -> select count(*) as total
+                from test.animal
+2025-08-25 19:11:23.198 - DEBUG: [logger.js:246:9] SQL -> select id,type, name, age, mobile, path
+              from test.animal  limit 0, 2 
+2025-08-25 19:11:26.816 - DEBUG: [logger.js:246:9] Animal::list 호출됨.
+2025-08-25 19:11:26.819 - DEBUG: [logger.js:246:9] POST /animal/v1/list requested
+2025-08-25 19:11:26.820 - DEBUG: [logger.js:246:9] PARAMS -> {"page":1,"perPage":2}
+2025-08-25 19:11:26.823 - DEBUG: [logger.js:246:9] SQL -> select count(*) as total
+                from test.animal
+2025-08-25 19:11:26.824 - DEBUG: [logger.js:246:9] SQL -> select id,type, name, age, mobile, path
+              from test.animal  limit 0, 2 
+2025-08-25 19:21:13.170 - DEBUG: [logger.js:246:9] Animal::list 호출됨.
+2025-08-25 19:21:13.170 - DEBUG: [logger.js:246:9] POST /animal/v1/list requested
+2025-08-25 19:21:13.171 - DEBUG: [logger.js:246:9] PARAMS -> {"page":null}
+2025-08-25 19:21:13.172 - DEBUG: [logger.js:246:9] SQL -> select count(*) as total
+                from test.animal
+2025-08-25 19:21:13.174 - DEBUG: [logger.js:246:9] SQL -> select id,type, name, age, mobile, path
+              from test.animal
+2025-08-25 19:21:15.159 - DEBUG: [logger.js:246:9] Animal::list 호출됨.
+2025-08-25 19:21:15.159 - DEBUG: [logger.js:246:9] POST /animal/v1/list requested
+2025-08-25 19:21:15.160 - DEBUG: [logger.js:246:9] PARAMS -> {"page":null}
+2025-08-25 19:21:15.161 - DEBUG: [logger.js:246:9] SQL -> select count(*) as total
+                from test.animal
+2025-08-25 19:21:15.163 - DEBUG: [logger.js:246:9] SQL -> select id,type, name, age, mobile, path
+              from test.animal
+2025-08-25 19:21:17.000 - DEBUG: [logger.js:246:9] Animal::list 호출됨.
+2025-08-25 19:21:17.000 - DEBUG: [logger.js:246:9] POST /animal/v1/list requested
+2025-08-25 19:21:17.001 - DEBUG: [logger.js:246:9] PARAMS -> {"page":1}
+2025-08-25 19:21:17.002 - DEBUG: [logger.js:246:9] SQL -> select count(*) as total
+                from test.animal
+2025-08-25 19:21:17.007 - DEBUG: [logger.js:246:9] SQL -> select id,type, name, age, mobile, path
+              from test.animal  limit NaN, NaN 
+2025-08-25 19:21:17.008 - DEBUG: [logger.js:246:9] Error in executing SQL -> Error: ER_SP_UNDECLARED_VAR: Undeclared variable: NaN
+2025-08-25 19:21:18.696 - DEBUG: [logger.js:246:9] Animal::list 호출됨.
+2025-08-25 19:21:18.697 - DEBUG: [logger.js:246:9] POST /animal/v1/list requested
+2025-08-25 19:21:18.697 - DEBUG: [logger.js:246:9] PARAMS -> {"page":null}
+2025-08-25 19:21:18.699 - DEBUG: [logger.js:246:9] SQL -> select count(*) as total
+                from test.animal
+2025-08-25 19:21:18.701 - DEBUG: [logger.js:246:9] SQL -> select id,type, name, age, mobile, path
+              from test.animal
+2025-08-25 19:21:21.457 - DEBUG: [logger.js:246:9] Animal::list 호출됨.
+2025-08-25 19:21:21.458 - DEBUG: [logger.js:246:9] POST /animal/v1/list requested
+2025-08-25 19:21:21.458 - DEBUG: [logger.js:246:9] PARAMS -> {"page":2,"perPage":1}
+2025-08-25 19:21:21.460 - DEBUG: [logger.js:246:9] SQL -> select count(*) as total
+                from test.animal
+2025-08-25 19:21:21.462 - DEBUG: [logger.js:246:9] SQL -> select id,type, name, age, mobile, path
+              from test.animal  limit 1, 1 
+2025-08-25 19:21:22.079 - DEBUG: [logger.js:246:9] Animal::list 호출됨.
+2025-08-25 19:21:22.080 - DEBUG: [logger.js:246:9] POST /animal/v1/list requested
+2025-08-25 19:21:22.080 - DEBUG: [logger.js:246:9] PARAMS -> {"page":3,"perPage":1}
+2025-08-25 19:21:22.082 - DEBUG: [logger.js:246:9] SQL -> select count(*) as total
+                from test.animal
+2025-08-25 19:21:22.083 - DEBUG: [logger.js:246:9] SQL -> select id,type, name, age, mobile, path
+              from test.animal  limit 2, 1 
+2025-08-25 19:21:22.487 - DEBUG: [logger.js:246:9] Animal::list 호출됨.
+2025-08-25 19:21:22.488 - DEBUG: [logger.js:246:9] POST /animal/v1/list requested
+2025-08-25 19:21:22.488 - DEBUG: [logger.js:246:9] PARAMS -> {"page":4,"perPage":1}
+2025-08-25 19:21:22.489 - DEBUG: [logger.js:246:9] SQL -> select count(*) as total
+                from test.animal
+2025-08-25 19:21:22.490 - DEBUG: [logger.js:246:9] SQL -> select id,type, name, age, mobile, path
+              from test.animal  limit 3, 1 
+2025-08-25 19:23:42.330 - DEBUG: [logger.js:246:9] Animal::list 호출됨.
+2025-08-25 19:23:42.331 - DEBUG: [logger.js:246:9] POST /animal/v1/list requested
+2025-08-25 19:23:42.331 - DEBUG: [logger.js:246:9] PARAMS -> {"page":1,"perPage":2}
+2025-08-25 19:23:42.332 - DEBUG: [logger.js:246:9] SQL -> select count(*) as total
+                from test.animal
+2025-08-25 19:23:42.333 - DEBUG: [logger.js:246:9] SQL -> select id,type, name, age, mobile, path
+              from test.animal  limit 0, 2 
+2025-08-25 19:23:48.307 - DEBUG: [logger.js:246:9] Animal::list 호출됨.
+2025-08-25 19:23:48.308 - DEBUG: [logger.js:246:9] POST /animal/v1/list requested
+2025-08-25 19:23:48.308 - DEBUG: [logger.js:246:9] PARAMS -> {"page":1,"perPage":2}
+2025-08-25 19:23:48.310 - DEBUG: [logger.js:246:9] SQL -> select count(*) as total
+                from test.animal
+2025-08-25 19:23:48.311 - DEBUG: [logger.js:246:9] SQL -> select id,type, name, age, mobile, path
+              from test.animal  limit 0, 2 
+2025-08-25 19:24:14.701 - DEBUG: [logger.js:246:9] Animal::list 호출됨.
+2025-08-25 19:24:14.702 - DEBUG: [logger.js:246:9] POST /animal/v1/list requested
+2025-08-25 19:24:14.702 - DEBUG: [logger.js:246:9] PARAMS -> {"page":1,"perPage":2}
+2025-08-25 19:24:14.703 - DEBUG: [logger.js:246:9] SQL -> select count(*) as total
+                from test.animal
+2025-08-25 19:24:14.703 - DEBUG: [logger.js:246:9] SQL -> select id,type, name, age, mobile, path
+              from test.animal  limit 0, 2 
+2025-08-25 19:24:15.662 - DEBUG: [logger.js:246:9] Animal::list 호출됨.
+2025-08-25 19:24:15.662 - DEBUG: [logger.js:246:9] POST /animal/v1/list requested
+2025-08-25 19:24:15.663 - DEBUG: [logger.js:246:9] PARAMS -> {"page":2,"perPage":2}
+2025-08-25 19:24:15.664 - DEBUG: [logger.js:246:9] SQL -> select count(*) as total
+                from test.animal
+2025-08-25 19:24:15.665 - DEBUG: [logger.js:246:9] SQL -> select id,type, name, age, mobile, path
+              from test.animal  limit 2, 2 
+2025-08-25 19:24:19.382 - DEBUG: [logger.js:246:9] Animal::list 호출됨.
+2025-08-25 19:24:19.382 - DEBUG: [logger.js:246:9] POST /animal/v1/list requested
+2025-08-25 19:24:19.383 - DEBUG: [logger.js:246:9] PARAMS -> {"page":1,"perPage":2}
+2025-08-25 19:24:19.384 - DEBUG: [logger.js:246:9] SQL -> select count(*) as total
+                from test.animal
+2025-08-25 19:24:19.385 - DEBUG: [logger.js:246:9] SQL -> select id,type, name, age, mobile, path
+              from test.animal  limit 0, 2 
+2025-08-25 19:24:22.879 - DEBUG: [logger.js:246:9] Animal::list 호출됨.
+2025-08-25 19:24:22.879 - DEBUG: [logger.js:246:9] POST /animal/v1/list requested
+2025-08-25 19:24:22.880 - DEBUG: [logger.js:246:9] PARAMS -> {"page":2,"perPage":2}
+2025-08-25 19:24:22.881 - DEBUG: [logger.js:246:9] SQL -> select count(*) as total
+                from test.animal
+2025-08-25 19:24:22.882 - DEBUG: [logger.js:246:9] SQL -> select id,type, name, age, mobile, path
+              from test.animal  limit 2, 2 
+2025-08-25 19:25:04.452 - DEBUG: [logger.js:246:9] Animal::list 호출됨.
+2025-08-25 19:25:04.454 - DEBUG: [logger.js:246:9] POST /animal/v1/list requested
+2025-08-25 19:25:04.458 - DEBUG: [logger.js:246:9] PARAMS -> {"page":1,"perPage":2}
+2025-08-25 19:25:04.459 - DEBUG: [logger.js:246:9] SQL -> select count(*) as total
+                from test.animal
+2025-08-25 19:25:04.461 - DEBUG: [logger.js:246:9] SQL -> select id,type, name, age, mobile, path
+              from test.animal  limit 0, 2 
+2025-08-25 19:25:17.505 - DEBUG: [logger.js:246:9] Animal::list 호출됨.
+2025-08-25 19:25:17.506 - DEBUG: [logger.js:246:9] POST /animal/v1/list requested
+2025-08-25 19:25:17.506 - DEBUG: [logger.js:246:9] PARAMS -> {"page":2,"perPage":2}
+2025-08-25 19:25:17.508 - DEBUG: [logger.js:246:9] SQL -> select count(*) as total
+                from test.animal
+2025-08-25 19:25:17.510 - DEBUG: [logger.js:246:9] SQL -> select id,type, name, age, mobile, path
+              from test.animal  limit 2, 2 
+2025-08-25 19:25:23.800 - DEBUG: [logger.js:246:9] Animal::list 호출됨.
+2025-08-25 19:25:23.801 - DEBUG: [logger.js:246:9] POST /animal/v1/list requested
+2025-08-25 19:25:23.801 - DEBUG: [logger.js:246:9] PARAMS -> {"page":1,"perPage":2}
+2025-08-25 19:25:23.802 - DEBUG: [logger.js:246:9] SQL -> select count(*) as total
+                from test.animal
+2025-08-25 19:25:23.804 - DEBUG: [logger.js:246:9] SQL -> select id,type, name, age, mobile, path
+              from test.animal  limit 0, 2 
+2025-08-25 19:28:10.907 - DEBUG: [logger.js:246:9] Animal::list 호출됨.
+2025-08-25 19:28:10.908 - DEBUG: [logger.js:246:9] POST /animal/v1/list requested
+2025-08-25 19:28:10.941 - DEBUG: [logger.js:246:9] PARAMS -> {"page":1,"perPage":2}
+2025-08-25 19:28:10.944 - DEBUG: [logger.js:246:9] SQL -> select count(*) as total
+                from test.animal
+2025-08-25 19:28:10.947 - DEBUG: [logger.js:246:9] SQL -> select id,type, name, age, mobile, path
+              from test.animal  limit 0, 2 
+2025-08-25 19:28:56.977 - DEBUG: [logger.js:246:9] Animal::list 호출됨.
+2025-08-25 19:28:56.978 - DEBUG: [logger.js:246:9] POST /animal/v1/list requested
+2025-08-25 19:28:56.979 - DEBUG: [logger.js:246:9] PARAMS -> {"page":1,"perPage":2}
+2025-08-25 19:28:56.981 - DEBUG: [logger.js:246:9] SQL -> select count(*) as total
+                from test.animal
+2025-08-25 19:28:56.982 - DEBUG: [logger.js:246:9] SQL -> select id,type, name, age, mobile, path
+              from test.animal  limit 0, 2 
+2025-08-25 19:28:59.195 - DEBUG: [logger.js:246:9] Animal::list 호출됨.
+2025-08-25 19:28:59.214 - DEBUG: [logger.js:246:9] POST /animal/v1/list requested
+2025-08-25 19:28:59.214 - DEBUG: [logger.js:246:9] PARAMS -> {"page":1,"perPage":2}
+2025-08-25 19:28:59.215 - DEBUG: [logger.js:246:9] SQL -> select count(*) as total
+                from test.animal
+2025-08-25 19:28:59.216 - DEBUG: [logger.js:246:9] SQL -> select id,type, name, age, mobile, path
+              from test.animal  limit 0, 2 
+2025-08-25 19:42:38.630 - INFO: [logger.js:246:9] service loader called.
+2025-08-25 19:42:38.643 - INFO: [logger.js:246:9] controller loader called.
+2025-08-25 19:42:38.644 - DEBUG: [logger.js:246:9] external_loader called.
+2025-08-25 19:42:38.644 - DEBUG: [logger.js:246:9] No external configuration.
+2025-08-25 19:42:38.854 - INFO: [logger.js:246:9] Http Server started.
+2025-08-25 19:42:38.855 - INFO: [logger.js:246:9] Base URL -> http://localhost:8001
+2025-08-25 19:42:38.855 - INFO: [logger.js:246:9] Namespace -> ::_8001_18220
+2025-08-25 19:42:38.859 - DEBUG: [logger.js:246:9] database SQL file loaded.
+2025-08-25 19:43:04.622 - INFO: [logger.js:246:9] service loader called.
+2025-08-25 19:43:04.634 - INFO: [logger.js:246:9] controller loader called.
+2025-08-25 19:43:04.635 - DEBUG: [logger.js:246:9] external_loader called.
+2025-08-25 19:43:04.635 - DEBUG: [logger.js:246:9] No external configuration.
+2025-08-25 19:43:04.951 - INFO: [logger.js:246:9] Http Server started.
+2025-08-25 19:43:04.952 - INFO: [logger.js:246:9] Base URL -> http://localhost:8001
+2025-08-25 19:43:04.952 - INFO: [logger.js:246:9] Namespace -> ::_8001_13668
+2025-08-25 19:43:04.956 - DEBUG: [logger.js:246:9] database SQL file loaded.
+2025-08-25 19:46:21.234 - INFO: [logger.js:246:9] service loader called.
+2025-08-25 19:46:21.247 - INFO: [logger.js:246:9] controller loader called.
+2025-08-25 19:46:21.247 - DEBUG: [logger.js:246:9] external_loader called.
+2025-08-25 19:46:21.248 - DEBUG: [logger.js:246:9] No external configuration.
+2025-08-25 19:46:21.436 - INFO: [logger.js:246:9] Http Server started.
+2025-08-25 19:46:21.437 - INFO: [logger.js:246:9] Base URL -> http://localhost:8001
+2025-08-25 19:46:21.437 - INFO: [logger.js:246:9] Namespace -> ::_8001_13736
+2025-08-25 19:46:21.441 - DEBUG: [logger.js:246:9] database SQL file loaded.
+2025-08-25 19:47:46.999 - INFO: [logger.js:246:9] service loader called.
+2025-08-25 19:47:47.010 - INFO: [logger.js:246:9] controller loader called.
+2025-08-25 19:47:47.010 - DEBUG: [logger.js:246:9] external_loader called.
+2025-08-25 19:47:47.010 - DEBUG: [logger.js:246:9] No external configuration.
+2025-08-25 19:47:47.183 - INFO: [logger.js:246:9] Http Server started.
+2025-08-25 19:47:47.183 - INFO: [logger.js:246:9] Base URL -> http://localhost:8001
+2025-08-25 19:47:47.184 - INFO: [logger.js:246:9] Namespace -> ::_8001_7940
+2025-08-25 19:47:47.188 - DEBUG: [logger.js:246:9] database SQL file loaded.
+2025-08-25 19:47:51.854 - DEBUG: [logger.js:246:9] post::list 호출됨.
+2025-08-25 19:47:51.856 - DEBUG: [logger.js:246:9] POST /post/v1/list requested
+2025-08-25 19:47:51.857 - DEBUG: [logger.js:246:9] PARAMS -> {"page":1,"perPage":2}
+2025-08-25 19:47:51.893 - DEBUG: [logger.js:246:9] SQL -> select count(*) as total
+                from test.post
+2025-08-25 19:47:51.895 - DEBUG: [logger.js:246:9] SQL -> select id, name, age, mobile
+              from test.post  limit 0, 2 
+2025-08-25 19:47:51.895 - DEBUG: [logger.js:246:9] Error in executing SQL -> Error: ER_BAD_FIELD_ERROR: Unknown column 'name' in 'SELECT'
+2025-08-25 19:52:01.151 - DEBUG: [logger.js:246:9] Animal::list 호출됨.
+2025-08-25 19:52:01.151 - DEBUG: [logger.js:246:9] POST /animal/v1/list requested
+2025-08-25 19:52:01.151 - DEBUG: [logger.js:246:9] PARAMS -> {"page":1,"perPage":1}
+2025-08-25 19:52:01.153 - DEBUG: [logger.js:246:9] SQL -> select count(*) as total
+                from test.animal
+2025-08-25 19:52:01.154 - DEBUG: [logger.js:246:9] SQL -> select id,type, name, age, mobile, path
+              from test.animal  limit 0, 1 
+2025-08-25 19:54:36.554 - DEBUG: [logger.js:246:9] post::list 호출됨.
+2025-08-25 19:54:36.554 - DEBUG: [logger.js:246:9] POST /post/v1/list requested
+2025-08-25 19:54:36.554 - DEBUG: [logger.js:246:9] PARAMS -> {"page":1,"perPage":2}
+2025-08-25 19:54:36.556 - DEBUG: [logger.js:246:9] SQL -> select count(*) as total
+                from test.post
+2025-08-25 19:54:36.559 - DEBUG: [logger.js:246:9] SQL -> select id, name, age, mobile
+              from test.post  limit 0, 2 
+2025-08-25 19:54:36.568 - DEBUG: [logger.js:246:9] Error in executing SQL -> Error: ER_BAD_FIELD_ERROR: Unknown column 'name' in 'SELECT'
+2025-08-25 19:55:03.785 - INFO: [logger.js:246:9] service loader called.
+2025-08-25 19:55:03.803 - INFO: [logger.js:246:9] controller loader called.
+2025-08-25 19:55:03.803 - DEBUG: [logger.js:246:9] external_loader called.
+2025-08-25 19:55:03.803 - DEBUG: [logger.js:246:9] No external configuration.
+2025-08-25 19:55:04.058 - INFO: [logger.js:246:9] Http Server started.
+2025-08-25 19:55:04.059 - INFO: [logger.js:246:9] Base URL -> http://localhost:8001
+2025-08-25 19:55:04.059 - INFO: [logger.js:246:9] Namespace -> ::_8001_8004
+2025-08-25 19:55:04.063 - DEBUG: [logger.js:246:9] database SQL file loaded.
+2025-08-25 19:55:11.075 - INFO: [logger.js:246:9] service loader called.
+2025-08-25 19:55:11.092 - INFO: [logger.js:246:9] controller loader called.
+2025-08-25 19:55:11.092 - DEBUG: [logger.js:246:9] external_loader called.
+2025-08-25 19:55:11.093 - DEBUG: [logger.js:246:9] No external configuration.
+2025-08-25 19:55:11.337 - INFO: [logger.js:246:9] Http Server started.
+2025-08-25 19:55:11.338 - INFO: [logger.js:246:9] Base URL -> http://localhost:8001
+2025-08-25 19:55:11.338 - INFO: [logger.js:246:9] Namespace -> ::_8001_7948
+2025-08-25 19:55:11.354 - DEBUG: [logger.js:246:9] database SQL file loaded.
+2025-08-25 19:55:16.512 - DEBUG: [logger.js:246:9] post::list 호출됨.
+2025-08-25 19:55:16.514 - DEBUG: [logger.js:246:9] POST /post/v1/list requested
+2025-08-25 19:55:16.515 - DEBUG: [logger.js:246:9] PARAMS -> {"page":1,"perPage":2}
+2025-08-25 19:55:16.551 - DEBUG: [logger.js:246:9] SQL -> select count(*) as total
+                from test.post
+2025-08-25 19:55:16.555 - DEBUG: [logger.js:246:9] SQL -> select id, title, contents, category,createDate, likes, comments,thumbnail
+              from test.post  limit 0, 2 
+2025-08-25 19:58:15.125 - DEBUG: [logger.js:246:9] post::list 호출됨.
+2025-08-25 19:58:15.126 - DEBUG: [logger.js:246:9] POST /post/v1/list requested
+2025-08-25 19:58:15.126 - DEBUG: [logger.js:246:9] PARAMS -> {"page":1,"perPage":2}
+2025-08-25 19:58:15.130 - DEBUG: [logger.js:246:9] SQL -> select count(*) as total
+                from test.post
+2025-08-25 19:58:15.134 - DEBUG: [logger.js:246:9] SQL -> select id, title, contents, category,createDate, likes, comments,thumbnail
+              from test.post  limit 0, 2 
+2025-08-25 19:58:17.703 - DEBUG: [logger.js:246:9] post::list 호출됨.
+2025-08-25 19:58:17.703 - DEBUG: [logger.js:246:9] POST /post/v1/list requested
+2025-08-25 19:58:17.704 - DEBUG: [logger.js:246:9] PARAMS -> {"page":2,"perPage":2}
+2025-08-25 19:58:17.706 - DEBUG: [logger.js:246:9] SQL -> select count(*) as total
+                from test.post
+2025-08-25 19:58:17.708 - DEBUG: [logger.js:246:9] SQL -> select id, title, contents, category,createDate, likes, comments,thumbnail
+              from test.post  limit 2, 2 
+2025-08-25 19:58:20.663 - DEBUG: [logger.js:246:9] post::list 호출됨.
+2025-08-25 19:58:20.664 - DEBUG: [logger.js:246:9] POST /post/v1/list requested
+2025-08-25 19:58:20.664 - DEBUG: [logger.js:246:9] PARAMS -> {"page":1,"perPage":2}
+2025-08-25 19:58:20.667 - DEBUG: [logger.js:246:9] SQL -> select count(*) as total
+                from test.post
+2025-08-25 19:58:20.669 - DEBUG: [logger.js:246:9] SQL -> select id, title, contents, category,createDate, likes, comments,thumbnail
+              from test.post  limit 0, 2 
+2025-08-25 20:16:25.753 - DEBUG: [logger.js:246:9] post::add 호출됨.
+2025-08-25 20:16:25.753 - DEBUG: [logger.js:246:9] POST /post/v1/add requested
+2025-08-25 20:16:25.754 - DEBUG: [logger.js:246:9] PARAMS -> {"title":"게시물4","content":"게시물 내용입니다.","category":"종교","createDate":"5시간 전","like":"6","comment":"10","thumbnail":""}
+2025-08-25 20:16:25.756 - DEBUG: [logger.js:246:9] SQL -> insert into test.post(id, title, contents, category,createDate, likes, comments,thumbnail)
+              values
+                  (:ID, '게시물4', '게시물 내용입니다.'S, '종교','5시간 전', '6'S, '10'S,'')
+2025-08-25 20:16:25.757 - DEBUG: [logger.js:246:9] Error in executing SQL -> Error: ER_PARSE_ERROR: You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near ':ID, '게시물4', '게시물 내용입니다.'S, '종교','5시간 전', '6'...' at line 3
+2025-08-25 20:16:25.791 - DEBUG: [logger.js:246:9] post::list 호출됨.
+2025-08-25 20:16:25.792 - DEBUG: [logger.js:246:9] POST /post/v1/list requested
+2025-08-25 20:16:25.792 - DEBUG: [logger.js:246:9] PARAMS -> {"page":1,"perPage":2}
+2025-08-25 20:16:25.794 - DEBUG: [logger.js:246:9] SQL -> select count(*) as total
+                from test.post
+2025-08-25 20:16:25.797 - DEBUG: [logger.js:246:9] SQL -> select id, title, contents, category,createDate, likes, comments,thumbnail
+              from test.post  limit 0, 2 
+2025-08-25 20:16:27.829 - DEBUG: [logger.js:246:9] post::list 호출됨.
+2025-08-25 20:16:27.829 - DEBUG: [logger.js:246:9] POST /post/v1/list requested
+2025-08-25 20:16:27.830 - DEBUG: [logger.js:246:9] PARAMS -> {"page":2,"perPage":2}
+2025-08-25 20:16:27.832 - DEBUG: [logger.js:246:9] SQL -> select count(*) as total
+                from test.post
+2025-08-25 20:16:27.834 - DEBUG: [logger.js:246:9] SQL -> select id, title, contents, category,createDate, likes, comments,thumbnail
+              from test.post  limit 2, 2 
+2025-08-25 20:16:29.413 - DEBUG: [logger.js:246:9] post::list 호출됨.
+2025-08-25 20:16:29.413 - DEBUG: [logger.js:246:9] POST /post/v1/list requested
+2025-08-25 20:16:29.414 - DEBUG: [logger.js:246:9] PARAMS -> {"page":1,"perPage":2}
+2025-08-25 20:16:29.415 - DEBUG: [logger.js:246:9] SQL -> select count(*) as total
+                from test.post
+2025-08-25 20:16:29.416 - DEBUG: [logger.js:246:9] SQL -> select id, title, contents, category,createDate, likes, comments,thumbnail
+              from test.post  limit 0, 2 
+2025-08-25 20:16:31.046 - DEBUG: [logger.js:246:9] post::list 호출됨.
+2025-08-25 20:16:31.047 - DEBUG: [logger.js:246:9] POST /post/v1/list requested
+2025-08-25 20:16:31.047 - DEBUG: [logger.js:246:9] PARAMS -> {"page":2,"perPage":2}
+2025-08-25 20:16:31.050 - DEBUG: [logger.js:246:9] SQL -> select count(*) as total
+                from test.post
+2025-08-25 20:16:31.052 - DEBUG: [logger.js:246:9] SQL -> select id, title, contents, category,createDate, likes, comments,thumbnail
+              from test.post  limit 2, 2 
+2025-08-25 20:16:34.717 - DEBUG: [logger.js:246:9] post::list 호출됨.
+2025-08-25 20:16:34.717 - DEBUG: [logger.js:246:9] POST /post/v1/list requested
+2025-08-25 20:16:34.718 - DEBUG: [logger.js:246:9] PARAMS -> {"page":1,"perPage":2}
+2025-08-25 20:16:34.719 - DEBUG: [logger.js:246:9] SQL -> select count(*) as total
+                from test.post
+2025-08-25 20:16:34.720 - DEBUG: [logger.js:246:9] SQL -> select id, title, contents, category,createDate, likes, comments,thumbnail
+              from test.post  limit 0, 2 
+2025-08-25 20:28:14.782 - DEBUG: [logger.js:246:9] post::add 호출됨.
+2025-08-25 20:28:14.783 - DEBUG: [logger.js:246:9] POST /post/v1/add requested
+2025-08-25 20:28:14.783 - DEBUG: [logger.js:246:9] PARAMS -> {"title":"게시물4","content":"게시물 4 내용입니다.","category":"종교","createDate":"4시간전","like":"3","comment":"21","thumbnail":""}
+2025-08-25 20:28:14.784 - DEBUG: [logger.js:246:9] SQL -> insert into test.post(id, title, contents, category,createDate, likes, comments,thumbnail)
+              values
+                  (:ID, '게시물4', '게시물 4 내용입니다.'S, '종교','4시간전', '3'S, '21'S,'')
+2025-08-25 20:28:14.784 - DEBUG: [logger.js:246:9] Error in executing SQL -> Error: ER_PARSE_ERROR: You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near ':ID, '게시물4', '게시물 4 내용입니다.'S, '종교','4시간전', '3...' at line 3
+2025-08-25 20:28:14.813 - DEBUG: [logger.js:246:9] post::list 호출됨.
+2025-08-25 20:28:14.816 - DEBUG: [logger.js:246:9] POST /post/v1/list requested
+2025-08-25 20:28:14.867 - DEBUG: [logger.js:246:9] PARAMS -> {"page":1,"perPage":2}
+2025-08-25 20:28:14.871 - DEBUG: [logger.js:246:9] SQL -> select count(*) as total
+                from test.post
+2025-08-25 20:28:14.873 - DEBUG: [logger.js:246:9] SQL -> select id, title, contents, category,createDate, likes, comments,thumbnail
+              from test.post  limit 0, 2 
+2025-08-25 20:28:16.437 - DEBUG: [logger.js:246:9] post::list 호출됨.
+2025-08-25 20:28:16.437 - DEBUG: [logger.js:246:9] POST /post/v1/list requested
+2025-08-25 20:28:16.438 - DEBUG: [logger.js:246:9] PARAMS -> {"page":2,"perPage":2}
+2025-08-25 20:28:16.439 - DEBUG: [logger.js:246:9] SQL -> select count(*) as total
+                from test.post
+2025-08-25 20:28:16.440 - DEBUG: [logger.js:246:9] SQL -> select id, title, contents, category,createDate, likes, comments,thumbnail
+              from test.post  limit 2, 2 
+2025-08-25 20:28:17.949 - DEBUG: [logger.js:246:9] post::list 호출됨.
+2025-08-25 20:28:17.949 - DEBUG: [logger.js:246:9] POST /post/v1/list requested
+2025-08-25 20:28:17.950 - DEBUG: [logger.js:246:9] PARAMS -> {"page":1,"perPage":2}
+2025-08-25 20:28:17.951 - DEBUG: [logger.js:246:9] SQL -> select count(*) as total
+                from test.post
+2025-08-25 20:28:17.953 - DEBUG: [logger.js:246:9] SQL -> select id, title, contents, category,createDate, likes, comments,thumbnail
+              from test.post  limit 0, 2 
+2025-08-25 21:12:29.416 - DEBUG: [logger.js:246:9] post::list 호출됨.
+2025-08-25 21:12:29.416 - DEBUG: [logger.js:246:9] POST /post/v1/list requested
+2025-08-25 21:12:29.417 - DEBUG: [logger.js:246:9] PARAMS -> {"page":2,"perPage":2}
+2025-08-25 21:12:29.418 - DEBUG: [logger.js:246:9] SQL -> select count(*) as total
+                from test.post
+2025-08-25 21:12:29.421 - DEBUG: [logger.js:246:9] SQL -> select id, title, contents, category,createDate, likes, comments,thumbnail
+              from test.post  limit 2, 2 
+2025-08-25 21:12:31.939 - DEBUG: [logger.js:246:9] post::list 호출됨.
+2025-08-25 21:12:31.940 - DEBUG: [logger.js:246:9] POST /post/v1/list requested
+2025-08-25 21:12:31.940 - DEBUG: [logger.js:246:9] PARAMS -> {"page":1,"perPage":2}
+2025-08-25 21:12:31.942 - DEBUG: [logger.js:246:9] SQL -> select count(*) as total
+                from test.post
+2025-08-25 21:12:31.944 - DEBUG: [logger.js:246:9] SQL -> select id, title, contents, category,createDate, likes, comments,thumbnail
+              from test.post  limit 0, 2 
+2025-08-25 21:13:23.191 - DEBUG: [logger.js:246:9] post::list 호출됨.
+2025-08-25 21:13:23.192 - DEBUG: [logger.js:246:9] POST /post/v1/list requested
+2025-08-25 21:13:23.193 - DEBUG: [logger.js:246:9] PARAMS -> {"page":1,"perPage":2}
+2025-08-25 21:13:23.194 - DEBUG: [logger.js:246:9] SQL -> select count(*) as total
+                from test.post
+2025-08-25 21:13:23.196 - DEBUG: [logger.js:246:9] SQL -> select id, title, contents, category,createDate, likes, comments,thumbnail
+              from test.post  limit 0, 2 
+2025-08-25 21:13:24.845 - DEBUG: [logger.js:246:9] post::list 호출됨.
+2025-08-25 21:13:24.845 - DEBUG: [logger.js:246:9] POST /post/v1/list requested
+2025-08-25 21:13:24.846 - DEBUG: [logger.js:246:9] PARAMS -> {"page":2,"perPage":2}
+2025-08-25 21:13:24.847 - DEBUG: [logger.js:246:9] SQL -> select count(*) as total
+                from test.post
+2025-08-25 21:13:24.848 - DEBUG: [logger.js:246:9] SQL -> select id, title, contents, category,createDate, likes, comments,thumbnail
+              from test.post  limit 2, 2 
+2025-08-25 21:13:26.211 - DEBUG: [logger.js:246:9] post::list 호출됨.
+2025-08-25 21:13:26.212 - DEBUG: [logger.js:246:9] POST /post/v1/list requested
+2025-08-25 21:13:26.212 - DEBUG: [logger.js:246:9] PARAMS -> {"page":1,"perPage":2}
+2025-08-25 21:13:26.213 - DEBUG: [logger.js:246:9] SQL -> select count(*) as total
+                from test.post
+2025-08-25 21:13:26.215 - DEBUG: [logger.js:246:9] SQL -> select id, title, contents, category,createDate, likes, comments,thumbnail
+              from test.post  limit 0, 2 
+2025-08-25 21:13:31.876 - INFO: [logger.js:246:9] service loader called.
+2025-08-25 21:13:31.893 - INFO: [logger.js:246:9] controller loader called.
+2025-08-25 21:13:31.897 - DEBUG: [logger.js:246:9] external_loader called.
+2025-08-25 21:13:31.900 - DEBUG: [logger.js:246:9] No external configuration.
+2025-08-25 21:13:32.186 - INFO: [logger.js:246:9] Http Server started.
+2025-08-25 21:13:32.187 - INFO: [logger.js:246:9] Base URL -> http://localhost:8001
+2025-08-25 21:13:32.188 - INFO: [logger.js:246:9] Namespace -> ::_8001_17704
+2025-08-25 21:13:32.192 - DEBUG: [logger.js:246:9] database SQL file loaded.
+2025-08-25 21:13:34.591 - DEBUG: [logger.js:246:9] post::list 호출됨.
+2025-08-25 21:13:34.592 - DEBUG: [logger.js:246:9] POST /post/v1/list requested
+2025-08-25 21:13:34.592 - DEBUG: [logger.js:246:9] PARAMS -> {"page":1,"perPage":2}
+2025-08-25 21:13:34.619 - DEBUG: [logger.js:246:9] SQL -> select count(*) as total
+                from test.post
+2025-08-25 21:13:34.622 - DEBUG: [logger.js:246:9] SQL -> select id, title, contents, category,createDate, likes, comments,thumbnail
+              from test.post  limit 0, 2 
+2025-08-25 21:13:42.459 - DEBUG: [logger.js:246:9] post::list 호출됨.
+2025-08-25 21:13:42.460 - DEBUG: [logger.js:246:9] POST /post/v1/list requested
+2025-08-25 21:13:42.461 - DEBUG: [logger.js:246:9] PARAMS -> {"page":2,"perPage":2}
+2025-08-25 21:13:42.463 - DEBUG: [logger.js:246:9] SQL -> select count(*) as total
+                from test.post
+2025-08-25 21:13:42.465 - DEBUG: [logger.js:246:9] SQL -> select id, title, contents, category,createDate, likes, comments,thumbnail
+              from test.post  limit 2, 2 
+2025-08-25 21:14:16.018 - DEBUG: [logger.js:246:9] post::add 호출됨.
+2025-08-25 21:14:16.018 - DEBUG: [logger.js:246:9] POST /post/v1/add requested
+2025-08-25 21:14:16.018 - DEBUG: [logger.js:246:9] PARAMS -> {"title":"게시물4","content":"게시물내용","category":"종교","createDate":"2025-08-25","like":"1512","comment":"3","thumbnail":""}
+2025-08-25 21:14:16.020 - DEBUG: [logger.js:246:9] SQL -> insert into test.post(id, title, contents, category,createDate, likes, comments,thumbnail)
+              values
+                  (:ID, '게시물4', '게시물내용'S, '종교','2025-08-25', '1512'S, '3'S,'')
+2025-08-25 21:14:16.021 - DEBUG: [logger.js:246:9] Error in executing SQL -> Error: ER_PARSE_ERROR: You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near ':ID, '게시물4', '게시물내용'S, '종교','2025-08-25', '1512'S, '3'S,'')' at line 3
+2025-08-25 21:14:16.052 - DEBUG: [logger.js:246:9] post::list 호출됨.
+2025-08-25 21:14:16.052 - DEBUG: [logger.js:246:9] POST /post/v1/list requested
+2025-08-25 21:14:16.053 - DEBUG: [logger.js:246:9] PARAMS -> {"page":1,"perPage":2}
+2025-08-25 21:14:16.056 - DEBUG: [logger.js:246:9] SQL -> select count(*) as total
+                from test.post
+2025-08-25 21:14:16.058 - DEBUG: [logger.js:246:9] SQL -> select id, title, contents, category,createDate, likes, comments,thumbnail
+              from test.post  limit 0, 2 
+2025-08-25 21:14:17.081 - DEBUG: [logger.js:246:9] post::list 호출됨.
+2025-08-25 21:14:17.082 - DEBUG: [logger.js:246:9] POST /post/v1/list requested
+2025-08-25 21:14:17.082 - DEBUG: [logger.js:246:9] PARAMS -> {"page":2,"perPage":2}
+2025-08-25 21:14:17.083 - DEBUG: [logger.js:246:9] SQL -> select count(*) as total
+                from test.post
+2025-08-25 21:14:17.086 - DEBUG: [logger.js:246:9] SQL -> select id, title, contents, category,createDate, likes, comments,thumbnail
+              from test.post  limit 2, 2 
+2025-08-25 21:16:04.141 - DEBUG: [logger.js:246:9] post::add 호출됨.
+2025-08-25 21:16:04.142 - DEBUG: [logger.js:246:9] POST /post/v1/add requested
+2025-08-25 21:16:04.142 - DEBUG: [logger.js:246:9] PARAMS -> {"title":"게시물","content":"게시물내용","category":"종교","createDate":"6시간전","like":"23","comment":"12","thumbnail":""}
+2025-08-25 21:16:04.143 - DEBUG: [logger.js:246:9] SQL -> insert into test.post(id, title, contents, category,createDate, likes, comments,thumbnail)
+              values
+                  (:ID, '게시물', '게시물내용'S, '종교','6시간전', '23'S, '12'S,'')
+2025-08-25 21:16:04.144 - DEBUG: [logger.js:246:9] Error in executing SQL -> Error: ER_PARSE_ERROR: You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near ':ID, '게시물', '게시물내용'S, '종교','6시간전', '23'S, '12'S,'')' at line 3
+2025-08-25 21:16:04.166 - DEBUG: [logger.js:246:9] post::list 호출됨.
+2025-08-25 21:16:04.167 - DEBUG: [logger.js:246:9] POST /post/v1/list requested
+2025-08-25 21:16:04.168 - DEBUG: [logger.js:246:9] PARAMS -> {"page":1,"perPage":2}
+2025-08-25 21:16:04.171 - DEBUG: [logger.js:246:9] SQL -> select count(*) as total
+                from test.post
+2025-08-25 21:16:04.172 - DEBUG: [logger.js:246:9] SQL -> select id, title, contents, category,createDate, likes, comments,thumbnail
+              from test.post  limit 0, 2 
+2025-08-25 21:16:05.619 - DEBUG: [logger.js:246:9] post::list 호출됨.
+2025-08-25 21:16:05.619 - DEBUG: [logger.js:246:9] POST /post/v1/list requested
+2025-08-25 21:16:05.619 - DEBUG: [logger.js:246:9] PARAMS -> {"page":2,"perPage":2}
+2025-08-25 21:16:05.621 - DEBUG: [logger.js:246:9] SQL -> select count(*) as total
+                from test.post
+2025-08-25 21:16:05.622 - DEBUG: [logger.js:246:9] SQL -> select id, title, contents, category,createDate, likes, comments,thumbnail
+              from test.post  limit 2, 2 
+2025-08-25 21:20:16.216 - DEBUG: [logger.js:246:9] post::add 호출됨.
+2025-08-25 21:20:16.217 - DEBUG: [logger.js:246:9] POST /post/v1/add requested
+2025-08-25 21:20:16.217 - DEBUG: [logger.js:246:9] PARAMS -> {"title":"ㅗ","content":";ㅗ","category":"ㅗ","createDate":"ㅗ","like":"5","comment":"5","thumbnail":""}
+2025-08-25 21:20:16.219 - DEBUG: [logger.js:246:9] SQL -> insert into test.post(id, title, contents, category,createDate, likes, comments,thumbnail)
+              values
+                  (:ID, 'ㅗ', ';ㅗ'S, 'ㅗ','ㅗ', '5'S, '5'S,'')
+2025-08-25 21:20:16.219 - DEBUG: [logger.js:246:9] Error in executing SQL -> Error: ER_PARSE_ERROR: You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near ':ID, 'ㅗ', ';ㅗ'S, 'ㅗ','ㅗ', '5'S, '5'S,'')' at line 3
+2025-08-25 21:20:16.264 - DEBUG: [logger.js:246:9] post::list 호출됨.
+2025-08-25 21:20:16.265 - DEBUG: [logger.js:246:9] POST /post/v1/list requested
+2025-08-25 21:20:16.271 - DEBUG: [logger.js:246:9] PARAMS -> {"page":1,"perPage":2}
+2025-08-25 21:20:16.283 - DEBUG: [logger.js:246:9] SQL -> select count(*) as total
+                from test.post
+2025-08-25 21:20:16.289 - DEBUG: [logger.js:246:9] SQL -> select id, title, contents, category,createDate, likes, comments,thumbnail
+              from test.post  limit 0, 2 
+2025-08-25 21:20:29.373 - DEBUG: [logger.js:246:9] post::list 호출됨.
+2025-08-25 21:20:29.374 - DEBUG: [logger.js:246:9] POST /post/v1/list requested
+2025-08-25 21:20:29.374 - DEBUG: [logger.js:246:9] PARAMS -> {"page":2,"perPage":2}
+2025-08-25 21:20:29.379 - DEBUG: [logger.js:246:9] SQL -> select count(*) as total
+                from test.post
+2025-08-25 21:20:29.381 - DEBUG: [logger.js:246:9] SQL -> select id, title, contents, category,createDate, likes, comments,thumbnail
+              from test.post  limit 2, 2 
+2025-08-25 21:21:06.196 - DEBUG: [logger.js:246:9] post::add 호출됨.
+2025-08-25 21:21:06.197 - DEBUG: [logger.js:246:9] POST /post/v1/add requested
+2025-08-25 21:21:06.197 - DEBUG: [logger.js:246:9] PARAMS -> {"title":"게시물","content":"게시물입니다","category":"종교","createDate":"3시간전","like":"1","comment":"1","thumbnail":""}
+2025-08-25 21:21:06.198 - DEBUG: [logger.js:246:9] SQL -> insert into test.post(id, title, contents, category,createDate, likes, comments,thumbnail)
+              values
+                  (:ID, '게시물', '게시물입니다'S, '종교','3시간전', '1'S, '1'S,'')
+2025-08-25 21:21:06.199 - DEBUG: [logger.js:246:9] Error in executing SQL -> Error: ER_PARSE_ERROR: You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near ':ID, '게시물', '게시물입니다'S, '종교','3시간전', '1'S, '1'S,'')' at line 3
+2025-08-25 21:21:06.219 - DEBUG: [logger.js:246:9] post::list 호출됨.
+2025-08-25 21:21:06.220 - DEBUG: [logger.js:246:9] POST /post/v1/list requested
+2025-08-25 21:21:06.221 - DEBUG: [logger.js:246:9] PARAMS -> {"page":1,"perPage":2}
+2025-08-25 21:21:06.231 - DEBUG: [logger.js:246:9] SQL -> select count(*) as total
+                from test.post
+2025-08-25 21:21:06.237 - DEBUG: [logger.js:246:9] SQL -> select id, title, contents, category,createDate, likes, comments,thumbnail
+              from test.post  limit 0, 2 
+2025-08-25 21:23:33.020 - INFO: [logger.js:246:9] service loader called.
+2025-08-25 21:23:33.032 - INFO: [logger.js:246:9] controller loader called.
+2025-08-25 21:23:33.032 - DEBUG: [logger.js:246:9] external_loader called.
+2025-08-25 21:23:33.033 - DEBUG: [logger.js:246:9] No external configuration.
+2025-08-25 21:23:33.207 - INFO: [logger.js:246:9] Http Server started.
+2025-08-25 21:23:33.208 - INFO: [logger.js:246:9] Base URL -> http://localhost:8001
+2025-08-25 21:23:33.208 - INFO: [logger.js:246:9] Namespace -> ::_8001_10408
+2025-08-25 21:23:33.212 - DEBUG: [logger.js:246:9] database SQL file loaded.
+2025-08-25 21:23:39.757 - INFO: [logger.js:246:9] service loader called.
+2025-08-25 21:23:39.768 - INFO: [logger.js:246:9] controller loader called.
+2025-08-25 21:23:39.768 - DEBUG: [logger.js:246:9] external_loader called.
+2025-08-25 21:23:39.768 - DEBUG: [logger.js:246:9] No external configuration.
+2025-08-25 21:23:39.948 - INFO: [logger.js:246:9] Http Server started.
+2025-08-25 21:23:39.949 - INFO: [logger.js:246:9] Base URL -> http://localhost:8001
+2025-08-25 21:23:39.949 - INFO: [logger.js:246:9] Namespace -> ::_8001_18824
+2025-08-25 21:23:39.952 - DEBUG: [logger.js:246:9] database SQL file loaded.
+2025-08-25 21:23:58.171 - DEBUG: [logger.js:246:9] post::add 호출됨.
+2025-08-25 21:23:58.171 - DEBUG: [logger.js:246:9] POST /post/v1/add requested
+2025-08-25 21:23:58.172 - DEBUG: [logger.js:246:9] PARAMS -> {"title":"","content":"게시물","category":"게시물입니다","createDate":"3시간전","like":"3","comment":"5","thumbnail":""}
+2025-08-25 21:23:58.195 - DEBUG: [logger.js:246:9] SQL -> insert into test.post(title, contents, category,createDate, likes, comments,thumbnail)
+              values
+                  ('', '게시물'S, '게시물입니다', '3시간전', '3'S, '5'S, '')
+2025-08-25 21:23:58.195 - DEBUG: [logger.js:246:9] Error in executing SQL -> Error: ER_PARSE_ERROR: You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near 'S, '게시물입니다', '3시간전', '3'S, '5'S, '')' at line 3
+2025-08-25 21:23:58.222 - DEBUG: [logger.js:246:9] post::list 호출됨.
+2025-08-25 21:23:58.223 - DEBUG: [logger.js:246:9] POST /post/v1/list requested
+2025-08-25 21:23:58.224 - DEBUG: [logger.js:246:9] PARAMS -> {"page":1,"perPage":2}
+2025-08-25 21:23:58.234 - DEBUG: [logger.js:246:9] SQL -> select count(*) as total
+                from test.post
+2025-08-25 21:23:58.236 - DEBUG: [logger.js:246:9] SQL -> select id, title, contents, category,createDate, likes, comments,thumbnail
+              from test.post  limit 0, 2 
+2025-08-25 21:26:28.088 - INFO: [logger.js:246:9] service loader called.
+2025-08-25 21:26:28.100 - INFO: [logger.js:246:9] controller loader called.
+2025-08-25 21:26:28.100 - DEBUG: [logger.js:246:9] external_loader called.
+2025-08-25 21:26:28.101 - DEBUG: [logger.js:246:9] No external configuration.
+2025-08-25 21:26:28.293 - INFO: [logger.js:246:9] Http Server started.
+2025-08-25 21:26:28.293 - INFO: [logger.js:246:9] Base URL -> http://localhost:8001
+2025-08-25 21:26:28.294 - INFO: [logger.js:246:9] Namespace -> ::_8001_16516
+2025-08-25 21:26:28.298 - DEBUG: [logger.js:246:9] database SQL file loaded.
+2025-08-25 21:26:36.793 - DEBUG: [logger.js:246:9] post::list 호출됨.
+2025-08-25 21:26:36.794 - DEBUG: [logger.js:246:9] POST /post/v1/list requested
+2025-08-25 21:26:36.794 - DEBUG: [logger.js:246:9] PARAMS -> {"page":1,"perPage":2}
+2025-08-25 21:26:36.818 - DEBUG: [logger.js:246:9] SQL -> select count(*) as total
+                from test.post
+2025-08-25 21:26:36.821 - DEBUG: [logger.js:246:9] SQL -> select id, title, contents, category,createDate, likes, comments,thumbnail
+              from test.post  limit 0, 2 
+2025-08-25 21:26:38.805 - DEBUG: [logger.js:246:9] post::list 호출됨.
+2025-08-25 21:26:38.806 - DEBUG: [logger.js:246:9] POST /post/v1/list requested
+2025-08-25 21:26:38.806 - DEBUG: [logger.js:246:9] PARAMS -> {"page":2,"perPage":2}
+2025-08-25 21:26:38.808 - DEBUG: [logger.js:246:9] SQL -> select count(*) as total
+                from test.post
+2025-08-25 21:26:38.810 - DEBUG: [logger.js:246:9] SQL -> select id, title, contents, category,createDate, likes, comments,thumbnail
+              from test.post  limit 2, 2 
+2025-08-25 21:27:00.573 - DEBUG: [logger.js:246:9] post::add 호출됨.
+2025-08-25 21:27:00.574 - DEBUG: [logger.js:246:9] POST /post/v1/add requested
+2025-08-25 21:27:00.574 - DEBUG: [logger.js:246:9] PARAMS -> {"title":"게시물","contents":"게시물내용","category":"종교","createDate":"3시간전","likes":"4","comments":"1","thumbnail":""}
+2025-08-25 21:27:00.577 - DEBUG: [logger.js:246:9] SQL -> insert into test.post(title, contents, category,createDate, likes, comments,thumbnail)
+              values
+                  ('게시물', '게시물내용', '종교', '3시간전', '4', '1', '')
+2025-08-25 21:27:00.597 - DEBUG: [logger.js:246:9] post::list 호출됨.
+2025-08-25 21:27:00.597 - DEBUG: [logger.js:246:9] POST /post/v1/list requested
+2025-08-25 21:27:00.597 - DEBUG: [logger.js:246:9] PARAMS -> {"page":1,"perPage":2}
+2025-08-25 21:27:00.599 - DEBUG: [logger.js:246:9] SQL -> select count(*) as total
+                from test.post
+2025-08-25 21:27:00.600 - DEBUG: [logger.js:246:9] SQL -> select id, title, contents, category,createDate, likes, comments,thumbnail
+              from test.post  limit 0, 2 
+2025-08-25 21:27:02.708 - DEBUG: [logger.js:246:9] post::list 호출됨.
+2025-08-25 21:27:02.709 - DEBUG: [logger.js:246:9] POST /post/v1/list requested
+2025-08-25 21:27:02.709 - DEBUG: [logger.js:246:9] PARAMS -> {"page":2,"perPage":2}
+2025-08-25 21:27:02.711 - DEBUG: [logger.js:246:9] SQL -> select count(*) as total
+                from test.post
+2025-08-25 21:27:02.713 - DEBUG: [logger.js:246:9] SQL -> select id, title, contents, category,createDate, likes, comments,thumbnail
+              from test.post  limit 2, 2 
+2025-08-25 21:49:45.536 - DEBUG: [logger.js:246:9] post::add 호출됨.
+2025-08-25 21:49:45.536 - DEBUG: [logger.js:246:9] POST /post/v1/add requested
+2025-08-25 21:49:45.536 - DEBUG: [logger.js:246:9] PARAMS -> {"title":"","contents":"","category":"","createDate":"","likes":"","comments":"","thumbnail":""}
+2025-08-25 21:49:45.540 - DEBUG: [logger.js:246:9] SQL -> insert into test.post(title, contents, category,createDate, likes, comments,thumbnail)
+              values
+                  ('', '', '', '', '', '', '')
+2025-08-25 21:49:45.545 - DEBUG: [logger.js:246:9] Error in executing SQL -> Error: ER_TRUNCATED_WRONG_VALUE_FOR_FIELD: Incorrect integer value: '' for column `test`.`post`.`likes` at row 1
+2025-08-25 21:49:45.602 - DEBUG: [logger.js:246:9] post::list 호출됨.
+2025-08-25 21:49:45.604 - DEBUG: [logger.js:246:9] POST /post/v1/list requested
+2025-08-25 21:49:45.607 - DEBUG: [logger.js:246:9] PARAMS -> {"page":1,"perPage":2}
+2025-08-25 21:49:45.616 - DEBUG: [logger.js:246:9] SQL -> select count(*) as total
+                from test.post
+2025-08-25 21:49:45.618 - DEBUG: [logger.js:246:9] SQL -> select id, title, contents, category,createDate, likes, comments,thumbnail
+              from test.post  limit 0, 2 
+2025-08-25 21:49:46.897 - DEBUG: [logger.js:246:9] post::list 호출됨.
+2025-08-25 21:49:46.898 - DEBUG: [logger.js:246:9] POST /post/v1/list requested
+2025-08-25 21:49:46.898 - DEBUG: [logger.js:246:9] PARAMS -> {"page":2,"perPage":2}
+2025-08-25 21:49:46.899 - DEBUG: [logger.js:246:9] SQL -> select count(*) as total
+                from test.post
+2025-08-25 21:49:46.902 - DEBUG: [logger.js:246:9] SQL -> select id, title, contents, category,createDate, likes, comments,thumbnail
+              from test.post  limit 2, 2 
+2025-08-25 21:49:56.880 - DEBUG: [logger.js:246:9] post::list 호출됨.
+2025-08-25 21:49:56.881 - DEBUG: [logger.js:246:9] POST /post/v1/list requested
+2025-08-25 21:49:56.881 - DEBUG: [logger.js:246:9] PARAMS -> {"page":1,"perPage":2}
+2025-08-25 21:49:56.886 - DEBUG: [logger.js:246:9] SQL -> select count(*) as total
+                from test.post
+2025-08-25 21:49:56.889 - DEBUG: [logger.js:246:9] SQL -> select id, title, contents, category,createDate, likes, comments,thumbnail
+              from test.post  limit 0, 2 
+2025-08-25 21:49:58.346 - DEBUG: [logger.js:246:9] post::list 호출됨.
+2025-08-25 21:49:58.346 - DEBUG: [logger.js:246:9] POST /post/v1/list requested
+2025-08-25 21:49:58.347 - DEBUG: [logger.js:246:9] PARAMS -> {"page":2,"perPage":2}
+2025-08-25 21:49:58.349 - DEBUG: [logger.js:246:9] SQL -> select count(*) as total
+                from test.post
+2025-08-25 21:49:58.351 - DEBUG: [logger.js:246:9] SQL -> select id, title, contents, category,createDate, likes, comments,thumbnail
+              from test.post  limit 2, 2 
+2025-08-25 21:50:17.875 - DEBUG: [logger.js:246:9] post::add 호출됨.
+2025-08-25 21:50:17.875 - DEBUG: [logger.js:246:9] POST /post/v1/add requested
+2025-08-25 21:50:17.876 - DEBUG: [logger.js:246:9] PARAMS -> {"title":"","contents":"","category":"","createDate":"","likes":"","comments":"","thumbnail":""}
+2025-08-25 21:50:17.877 - DEBUG: [logger.js:246:9] SQL -> insert into test.post(title, contents, category,createDate, likes, comments,thumbnail)
+              values
+                  ('', '', '', '', '', '', '')
+2025-08-25 21:50:17.877 - DEBUG: [logger.js:246:9] Error in executing SQL -> Error: ER_TRUNCATED_WRONG_VALUE_FOR_FIELD: Incorrect integer value: '' for column `test`.`post`.`likes` at row 1
+2025-08-25 21:50:17.900 - DEBUG: [logger.js:246:9] post::list 호출됨.
+2025-08-25 21:50:17.900 - DEBUG: [logger.js:246:9] POST /post/v1/list requested
+2025-08-25 21:50:17.900 - DEBUG: [logger.js:246:9] PARAMS -> {"page":1,"perPage":2}
+2025-08-25 21:50:17.901 - DEBUG: [logger.js:246:9] SQL -> select count(*) as total
+                from test.post
+2025-08-25 21:50:17.903 - DEBUG: [logger.js:246:9] SQL -> select id, title, contents, category,createDate, likes, comments,thumbnail
+              from test.post  limit 0, 2 
+2025-08-25 21:50:19.258 - DEBUG: [logger.js:246:9] post::list 호출됨.
+2025-08-25 21:50:19.258 - DEBUG: [logger.js:246:9] POST /post/v1/list requested
+2025-08-25 21:50:19.259 - DEBUG: [logger.js:246:9] PARAMS -> {"page":2,"perPage":2}
+2025-08-25 21:50:19.260 - DEBUG: [logger.js:246:9] SQL -> select count(*) as total
+                from test.post
+2025-08-25 21:50:19.263 - DEBUG: [logger.js:246:9] SQL -> select id, title, contents, category,createDate, likes, comments,thumbnail
+              from test.post  limit 2, 2 
+2025-08-25 21:52:01.460 - INFO: [logger.js:246:9] service loader called.
+2025-08-25 21:52:01.473 - INFO: [logger.js:246:9] controller loader called.
+2025-08-25 21:52:01.474 - DEBUG: [logger.js:246:9] external_loader called.
+2025-08-25 21:52:01.474 - DEBUG: [logger.js:246:9] No external configuration.
+2025-08-25 21:52:01.648 - INFO: [logger.js:246:9] Http Server started.
+2025-08-25 21:52:01.649 - INFO: [logger.js:246:9] Base URL -> http://localhost:8001
+2025-08-25 21:52:01.649 - INFO: [logger.js:246:9] Namespace -> ::_8001_8492
+2025-08-25 21:52:01.652 - DEBUG: [logger.js:246:9] database SQL file loaded.
+2025-08-25 21:52:03.134 - DEBUG: [logger.js:246:9] post::list 호출됨.
+2025-08-25 21:52:03.137 - DEBUG: [logger.js:246:9] POST /post/v1/list requested
+2025-08-25 21:52:03.141 - DEBUG: [logger.js:246:9] PARAMS -> {"page":1,"perPage":2}
+2025-08-25 21:52:03.186 - DEBUG: [logger.js:246:9] SQL -> select count(*) as total
+                from test.post
+2025-08-25 21:52:03.189 - DEBUG: [logger.js:246:9] SQL -> select id, title, contents, category,createDate, likes, comments,thumbnail
+              from test.post  limit 0, 2 
+2025-08-25 21:52:32.495 - DEBUG: [logger.js:246:9] post::list 호출됨.
+2025-08-25 21:52:32.495 - DEBUG: [logger.js:246:9] POST /post/v1/list requested
+2025-08-25 21:52:32.495 - DEBUG: [logger.js:246:9] PARAMS -> {"page":1,"perPage":2}
+2025-08-25 21:52:32.497 - DEBUG: [logger.js:246:9] SQL -> select count(*) as total
+                from test.post
+2025-08-25 21:52:32.499 - DEBUG: [logger.js:246:9] SQL -> select id, title, contents, category,createDate, likes, comments,thumbnail
+              from test.post  limit 0, 2 
+2025-08-25 21:52:33.503 - DEBUG: [logger.js:246:9] post::list 호출됨.
+2025-08-25 21:52:33.503 - DEBUG: [logger.js:246:9] POST /post/v1/list requested
+2025-08-25 21:52:33.504 - DEBUG: [logger.js:246:9] PARAMS -> {"page":2,"perPage":2}
+2025-08-25 21:52:33.506 - DEBUG: [logger.js:246:9] SQL -> select count(*) as total
+                from test.post
+2025-08-25 21:52:33.510 - DEBUG: [logger.js:246:9] SQL -> select id, title, contents, category,createDate, likes, comments,thumbnail
+              from test.post  limit 2, 2 
+2025-08-25 21:54:42.516 - DEBUG: [logger.js:246:9] post::list 호출됨.
+2025-08-25 21:54:42.517 - DEBUG: [logger.js:246:9] POST /post/v1/list requested
+2025-08-25 21:54:42.518 - DEBUG: [logger.js:246:9] PARAMS -> {"page":1,"perPage":2}
+2025-08-25 21:54:42.521 - DEBUG: [logger.js:246:9] SQL -> select count(*) as total
+                from test.post
+2025-08-25 21:54:42.523 - DEBUG: [logger.js:246:9] SQL -> select id, title, contents, category,createDate, likes, comments,thumbnail
+              from test.post  limit 0, 2 
+2025-08-25 21:54:50.184 - DEBUG: [logger.js:246:9] post::list 호출됨.
+2025-08-25 21:54:50.184 - DEBUG: [logger.js:246:9] POST /post/v1/list requested
+2025-08-25 21:54:50.184 - DEBUG: [logger.js:246:9] PARAMS -> {"page":1,"perPage":2}
+2025-08-25 21:54:50.186 - DEBUG: [logger.js:246:9] SQL -> select count(*) as total
+                from test.post
+2025-08-25 21:54:50.188 - DEBUG: [logger.js:246:9] SQL -> select id, title, contents, category,createDate, likes, comments,thumbnail
+              from test.post  limit 0, 2 
+2025-08-25 21:55:06.091 - DEBUG: [logger.js:246:9] post::add 호출됨.
+2025-08-25 21:55:06.092 - DEBUG: [logger.js:246:9] POST /post/v1/add requested
+2025-08-25 21:55:06.092 - DEBUG: [logger.js:246:9] PARAMS -> {"title":"","contents":"게시물5","category":"게시물내용","createDate":"1분전","likes":"611","comments":"112","thumbnail":""}
+2025-08-25 21:55:06.097 - DEBUG: [logger.js:246:9] SQL -> insert into test.post(title, contents, category,createDate, likes, comments,thumbnail)
+              values
+                  ('', '게시물5', '게시물내용', '1분전', '611', '112', '')
+2025-08-25 21:55:06.116 - DEBUG: [logger.js:246:9] post::list 호출됨.
+2025-08-25 21:55:06.117 - DEBUG: [logger.js:246:9] POST /post/v1/list requested
+2025-08-25 21:55:06.117 - DEBUG: [logger.js:246:9] PARAMS -> {"page":1,"perPage":2}
+2025-08-25 21:55:06.118 - DEBUG: [logger.js:246:9] SQL -> select count(*) as total
+                from test.post
+2025-08-25 21:55:06.120 - DEBUG: [logger.js:246:9] SQL -> select id, title, contents, category,createDate, likes, comments,thumbnail
+              from test.post  limit 0, 2 
+2025-08-25 21:55:07.194 - DEBUG: [logger.js:246:9] post::list 호출됨.
+2025-08-25 21:55:07.194 - DEBUG: [logger.js:246:9] POST /post/v1/list requested
+2025-08-25 21:55:07.195 - DEBUG: [logger.js:246:9] PARAMS -> {"page":3,"perPage":2}
+2025-08-25 21:55:07.196 - DEBUG: [logger.js:246:9] SQL -> select count(*) as total
+                from test.post
+2025-08-25 21:55:07.198 - DEBUG: [logger.js:246:9] SQL -> select id, title, contents, category,createDate, likes, comments,thumbnail
+              from test.post  limit 4, 2 
+2025-08-25 21:55:13.122 - DEBUG: [logger.js:246:9] post::list 호출됨.
+2025-08-25 21:55:13.123 - DEBUG: [logger.js:246:9] POST /post/v1/list requested
+2025-08-25 21:55:13.123 - DEBUG: [logger.js:246:9] PARAMS -> {"page":2,"perPage":2}
+2025-08-25 21:55:13.125 - DEBUG: [logger.js:246:9] SQL -> select count(*) as total
+                from test.post
+2025-08-25 21:55:13.127 - DEBUG: [logger.js:246:9] SQL -> select id, title, contents, category,createDate, likes, comments,thumbnail
+              from test.post  limit 2, 2 
+2025-08-25 21:55:15.873 - DEBUG: [logger.js:246:9] post::list 호출됨.
+2025-08-25 21:55:15.874 - DEBUG: [logger.js:246:9] POST /post/v1/list requested
+2025-08-25 21:55:15.874 - DEBUG: [logger.js:246:9] PARAMS -> {"page":3,"perPage":2}
+2025-08-25 21:55:15.875 - DEBUG: [logger.js:246:9] SQL -> select count(*) as total
+                from test.post
+2025-08-25 21:55:15.877 - DEBUG: [logger.js:246:9] SQL -> select id, title, contents, category,createDate, likes, comments,thumbnail
+              from test.post  limit 4, 2 
+2025-08-25 21:55:48.859 - DEBUG: [logger.js:246:9] post::list 호출됨.
+2025-08-25 21:55:48.859 - DEBUG: [logger.js:246:9] POST /post/v1/list requested
+2025-08-25 21:55:48.860 - DEBUG: [logger.js:246:9] PARAMS -> {"page":2,"perPage":2}
+2025-08-25 21:55:48.861 - DEBUG: [logger.js:246:9] SQL -> select count(*) as total
+                from test.post
+2025-08-25 21:55:48.863 - DEBUG: [logger.js:246:9] SQL -> select id, title, contents, category,createDate, likes, comments,thumbnail
+              from test.post  limit 2, 2 
+2025-08-25 21:56:31.754 - DEBUG: [logger.js:246:9] post::add 호출됨.
+2025-08-25 21:56:31.754 - DEBUG: [logger.js:246:9] POST /post/v1/add requested
+2025-08-25 21:56:31.755 - DEBUG: [logger.js:246:9] PARAMS -> {"title":"게시물6","contents":"게시물6내용","category":"동물","createDate":"1분전","likes":"1612","comments":"12","thumbnail":""}
+2025-08-25 21:56:31.757 - DEBUG: [logger.js:246:9] SQL -> insert into test.post(title, contents, category,createDate, likes, comments,thumbnail)
+              values
+                  ('게시물6', '게시물6내용', '동물', '1분전', '1612', '12', '')
+2025-08-25 21:56:31.773 - DEBUG: [logger.js:246:9] post::list 호출됨.
+2025-08-25 21:56:31.774 - DEBUG: [logger.js:246:9] POST /post/v1/list requested
+2025-08-25 21:56:31.775 - DEBUG: [logger.js:246:9] PARAMS -> {"page":1,"perPage":2}
+2025-08-25 21:56:31.777 - DEBUG: [logger.js:246:9] SQL -> select count(*) as total
+                from test.post
+2025-08-25 21:56:31.781 - DEBUG: [logger.js:246:9] SQL -> select id, title, contents, category,createDate, likes, comments,thumbnail
+              from test.post  limit 0, 2 
+2025-08-25 21:56:32.897 - DEBUG: [logger.js:246:9] post::list 호출됨.
+2025-08-25 21:56:32.897 - DEBUG: [logger.js:246:9] POST /post/v1/list requested
+2025-08-25 21:56:32.898 - DEBUG: [logger.js:246:9] PARAMS -> {"page":3,"perPage":2}
+2025-08-25 21:56:32.899 - DEBUG: [logger.js:246:9] SQL -> select count(*) as total
+                from test.post
+2025-08-25 21:56:32.900 - DEBUG: [logger.js:246:9] SQL -> select id, title, contents, category,createDate, likes, comments,thumbnail
+              from test.post  limit 4, 2 
+2025-08-25 21:57:03.676 - DEBUG: [logger.js:246:9] post::list 호출됨.
+2025-08-25 21:57:03.677 - DEBUG: [logger.js:246:9] POST /post/v1/list requested
+2025-08-25 21:57:03.677 - DEBUG: [logger.js:246:9] PARAMS -> {"page":1,"perPage":2}
+2025-08-25 21:57:03.689 - DEBUG: [logger.js:246:9] SQL -> select count(*) as total
+                from test.post
+2025-08-25 21:57:03.692 - DEBUG: [logger.js:246:9] SQL -> select id, title, contents, category,createDate, likes, comments,thumbnail
+              from test.post  limit 0, 2 
+2025-08-25 21:57:05.041 - DEBUG: [logger.js:246:9] post::list 호출됨.
+2025-08-25 21:57:05.042 - DEBUG: [logger.js:246:9] POST /post/v1/list requested
+2025-08-25 21:57:05.042 - DEBUG: [logger.js:246:9] PARAMS -> {"page":3,"perPage":2}
+2025-08-25 21:57:05.043 - DEBUG: [logger.js:246:9] SQL -> select count(*) as total
+                from test.post
+2025-08-25 21:57:05.044 - DEBUG: [logger.js:246:9] SQL -> select id, title, contents, category,createDate, likes, comments,thumbnail
+              from test.post  limit 4, 2 
+2025-08-25 22:01:40.389 - INFO: [logger.js:246:9] service loader called.
+2025-08-25 22:01:40.403 - INFO: [logger.js:246:9] controller loader called.
+2025-08-25 22:01:40.403 - DEBUG: [logger.js:246:9] external_loader called.
+2025-08-25 22:01:40.404 - DEBUG: [logger.js:246:9] No external configuration.
+2025-08-25 22:01:40.623 - INFO: [logger.js:246:9] Http Server started.
+2025-08-25 22:01:40.624 - INFO: [logger.js:246:9] Base URL -> http://localhost:8001
+2025-08-25 22:01:40.624 - INFO: [logger.js:246:9] Namespace -> ::_8001_15996
+2025-08-25 22:01:40.629 - DEBUG: [logger.js:246:9] database SQL file loaded.
+2025-08-25 22:01:41.076 - DEBUG: [logger.js:246:9] post::list 호출됨.
+2025-08-25 22:01:41.077 - DEBUG: [logger.js:246:9] POST /post/v1/list requested
+2025-08-25 22:01:41.077 - DEBUG: [logger.js:246:9] PARAMS -> {"page":1,"perPage":2}
+2025-08-25 22:01:41.109 - DEBUG: [logger.js:246:9] SQL -> select count(*) as total
+                from test.post
+2025-08-25 22:01:41.112 - DEBUG: [logger.js:246:9] SQL -> select id, title, contents, category,createDate, likes, comments,thumbnail
+              from test.post  limit 0, 2 
+2025-08-25 22:01:45.788 - DEBUG: [logger.js:246:9] post::list 호출됨.
+2025-08-25 22:01:45.798 - DEBUG: [logger.js:246:9] POST /post/v1/list requested
+2025-08-25 22:01:45.808 - DEBUG: [logger.js:246:9] PARAMS -> {"page":1,"perPage":2}
+2025-08-25 22:01:45.813 - DEBUG: [logger.js:246:9] SQL -> select count(*) as total
+                from test.post
+2025-08-25 22:01:45.816 - DEBUG: [logger.js:246:9] SQL -> select id, title, contents, category,createDate, likes, comments,thumbnail
+              from test.post  limit 0, 2 
+2025-08-25 22:01:49.602 - DEBUG: [logger.js:246:9] post::list 호출됨.
+2025-08-25 22:01:49.603 - DEBUG: [logger.js:246:9] POST /post/v1/list requested
+2025-08-25 22:01:49.603 - DEBUG: [logger.js:246:9] PARAMS -> {"page":3,"perPage":2}
+2025-08-25 22:01:49.607 - DEBUG: [logger.js:246:9] SQL -> select count(*) as total
+                from test.post
+2025-08-25 22:01:49.609 - DEBUG: [logger.js:246:9] SQL -> select id, title, contents, category,createDate, likes, comments,thumbnail
+              from test.post  limit 4, 2 
+2025-08-25 22:06:52.381 - DEBUG: [logger.js:246:9] post::add 호출됨.
+2025-08-25 22:06:52.382 - DEBUG: [logger.js:246:9] POST /post/v1/add requested
+2025-08-25 22:06:52.383 - DEBUG: [logger.js:246:9] PARAMS -> {"title":"게시물7","contents":"게시물7내용","category":"동물","createDate":"1분전","likes":"61","comments":"134","thumbnail":""}
+2025-08-25 22:06:52.393 - DEBUG: [logger.js:246:9] SQL -> insert into test.post(title, contents, category,createDate, likes, comments,thumbnail)
+              values
+                  ('게시물7', '게시물7내용', '동물', '1분전', '61', '134', '')
+2025-08-25 22:06:52.423 - DEBUG: [logger.js:246:9] post::list 호출됨.
+2025-08-25 22:06:52.423 - DEBUG: [logger.js:246:9] POST /post/v1/list requested
+2025-08-25 22:06:52.424 - DEBUG: [logger.js:246:9] PARAMS -> {"page":1,"perPage":2}
+2025-08-25 22:06:52.425 - DEBUG: [logger.js:246:9] SQL -> select count(*) as total
+                from test.post
+2025-08-25 22:06:52.427 - DEBUG: [logger.js:246:9] SQL -> select id, title, contents, category,createDate, likes, comments,thumbnail
+              from test.post  limit 0, 2 
+2025-08-25 22:06:53.657 - DEBUG: [logger.js:246:9] post::list 호출됨.
+2025-08-25 22:06:53.658 - DEBUG: [logger.js:246:9] POST /post/v1/list requested
+2025-08-25 22:06:53.658 - DEBUG: [logger.js:246:9] PARAMS -> {"page":4,"perPage":2}
+2025-08-25 22:06:53.659 - DEBUG: [logger.js:246:9] SQL -> select count(*) as total
+                from test.post
+2025-08-25 22:06:53.661 - DEBUG: [logger.js:246:9] SQL -> select id, title, contents, category,createDate, likes, comments,thumbnail
+              from test.post  limit 6, 2 
+2025-08-25 22:35:18.794 - DEBUG: [logger.js:246:9] post::list 호출됨.
+2025-08-25 22:35:18.795 - DEBUG: [logger.js:246:9] POST /post/v1/list requested
+2025-08-25 22:35:18.795 - DEBUG: [logger.js:246:9] PARAMS -> {"page":1,"perPage":2}
+2025-08-25 22:35:18.797 - DEBUG: [logger.js:246:9] SQL -> select count(*) as total
+                from test.post
+2025-08-25 22:35:18.798 - DEBUG: [logger.js:246:9] SQL -> select id, title, contents, category,createDate, likes, comments,thumbnail
+              from test.post  limit 0, 2 
+2025-08-25 22:36:57.095 - DEBUG: [logger.js:246:9] post::list 호출됨.
+2025-08-25 22:36:57.107 - DEBUG: [logger.js:246:9] POST /post/v1/list requested
+2025-08-25 22:36:57.108 - DEBUG: [logger.js:246:9] PARAMS -> {"page":1,"perPage":2}
+2025-08-25 22:36:57.109 - DEBUG: [logger.js:246:9] SQL -> select count(*) as total
+                from test.post
+2025-08-25 22:36:57.111 - DEBUG: [logger.js:246:9] SQL -> select id, title, contents, category,createDate, likes, comments,thumbnail
+              from test.post  limit 0, 2 
+2025-08-25 22:37:43.778 - DEBUG: [logger.js:246:9] post::list 호출됨.
+2025-08-25 22:37:43.779 - DEBUG: [logger.js:246:9] POST /post/v1/list requested
+2025-08-25 22:37:43.781 - DEBUG: [logger.js:246:9] PARAMS -> {"page":1,"perPage":2}
+2025-08-25 22:37:43.782 - DEBUG: [logger.js:246:9] SQL -> select count(*) as total
+                from test.post
+2025-08-25 22:37:43.783 - DEBUG: [logger.js:246:9] SQL -> select id, title, contents, category,createDate, likes, comments,thumbnail
+              from test.post  limit 0, 2 
+2025-08-25 22:37:49.932 - DEBUG: [logger.js:246:9] post::list 호출됨.
+2025-08-25 22:37:49.933 - DEBUG: [logger.js:246:9] POST /post/v1/list requested
+2025-08-25 22:37:49.933 - DEBUG: [logger.js:246:9] PARAMS -> {"page":1,"perPage":2}
+2025-08-25 22:37:49.935 - DEBUG: [logger.js:246:9] SQL -> select count(*) as total
+                from test.post
+2025-08-25 22:37:49.936 - DEBUG: [logger.js:246:9] SQL -> select id, title, contents, category,createDate, likes, comments,thumbnail
+              from test.post  limit 0, 2 
+2025-08-25 22:38:13.062 - DEBUG: [logger.js:246:9] post::list 호출됨.
+2025-08-25 22:38:13.065 - DEBUG: [logger.js:246:9] POST /post/v1/list requested
+2025-08-25 22:38:13.066 - DEBUG: [logger.js:246:9] PARAMS -> {"page":1,"perPage":2}
+2025-08-25 22:38:13.069 - DEBUG: [logger.js:246:9] SQL -> select count(*) as total
+                from test.post
+2025-08-25 22:38:13.071 - DEBUG: [logger.js:246:9] SQL -> select id, title, contents, category,createDate, likes, comments,thumbnail
+              from test.post  limit 0, 2 
+2025-08-25 22:38:17.547 - DEBUG: [logger.js:246:9] post::list 호출됨.
+2025-08-25 22:38:17.548 - DEBUG: [logger.js:246:9] POST /post/v1/list requested
+2025-08-25 22:38:17.549 - DEBUG: [logger.js:246:9] PARAMS -> {"page":1,"perPage":2}
+2025-08-25 22:38:17.550 - DEBUG: [logger.js:246:9] SQL -> select count(*) as total
+                from test.post
+2025-08-25 22:38:17.551 - DEBUG: [logger.js:246:9] SQL -> select id, title, contents, category,createDate, likes, comments,thumbnail
+              from test.post  limit 0, 2 
+2025-08-25 22:39:26.109 - DEBUG: [logger.js:246:9] post::list 호출됨.
+2025-08-25 22:39:26.111 - DEBUG: [logger.js:246:9] POST /post/v1/list requested
+2025-08-25 22:39:26.112 - DEBUG: [logger.js:246:9] PARAMS -> {"page":1,"perPage":2}
+2025-08-25 22:39:26.114 - DEBUG: [logger.js:246:9] SQL -> select count(*) as total
+                from test.post
+2025-08-25 22:39:26.117 - DEBUG: [logger.js:246:9] SQL -> select id, title, contents, category,createDate, likes, comments,thumbnail
+              from test.post  limit 0, 2 
+2025-08-25 22:39:32.408 - DEBUG: [logger.js:246:9] post::list 호출됨.
+2025-08-25 22:39:32.409 - DEBUG: [logger.js:246:9] POST /post/v1/list requested
+2025-08-25 22:39:32.420 - DEBUG: [logger.js:246:9] PARAMS -> {"page":1,"perPage":2}
+2025-08-25 22:39:32.423 - DEBUG: [logger.js:246:9] SQL -> select count(*) as total
+                from test.post
+2025-08-25 22:39:32.424 - DEBUG: [logger.js:246:9] SQL -> select id, title, contents, category,createDate, likes, comments,thumbnail
+              from test.post  limit 0, 2 
+2025-08-25 22:40:04.014 - DEBUG: [logger.js:246:9] post::list 호출됨.
+2025-08-25 22:40:04.018 - DEBUG: [logger.js:246:9] POST /post/v1/list requested
+2025-08-25 22:40:04.020 - DEBUG: [logger.js:246:9] PARAMS -> {"page":1,"perPage":2}
+2025-08-25 22:40:04.023 - DEBUG: [logger.js:246:9] SQL -> select count(*) as total
+                from test.post
+2025-08-25 22:40:04.024 - DEBUG: [logger.js:246:9] SQL -> select id, title, contents, category,createDate, likes, comments,thumbnail
+              from test.post  limit 0, 2 
+2025-08-25 22:40:54.247 - DEBUG: [logger.js:246:9] post::list 호출됨.
+2025-08-25 22:40:54.247 - DEBUG: [logger.js:246:9] POST /post/v1/list requested
+2025-08-25 22:40:54.248 - DEBUG: [logger.js:246:9] PARAMS -> {"page":1,"perPage":2}
+2025-08-25 22:40:54.249 - DEBUG: [logger.js:246:9] SQL -> select count(*) as total
+                from test.post
+2025-08-25 22:40:54.249 - DEBUG: [logger.js:246:9] SQL -> select id, title, contents, category,createDate, likes, comments,thumbnail
+              from test.post  limit 0, 2 
+2025-08-25 22:41:04.511 - DEBUG: [logger.js:246:9] post::list 호출됨.
+2025-08-25 22:41:04.514 - DEBUG: [logger.js:246:9] POST /post/v1/list requested
+2025-08-25 22:41:04.516 - DEBUG: [logger.js:246:9] PARAMS -> {"page":1,"perPage":2}
+2025-08-25 22:41:04.519 - DEBUG: [logger.js:246:9] SQL -> select count(*) as total
+                from test.post
+2025-08-25 22:41:04.519 - DEBUG: [logger.js:246:9] SQL -> select id, title, contents, category,createDate, likes, comments,thumbnail
+              from test.post  limit 0, 2 
+2025-08-25 22:41:59.365 - DEBUG: [logger.js:246:9] post::list 호출됨.
+2025-08-25 22:41:59.365 - DEBUG: [logger.js:246:9] POST /post/v1/list requested
+2025-08-25 22:41:59.366 - DEBUG: [logger.js:246:9] PARAMS -> {"page":1,"perPage":2}
+2025-08-25 22:41:59.367 - DEBUG: [logger.js:246:9] SQL -> select count(*) as total
+                from test.post
+2025-08-25 22:41:59.370 - DEBUG: [logger.js:246:9] SQL -> select id, title, contents, category,createDate, likes, comments,thumbnail
+              from test.post  limit 0, 2 
+2025-08-25 22:42:52.062 - DEBUG: [logger.js:246:9] post::list 호출됨.
+2025-08-25 22:42:52.063 - DEBUG: [logger.js:246:9] POST /post/v1/list requested
+2025-08-25 22:42:52.063 - DEBUG: [logger.js:246:9] PARAMS -> {"page":1,"perPage":2}
+2025-08-25 22:42:52.064 - DEBUG: [logger.js:246:9] SQL -> select count(*) as total
+                from test.post
+2025-08-25 22:42:52.066 - DEBUG: [logger.js:246:9] SQL -> select id, title, contents, category,createDate, likes, comments,thumbnail
+              from test.post  limit 0, 2 
+2025-08-25 22:42:54.108 - DEBUG: [logger.js:246:9] post::list 호출됨.
+2025-08-25 22:42:54.108 - DEBUG: [logger.js:246:9] POST /post/v1/list requested
+2025-08-25 22:42:54.109 - DEBUG: [logger.js:246:9] PARAMS -> {"page":1,"perPage":2}
+2025-08-25 22:42:54.110 - DEBUG: [logger.js:246:9] SQL -> select count(*) as total
+                from test.post
+2025-08-25 22:42:54.111 - DEBUG: [logger.js:246:9] SQL -> select id, title, contents, category,createDate, likes, comments,thumbnail
+              from test.post  limit 0, 2 
+2025-08-25 22:42:56.201 - DEBUG: [logger.js:246:9] post::list 호출됨.
+2025-08-25 22:42:56.202 - DEBUG: [logger.js:246:9] POST /post/v1/list requested
+2025-08-25 22:42:56.202 - DEBUG: [logger.js:246:9] PARAMS -> {"page":2,"perPage":2}
+2025-08-25 22:42:56.203 - DEBUG: [logger.js:246:9] SQL -> select count(*) as total
+                from test.post
+2025-08-25 22:42:56.206 - DEBUG: [logger.js:246:9] SQL -> select id, title, contents, category,createDate, likes, comments,thumbnail
+              from test.post  limit 2, 2 
+2025-08-25 22:42:57.385 - DEBUG: [logger.js:246:9] post::list 호출됨.
+2025-08-25 22:42:57.386 - DEBUG: [logger.js:246:9] POST /post/v1/list requested
+2025-08-25 22:42:57.387 - DEBUG: [logger.js:246:9] PARAMS -> {"page":3,"perPage":2}
+2025-08-25 22:42:57.395 - DEBUG: [logger.js:246:9] SQL -> select count(*) as total
+                from test.post
+2025-08-25 22:42:57.397 - DEBUG: [logger.js:246:9] SQL -> select id, title, contents, category,createDate, likes, comments,thumbnail
+              from test.post  limit 4, 2 
+2025-08-25 22:42:58.656 - DEBUG: [logger.js:246:9] post::list 호출됨.
+2025-08-25 22:42:58.657 - DEBUG: [logger.js:246:9] POST /post/v1/list requested
+2025-08-25 22:42:58.658 - DEBUG: [logger.js:246:9] PARAMS -> {"page":4,"perPage":2}
+2025-08-25 22:42:58.659 - DEBUG: [logger.js:246:9] SQL -> select count(*) as total
+                from test.post
+2025-08-25 22:42:58.661 - DEBUG: [logger.js:246:9] SQL -> select id, title, contents, category,createDate, likes, comments,thumbnail
+              from test.post  limit 6, 2 
