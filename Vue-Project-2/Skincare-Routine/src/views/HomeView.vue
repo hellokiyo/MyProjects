@@ -17,7 +17,8 @@
                    backgroundImage: `url(${cards[0].bg})`,
                    backgroundSize: 'cover',
                    backgroundPosition: 'center'}"
-      ><!--
+      >
+          <!--
            text-white > 흰색 글씨
            h-100 > height -100% 부모요소의 높이에 맞게 꽉차게
            :style 동적 스타일속성 바인딩

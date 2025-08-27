@@ -1,0 +1,3 @@
+gitignore 수정해야함
+
+servers 수정해야함
