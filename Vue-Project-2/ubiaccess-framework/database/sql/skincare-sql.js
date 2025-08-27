@@ -1,9 +1,9 @@
 module.exports = {
-    post_list_all: {
+    skin_list_all: {
         sql: `select id, title, contents, category,createDate, likes, comments,thumbnail
-              from test.post`
+              from test.skin`
     },
-    post_list: {
+    skin_list: {
         sql: `
             select id, title, contents, category, createDate, likes, comments, thumbnail,
                 CASE
@@ -15,38 +15,38 @@ module.exports = {
                         THEN CONCAT(TIMESTAMPDIFF(HOUR, createDate, NOW()), '시간전')
                     ELSE CONCAT(TIMESTAMPDIFF(DAY, createDate, NOW()), '일전')
                     END AS relativeTime
-            from test.post
+            from test.skin
         `,
-        count: `select count(*) as total from test.post`,
+        count: `select count(*) as total from test.skin`,
         where: ` where # `,
         order: ` order by # `,
         page: ` limit # `
     },
 
-    post_read: {
+    skin_read: {
         sql: `select id, title, contents, category,createDate, likes, comments,thumbnail
-              from test.post
+              from test.skin
               where id = :id`
     },
 
     // 고객 데이터 추가  (사진 입력)
-    post_add: {
-        sql: `insert into test.post(title, contents, category,createDate, likes, comments,thumbnail)
+    skin_add: {
+        sql: `insert into test.skin(title, contents, category,createDate, likes, comments,thumbnail)
               values
                   (:title, :contents, :category, :createDate, :likes, :comments, :thumbnail)`
     },
 
     // 고객 데이터 추가  (사진 입력)
-    post_add2: {
-        sql: `insert into test.post(title, contents, category, likes, comments,thumbnail)
+    skin_add2: {
+        sql: `insert into test.skin(title, contents, category, likes, comments,thumbnail)
               values
                   (:title, :contents, :category, :likes, :comments, :thumbnail)`
     },
 
 
     // 고객 데이터 수정
-    post_modify: {
-        sql: `update test.post
+    skin_modify: {
+        sql: `update test.skin
               set title = :title,
                   contents = :contents,
                   category = :category,
@@ -59,14 +59,14 @@ module.exports = {
 
 
     // 고객 데이터 삭제
-    post_remove: {
-        sql: `delete from test.post
+    skin_remove: {
+        sql: `delete from test.skin
               where id = :id `
     },
 
     // 좋아요 수 증가
-    post_like: {
-        sql: `update test.post
+    skin_like: {
+        sql: `update test.skin
               set likes = likes + 1
               where id = :id `
     }

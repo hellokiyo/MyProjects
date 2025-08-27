@@ -5,12 +5,12 @@ const Database = require('../database/database_mysql')
 const DatabaseHelper = require('../util/database_helper');
 const ControllerHelper = require('../util/controller_helper');
 
-const postSql = require('../database/sql/post-sql');
+const skinSql = require('../database/sql/skin-sql');
 
 /**
- * @Controller(path="/post/v1")
+ * @Controller(path="/skin/v1")
  */
-module.exports = class Post {
+module.exports = class Skin {
 
     constructor() {
         this.database = new Database('database_mysql');
@@ -24,12 +24,12 @@ module.exports = class Post {
     ///
 
     /**
-     * @RequestMapping(path="/list-all", method="get,post")
+     * @RequestMapping(path="/list-all", method="get,skin")
      */
     async listAll(req, res) {
-        logger.debug(`post::listAll 호출됨.`);
+        logger.debug(`skin::listAll 호출됨.`);
 
-        const sqlName = 'post_list_all';
+        const sqlName = 'skin_list_all';
         this.controllerHelper.execute(req, res, sqlName);
 
     }
@@ -39,12 +39,12 @@ module.exports = class Post {
     ///
 
     /**
-     * @RequestMapping(path="/list", method="get,post")
+     * @RequestMapping(path="/list", method="get,skin")
      */
     async list(req, res) {
-        logger.debug(`post::list 호출됨.`);
+        logger.debug(`skin::list 호출됨.`);
 
-        const sqlObj = postSql.post_list;
+        const sqlObj = skinSql.skin_list;
         this.controllerHelper.executeList(req, res, sqlObj);
 
     }
@@ -54,12 +54,12 @@ module.exports = class Post {
     ///
 
     /**
-     * @RequestMapping(path="/read", method="get,post")
+     * @RequestMapping(path="/read", method="get,skin")
      */
     async read(req, res) {
-        logger.debug(`post::read 호출됨.`);
+        logger.debug(`skin::read 호출됨.`);
 
-        const sqlName = 'post_read';
+        const sqlName = 'skin_read';
         this.controllerHelper.execute(req, res, sqlName);
 
     }
@@ -69,12 +69,12 @@ module.exports = class Post {
     ///
 
     /**
-     * @RequestMapping(path="/add", method="get,post")
+     * @RequestMapping(path="/add", method="get,skin")
      */
     async add(req, res) {
-        logger.debug(`post::add 호출됨.`);
+        logger.debug(`skin::add 호출됨.`);
 
-        const sqlName = 'post_add';
+        const sqlName = 'skin_add';
         this.controllerHelper.execute(req, res, sqlName);
 
     }
@@ -84,12 +84,12 @@ module.exports = class Post {
     ///
 
     /**
-     * @RequestMapping(path="/add2", method="get,post")
+     * @RequestMapping(path="/add2", method="get,skin")
      */
     async add2(req, res) {
-        logger.debug(`post::add2 호출됨.`);
+        logger.debug(`skin::add2 호출됨.`);
 
-        const sqlName = 'post_add2';
+        const sqlName = 'skin_add2';
         this.controllerHelper.execute(req, res, sqlName);
 
     }
@@ -99,12 +99,12 @@ module.exports = class Post {
     ///
 
     /**
-     * @RequestMapping(path="/modify", method="get,post")
+     * @RequestMapping(path="/modify", method="get,skin")
      */
     async modify(req, res) {
-        logger.debug(`post::modify 호출됨.`);
+        logger.debug(`skin::modify 호출됨.`);
 
-        const sqlName = 'post_modify';
+        const sqlName = 'skin_modify';
         this.controllerHelper.execute(req, res, sqlName);
 
     }
@@ -115,23 +115,23 @@ module.exports = class Post {
     ///
 
     /**
-     * @RequestMapping(path="/remove", method="get,post")
+     * @RequestMapping(path="/remove", method="get,skin")
      */
     async remove(req, res) {
-        logger.debug(`post::remove 호출됨.`);
+        logger.debug(`skin::remove 호출됨.`);
 
-        const sqlName = 'post_remove';
+        const sqlName = 'skin_remove';
         this.controllerHelper.execute(req, res, sqlName);
 
     }
 
     /**
-     * @RequestMapping(path="/like/:postId", method="get,post")
+     * @RequestMapping(path="/like/:skinId", method="get,skin")
      */
     async like(req, res) {
-        logger.debug(`post::like 호출됨.`);
+        logger.debug(`skin::like 호출됨.`);
 
-        const sqlName = 'post_like';
+        const sqlName = 'skin_like';
         this.controllerHelper.execute(req, res, sqlName);
     }
 

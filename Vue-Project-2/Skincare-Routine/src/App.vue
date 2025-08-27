@@ -129,7 +129,7 @@
         <div class="row">
 
           <div class="col-3">
-            <img src="@/assets/images/cat_run.png" class="w-70px border border-4">
+            <img src="@/assets/images/clock.png" class="w-70px border border-4">
           </div>
 
           <div class="col-9 px-10 pt-4">
@@ -248,26 +248,9 @@ function goToSearch() {
   router.push('/search')
 }
 
-// 문서 페이지 이동
-function goToPost() {
-  router.push('/post')
-}
-
-// 더보기 페이지 이동
-function goToMore() {
-  router.push('/more')
-}
-
-// 로그인 페이지 이동
-function goToLogin() {
-  fullScreen.value =true;
-
-  router.push('/login')
-}
-
-// 유저 페이지 이동
-function goToUser() {
-  router.push('/user')
+// 검색 페이지 이동
+function goToProblem() {
+  router.push('/problem')
 }
 
 // 더보기 페이지 이동
