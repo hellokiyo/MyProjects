@@ -6,10 +6,10 @@
 
     <nav class="my-3">
       <div class="d-flex align-items-center justify-content-between">
-        <span class="btn btn-active-color-muted">문제점</span>
-        <span class="btn btn-active-color-muted">아침저녁루틴</span>
-        <span class="btn btn-active-color-muted">계절별루틴</span>
-        <span class="btn btn-active-color-muted">제품추천</span>
+        <span class="btn btn-active-color-muted" @click="selectQualityTips()">문제점</span>
+        <span class="btn btn-active-color-muted" @click="selectAmPm()">아침저녁루틴</span>
+        <span class="btn btn-active-color-muted" @click="selectSeason()">계절별루틴</span>
+        <span class="btn btn-active-color-muted" @click="selectGuide()">제품추천</span>
       </div>
     </nav>
 
@@ -85,6 +85,31 @@ async function requestSkinQualityTips() {
 function goToProblem() {
   router.replace('/problem') // `/problem` 경로로 이동합니다.
 }
+// '문제점 및 해결방안' 카드 클릭 시 실행되는 함수
+function selectQualityTips(index) {
+  console.log(`selectQualityTips 함수 호출됨`);
+  router.replace('/qualityTips'); // '/qualityTips' 경로로 이동합니다.
+}
+
+// '아침/저녁 루틴' 카드 클릭 시 실행되는 함수
+function selectAmPm(index) {
+  console.log(`selectAmPm 함수 호출됨`);
+  router.replace('/ampm'); // '/ampm' 경로로 이동합니다.
+}
+
+// '계절별 피부 관리 루틴' 카드 클릭 시 실행되는 함수
+function selectSeason(index) {
+  console.log(`selectSeason 함수 호출됨`);
+  router.replace('/season'); // '/season' 경로로 이동합니다.
+}
+
+// '제품 추천 및 최저가 링크' 카드 클릭 시 실행되는 함수
+function selectGuide(index) {
+  console.log(`selectGuide 함수 호출됨`);
+  router.replace('/guide'); // '/guide' 경로로 이동합니다.
+}
+
+
 </script>
 
 <style scoped>

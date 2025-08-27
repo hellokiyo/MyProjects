@@ -18,7 +18,7 @@
 
       -->
       <!-- 좌측 햄버거 버튼 (드로어 열기용) -->
-      <button class="btn btn-icon btn-light" id="kt_app_sidebar_mobile_toggle">
+      <button class="btn btn-icon" id="kt_app_sidebar_mobile_toggle">
         <!--메뉴창
         btn 부트스트랩 버튼 스타일 적용
         btn-icon 버튼안에 아이콘만 들어갈때 사용
@@ -67,7 +67,7 @@
     -->
 
     <!-- 메인 컨텐츠 -->
-    <div class="flex-grow-1 overflow-auto bg-light p-4" style="padding-bottom: 80px;">
+    <div class="flex-grow-1 overflow-auto p-4" style="padding-bottom: 80px;">
       <!--
       flex-grow-1 > 화면에서 사용가능한 남은공간 모두 차지
       overflow-auto  > 내용 넘칠 경우 스크롤 기능
@@ -228,17 +228,13 @@ function tabButtonClicked(name) {
     goToHome();
   }else if(name === 'search') {
     goToSearch();
+  }else if(name === 'problem') {
+    goToProblem()
+  }else if(name === 'content') {
+    goToContent()
   }
-  else if(name === 'post') {
-    goToPost();
-  }
-  else if(name === 'more') {
-    goToMore();
-  }else if(name === 'user') {
-    goToUser()
-  }else if(name === 'video') {
-    goToVideo()
-  }
+
+
 }
 
 // 메인 페이지로 이동하는 함수
@@ -256,10 +252,12 @@ function goToProblem() {
   router.push('/problem')
 }
 
-// 비디오 페이지로 이동하는 함수
-function goToVideo() {
-  router.push('/video')
+// 콘텐츠 페이지로 이동하는 함수
+function goToContent() {
+  router.push('/content')
 }
+
+
 
 // 드로어 사이드 바 메뉴 데이터를 정의하는 반응형 변수
 const sidebars = ref([
@@ -291,7 +289,7 @@ const sidebars = ref([
 const tabs = ref([
   { key: 'home', title: '홈', icon: '<i class="ki-duotone fs-2x ki-home">\n</i>' },
 
-  { key: 'search', title: '검색', icon: '<i class="ki-duotone fs-2x ki-map">\n' +
+  { key: 'content', title: '콘텐츠', icon: '<i class="ki-duotone fs-2x ki-map">\n' +
         ' <span class="path1"></span>\n' +
         ' <span class="path2"></span>\n' +
         ' <span class="path3"></span>\n' +
@@ -302,10 +300,6 @@ const tabs = ref([
         ' <span class="path3"></span>\n' +
         ' <span class="path4"></span>\n' +
         ' <span class="path5"></span>\n' +
-        '</i>'},
-  { key: 'video', title: '영상', icon: '<i class="ki-duotone ki-youtube">\n' +
-        ' <span class="path1"></span>\n' +
-        ' <span class="path2"></span>\n' +
         '</i>'}
 ])
 

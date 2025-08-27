@@ -53,7 +53,7 @@ onMounted(() => {
 async function requestSkinList() {
   try {
     const response = await axios({
-      method: 'get',
+      method: 'post',
       baseURL: requestConfig.baseUrl,
       url: '/skin/list',
       timeout: 5000,

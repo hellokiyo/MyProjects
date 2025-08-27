@@ -44,7 +44,60 @@ module.exports = class Skin {
         const id = req.params.id //url에서 id값 가져오기
 
         const sqlName = 'skin_quality_tips';
-        this.controllerHelper.execute(req, res, sqlName,id);
+        this.controllerHelper.execute(req, res, sqlName, id);
+
+    }
+
+    ///
+    /// 특징 및 케어 팁 검색
+    ///
+
+    /**
+     * @RequestMapping(path="/ampm/:id", method="get,post")
+     */
+    async ampm(req, res) {
+        logger.debug(`skin::ampm 호출됨.`);
+
+        const id = req.params.id //url에서 id값 가져오기
+
+        const sqlName = 'skin_ampm';
+        this.controllerHelper.execute(req, res, sqlName, id);
+
+    }
+
+
+    ///
+    /// 특징 및 케어 팁 검색
+    ///
+
+    /**
+     * @RequestMapping(path="/season/:id", method="get,post")
+     */
+    async season(req, res) {
+        logger.debug(`skin::season 호출됨.`);
+
+        const id = req.params.id //url에서 id값 가져오기
+
+        const sqlName = 'skin_season';
+        this.controllerHelper.execute(req, res, sqlName, id);
+
+    }
+
+
+    ///
+    /// 특징 및 케어 팁 검색
+    ///
+
+    /**
+     * @RequestMapping(path="/guide/:id", method="get,post")
+     */
+    async guide(req, res) {
+        logger.debug(`skin::guide 호출됨.`);
+
+        const id = req.params.id //url에서 id값 가져오기
+
+        const sqlName = 'skin_guide';
+        this.controllerHelper.execute(req, res, sqlName, id);
 
     }
 

@@ -41,7 +41,7 @@ const skinType = QualityTips.skin_type
 
 // 컴포넌트가 마운트될 때(화면에 처음 나타날 때) 실행되는 훅입니다.
 onMounted(() => {
-  console.log(`ProblemView::onMounted 호출됨`);
+  console.log(`AmPmRoutineView::onMounted 호출됨`);
 
   title.value ='홈'; // 페이지 타이틀을 '홈'으로 설정합니다.
 
@@ -49,12 +49,12 @@ onMounted(() => {
   console.log(`현재 선택된 인덱스 > ${selectedIndex.value}`)
   console.log(`현재 선택된 객체 > ${skins.value[selectedIndex.value]}`);
 
-  requestSkinQualityTips() // 서버에서 특징 및 팁 데이터를 가져오는 함수를 호출합니다.
+  requestSkinAmPm() // 서버에서 특징 및 팁 데이터를 가져오는 함수를 호출합니다.
 })
 
-// =====  특징 및 케어 팁 API 호출 (목록) =====
+// =====  아침 저녁 루틴 API 호출 (목록) =====
 // 서버로부터 특징 및 팁 데이터를 가져오는 비동기 함수
-async function requestSkinQualityTips() {
+async function requestSkinAmPm() {
   try{
     // QualityTips.id에서 id 값을 추출합니다.
     const id = QualityTips.id
@@ -63,7 +63,7 @@ async function requestSkinQualityTips() {
     const response = await axios({
       method: 'post', // POST 메소드 사용
       baseURL: requestConfig.baseUrl,
-      url: `/skin/quality_tips/${id}`, // URL 경로에 id 값을 포함시킵니다.
+      url: `/skin/ampm/${id}`, // URL 경로에 id 값을 포함시킵니다.
       timeout: 5000,
       responseType: "json"
     })
