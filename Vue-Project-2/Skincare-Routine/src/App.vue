@@ -164,6 +164,7 @@
 </template>
 
 <script setup>
+// Vue 및 외부 라이브러리 import
 import {ref, onMounted} from "vue";
 import {useRouter} from 'vue-router'
 const router = useRouter();
@@ -171,15 +172,14 @@ const router = useRouter();
 // Pinia 스토어 불러오기
 import { storeToRefs } from "pinia";          // store 속성을 반응형으로 가져오기 위함
 import { useAppStore } from "@/stores/app";
-const appStore = useAppStore();              // 스토어 실행
+const appStore = useAppStore();              // 스토어 인스턴스 생성
 
 const { title } = storeToRefs(appStore);     // title을 반응형으로 구조분해할당
 
-const activeTab = ref('home')
+const activeTab = ref('home') // 활성화된 탭의 키를 저장하는 반응형 변수
 
-//전체 화면으로 보일 것인지의 여부
-const { fullScreen } = ref(false)
-
+// 전체 화면으로 보일 것인지의 여부
+const { fullScreen } = ref(false) // fullScreen 변수 정의
 
 // 드로어 인스턴스 변수
 let drawer;
@@ -189,6 +189,7 @@ onMounted(() => {
   console.log(`app::onMounted 호출됨.`);
 
   // Drawer 초기화 (KTDrawer 라이브러리)
+  // 메트로닉 템플릿의 자바스크립트 함수를 사용하여 드로어 컴포넌트를 초기화합니다.
   KTDrawer.createInstances();
 
   // 드로어 엘리먼트 가져오기
@@ -196,6 +197,7 @@ onMounted(() => {
   drawer = KTDrawer.getInstance(drawerElem);
 
   // 드로어 이벤트 리스너
+  // 드로어가 열릴 때와 닫힐 때 클래스를 추가/제거하여 상태를 제어합니다.
   drawer.on('kt.drawer.shown', () => {
     console.log(`Drawer가 보여짐`);
     drawerElem.classList.remove('drawer-hidden');
@@ -210,11 +212,12 @@ onMounted(() => {
 function closeDrawer() {
   console.log(`closeDrawer 호출됨`);
   if (drawer) {
-    drawer.hide();
+    drawer.hide(); // 드로어를 숨깁니다.
   }
 }
 
 // 하단 탭의 버튼이 눌렸을 때
+// @param name: 클릭된 탭의 key 값
 function tabButtonClicked(name) {
   console.log(`tabButtonClicked 호출됨`);
 
@@ -238,28 +241,27 @@ function tabButtonClicked(name) {
   }
 }
 
-// 메인 페이지 이동
+// 메인 페이지로 이동하는 함수
 function goToHome() {
-  router.push('/')
+  router.push('/') // Vue Router를 사용하여 경로를 변경합니다.
 }
 
-// 검색 페이지 이동
+// 검색 페이지로 이동하는 함수
 function goToSearch() {
   router.push('/search')
 }
 
-// 검색 페이지 이동
+// 문제점 페이지로 이동하는 함수 (현재 코드에서는 사용되지 않음)
 function goToProblem() {
   router.push('/problem')
 }
 
-// 더보기 페이지 이동
+// 비디오 페이지로 이동하는 함수
 function goToVideo() {
   router.push('/video')
 }
 
-
-//드로어 사이드 바 메뉴
+// 드로어 사이드 바 메뉴 데이터를 정의하는 반응형 변수
 const sidebars = ref([
   {
     key : 'home',
@@ -285,7 +287,7 @@ const sidebars = ref([
   }
 ])
 
-// 하단 탭 메뉴
+// 하단 탭 메뉴 데이터를 정의하는 반응형 변수
 const tabs = ref([
   { key: 'home', title: '홈', icon: '<i class="ki-duotone fs-2x ki-home">\n</i>' },
 

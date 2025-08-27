@@ -14,6 +14,26 @@ const router = createRouter({
       name: 'problem',
       component: () => import('../views/ProblemView.vue'),
     },
+      {
+          path: '/qualityTips',
+          name: 'qualityTips',
+          component: () => import('../views/QualityTipsView.vue'),
+      },
+      {
+          path: '/ampm',
+          name: 'ampm',
+          component: () => import('../views/AmPmRoutineView.vue'),
+      },
+      {
+          path: '/season',
+          name: 'season',
+          component: () => import('../views/SeasonRoutineView.vue'),
+      },
+      {
+          path: '/guide',
+          name: 'guide',
+          component: () => import('../views/ProductGuideView.vue'),
+      },
   ],
 })
 

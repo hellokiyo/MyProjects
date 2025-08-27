@@ -16,23 +16,6 @@ module.exports = class Skin {
 
         this.controllerHelper = new ControllerHelper(this.database);
     }
-
-    ///
-    /// 모든 데이터 조회하기
-    ///
-
-    /**
-     * @RequestMapping(path="/list-all", method="get,post")
-     */
-    async listAll(req, res) {
-        logger.debug(`skin::listAll 호출됨.`);
-
-        const sqlName = 'skin_list_all';
-        this.controllerHelper.execute(req, res, sqlName);
-
-    }
-
-
     ///
     /// 리스트 조회하기 (페이지 단위로 조회하거나 조건으로 검색하는 것 포함)
     ///
@@ -47,33 +30,22 @@ module.exports = class Skin {
         this.controllerHelper.executeList(req, res, sqlObj);
     }
 
+
     ///
-    /// id를 이용해 하나 검색하기
+    /// 특징 및 케어 팁 검색
     ///
 
     /**
-     * @RequestMapping(path="/read", method="get,post")
+     * @RequestMapping(path="/quality_tips/:id", method="get,post")
      */
-    async read(req, res) {
-        logger.debug(`skin::read 호출됨.`);
+    async quality_tips(req, res) {
+        logger.debug(`skin::quality_tips 호출됨.`);
 
-        const sqlName = 'skin_read';
-        this.controllerHelper.execute(req, res, sqlName);
+        const id = req.params.id //url에서 id값 가져오기
 
-    }
+        const sqlName = 'skin_quality_tips';
+        this.controllerHelper.execute(req, res, sqlName,id);
 
-    ///
-    /// 좋아요 기능
-    ///
-    
-    /**
-     * @RequestMapping(path="/like/:skinId", method="get,post")
-     */
-    async like(req, res) {
-        logger.debug(`skin::like 호출됨.`);
-
-        const sqlName = 'skin_like';
-        this.controllerHelper.execute(req, res, sqlName);
     }
 
 }
