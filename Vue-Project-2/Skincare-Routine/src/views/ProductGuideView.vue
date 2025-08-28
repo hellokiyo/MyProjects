@@ -1,10 +1,38 @@
 <template>
-  <div class="row g-3 mb-5">
-    <div class="d-flex justify-content-center align-items-center">
-      <div>
-        <span class="fs-1 fw-bold text-primary">{{skinType}} 타입</span>
-        <p>제품 추천 및 최저가 링크</p>
+  <div class="card row content-bg bg-cover bg-center" style="background-image: url('src/assets/svg/pado.svg')">
 
+    <div class="card-body d-flex flex-column justify-content-end align-items-center p-3">
+      <div class="d-flex flex-column justify-content-center align-items-center">
+        <label class="fs-sm-3hx">제품 추천 및 최저가 링크</label>
+      </div>
+    </div>
+
+
+
+    <!-- =========== 주 내용 시작 ===========-->
+    <div class="card-body row">
+      <div class="card bgi-position-center bgi-size-cover w-100 m-3" style="
+        background-image: url('src/assets/images/skin/skin3.png');
+        height:280px;">
+      </div>
+
+      <!--특징-->
+      <div class="d-flex flex-column rounded p-5 mb-4">
+        <div class="border-bottom-dashed">
+          <label class="fw-bold fs-4">특징</label>
+        </div>
+
+        <div>
+          <p></p>
+        </div>
+      </div>
+
+
+    </div>
+
+
+    <div class="card-footer">
+      <div class="d-flex flex-column justify-content-center align-items-center">
         <button class="btn btn-primary pt-3" @click="goToProblem">뒤로가기</button>
       </div>
     </div>

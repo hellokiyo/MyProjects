@@ -11,13 +11,11 @@
         <span class="text-gray fs-5 fw-bold mb-2 bg-light-primary rounded p-3">{{item.type}}</span>
       </div>
 
-      <div class="card"
+      <div class="card bgi-position-center bgi-size-cover"
            :style="{
             height: `200px`,
             width: `290px`,
             backgroundImage :  `url(${item.bg})`,
-            backgroundSize : 'cover',
-            backgroundPosition : 'center',
             opacity: 0.8
       }">
       </div>

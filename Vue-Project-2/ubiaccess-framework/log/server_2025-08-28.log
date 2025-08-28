@@ -1243,3 +1243,1831 @@
 2025-08-28 04:03:37.022 - INFO: [logger.js:246:9] Base URL -> http://localhost:8001
 2025-08-28 04:03:37.023 - INFO: [logger.js:246:9] Namespace -> ::_8001_12916
 2025-08-28 04:03:37.025 - DEBUG: [logger.js:246:9] database SQL file loaded.
+2025-08-28 09:02:02.951 - INFO: [logger.js:246:9] service loader called.
+2025-08-28 09:02:02.968 - INFO: [logger.js:246:9] controller loader called.
+2025-08-28 09:02:02.969 - DEBUG: [logger.js:246:9] external_loader called.
+2025-08-28 09:02:02.969 - DEBUG: [logger.js:246:9] No external configuration.
+2025-08-28 09:02:03.200 - INFO: [logger.js:246:9] Http Server started.
+2025-08-28 09:02:03.201 - INFO: [logger.js:246:9] Base URL -> http://localhost:8001
+2025-08-28 09:02:03.201 - INFO: [logger.js:246:9] Namespace -> ::_8001_988
+2025-08-28 09:02:03.204 - DEBUG: [logger.js:246:9] database SQL file loaded.
+2025-08-28 09:02:42.664 - DEBUG: [logger.js:246:9] skin::list 호출됨.
+2025-08-28 09:02:42.665 - DEBUG: [logger.js:246:9] POST /skin/list requested
+2025-08-28 09:02:42.666 - DEBUG: [logger.js:246:9] PARAMS -> {}
+2025-08-28 09:02:42.694 - DEBUG: [logger.js:246:9] SQL -> select count(*) as total from skincare.skin_care_info
+2025-08-28 09:02:42.696 - DEBUG: [logger.js:246:9] SQL -> 
+            select id, skin_type, features, care_tips, morning_routine, evening_routine, seasonal_routine, recommended_products, key_ingredients,
+                purchase_link, created_at, updated_at
+            from skincare.skin_care_info
+        
+2025-08-28 09:08:55.028 - DEBUG: [logger.js:246:9] skin::list 호출됨.
+2025-08-28 09:08:55.028 - DEBUG: [logger.js:246:9] POST /skin/list requested
+2025-08-28 09:08:55.028 - DEBUG: [logger.js:246:9] PARAMS -> {}
+2025-08-28 09:08:55.030 - DEBUG: [logger.js:246:9] SQL -> select count(*) as total from skincare.skin_care_info
+2025-08-28 09:08:55.032 - DEBUG: [logger.js:246:9] SQL -> 
+            select id, skin_type, features, care_tips, morning_routine, evening_routine, seasonal_routine, recommended_products, key_ingredients,
+                purchase_link, created_at, updated_at
+            from skincare.skin_care_info
+        
+2025-08-28 09:08:57.745 - DEBUG: [logger.js:246:9] skin::list 호출됨.
+2025-08-28 09:08:57.746 - DEBUG: [logger.js:246:9] GET /skin/list requested
+2025-08-28 09:08:57.746 - DEBUG: [logger.js:246:9] PARAMS -> {}
+2025-08-28 09:08:57.747 - DEBUG: [logger.js:246:9] SQL -> select count(*) as total from skincare.skin_care_info
+2025-08-28 09:08:57.748 - DEBUG: [logger.js:246:9] SQL -> 
+            select id, skin_type, features, care_tips, morning_routine, evening_routine, seasonal_routine, recommended_products, key_ingredients,
+                purchase_link, created_at, updated_at
+            from skincare.skin_care_info
+        
+2025-08-28 09:09:10.332 - DEBUG: [logger.js:246:9] skin::quality_tips 호출됨.
+2025-08-28 09:09:10.333 - DEBUG: [logger.js:246:9] POST /skin/quality_tips/2 requested
+2025-08-28 09:09:10.333 - DEBUG: [logger.js:246:9] PARAMS -> {"id":"2"}
+2025-08-28 09:09:10.336 - DEBUG: [logger.js:246:9] SQL -> 
+            select id, skin_type, features, care_tips, key_ingredients, purchase_link
+            from skincare.skin_care_info
+            where id = '2'
+        
+2025-08-28 09:09:13.650 - DEBUG: [logger.js:246:9] skin::list 호출됨.
+2025-08-28 09:09:13.650 - DEBUG: [logger.js:246:9] GET /skin/list requested
+2025-08-28 09:09:13.651 - DEBUG: [logger.js:246:9] PARAMS -> {}
+2025-08-28 09:09:13.652 - DEBUG: [logger.js:246:9] SQL -> select count(*) as total from skincare.skin_care_info
+2025-08-28 09:09:13.653 - DEBUG: [logger.js:246:9] SQL -> 
+            select id, skin_type, features, care_tips, morning_routine, evening_routine, seasonal_routine, recommended_products, key_ingredients,
+                purchase_link, created_at, updated_at
+            from skincare.skin_care_info
+        
+2025-08-28 09:09:16.038 - DEBUG: [logger.js:246:9] skin::guide 호출됨.
+2025-08-28 09:09:16.039 - DEBUG: [logger.js:246:9] POST /skin/guide/2 requested
+2025-08-28 09:09:16.040 - DEBUG: [logger.js:246:9] PARAMS -> {"id":"2"}
+2025-08-28 09:09:16.043 - DEBUG: [logger.js:246:9] SQL -> 
+            select id, skin_type, key_ingredients,recommended_products ,purchase_link
+            from skincare.skin_care_info
+            where id = '2'
+        
+2025-08-28 09:11:49.829 - DEBUG: [logger.js:246:9] skin::quality_tips 호출됨.
+2025-08-28 09:11:49.829 - DEBUG: [logger.js:246:9] POST /skin/quality_tips/2 requested
+2025-08-28 09:11:49.830 - DEBUG: [logger.js:246:9] PARAMS -> {"id":"2"}
+2025-08-28 09:11:49.831 - DEBUG: [logger.js:246:9] SQL -> 
+            select id, skin_type, features, care_tips, key_ingredients, purchase_link
+            from skincare.skin_care_info
+            where id = '2'
+        
+2025-08-28 09:11:50.378 - DEBUG: [logger.js:246:9] skin::list 호출됨.
+2025-08-28 09:11:50.379 - DEBUG: [logger.js:246:9] POST /skin/list requested
+2025-08-28 09:11:50.380 - DEBUG: [logger.js:246:9] PARAMS -> {}
+2025-08-28 09:11:50.381 - DEBUG: [logger.js:246:9] SQL -> select count(*) as total from skincare.skin_care_info
+2025-08-28 09:11:50.382 - DEBUG: [logger.js:246:9] SQL -> 
+            select id, skin_type, features, care_tips, morning_routine, evening_routine, seasonal_routine, recommended_products, key_ingredients,
+                purchase_link, created_at, updated_at
+            from skincare.skin_care_info
+        
+2025-08-28 09:11:50.912 - DEBUG: [logger.js:246:9] skin::quality_tips 호출됨.
+2025-08-28 09:11:50.913 - DEBUG: [logger.js:246:9] POST /skin/quality_tips/2 requested
+2025-08-28 09:11:50.914 - DEBUG: [logger.js:246:9] PARAMS -> {"id":"2"}
+2025-08-28 09:11:50.915 - DEBUG: [logger.js:246:9] SQL -> 
+            select id, skin_type, features, care_tips, key_ingredients, purchase_link
+            from skincare.skin_care_info
+            where id = '2'
+        
+2025-08-28 09:11:52.297 - DEBUG: [logger.js:246:9] skin::list 호출됨.
+2025-08-28 09:11:52.298 - DEBUG: [logger.js:246:9] POST /skin/list requested
+2025-08-28 09:11:52.298 - DEBUG: [logger.js:246:9] PARAMS -> {}
+2025-08-28 09:11:52.299 - DEBUG: [logger.js:246:9] SQL -> select count(*) as total from skincare.skin_care_info
+2025-08-28 09:11:52.301 - DEBUG: [logger.js:246:9] SQL -> 
+            select id, skin_type, features, care_tips, morning_routine, evening_routine, seasonal_routine, recommended_products, key_ingredients,
+                purchase_link, created_at, updated_at
+            from skincare.skin_care_info
+        
+2025-08-28 09:11:54.010 - DEBUG: [logger.js:246:9] skin::list 호출됨.
+2025-08-28 09:11:54.011 - DEBUG: [logger.js:246:9] GET /skin/list requested
+2025-08-28 09:11:54.012 - DEBUG: [logger.js:246:9] PARAMS -> {}
+2025-08-28 09:11:54.014 - DEBUG: [logger.js:246:9] SQL -> select count(*) as total from skincare.skin_care_info
+2025-08-28 09:11:54.017 - DEBUG: [logger.js:246:9] SQL -> 
+            select id, skin_type, features, care_tips, morning_routine, evening_routine, seasonal_routine, recommended_products, key_ingredients,
+                purchase_link, created_at, updated_at
+            from skincare.skin_care_info
+        
+2025-08-28 09:11:55.236 - DEBUG: [logger.js:246:9] skin::quality_tips 호출됨.
+2025-08-28 09:11:55.237 - DEBUG: [logger.js:246:9] POST /skin/quality_tips/1 requested
+2025-08-28 09:11:55.237 - DEBUG: [logger.js:246:9] PARAMS -> {"id":"1"}
+2025-08-28 09:11:55.239 - DEBUG: [logger.js:246:9] SQL -> 
+            select id, skin_type, features, care_tips, key_ingredients, purchase_link
+            from skincare.skin_care_info
+            where id = '1'
+        
+2025-08-28 09:12:11.777 - DEBUG: [logger.js:246:9] skin::quality_tips 호출됨.
+2025-08-28 09:12:11.778 - DEBUG: [logger.js:246:9] POST /skin/quality_tips/1 requested
+2025-08-28 09:12:11.778 - DEBUG: [logger.js:246:9] PARAMS -> {"id":"1"}
+2025-08-28 09:12:11.781 - DEBUG: [logger.js:246:9] SQL -> 
+            select id, skin_type, features, care_tips, key_ingredients, purchase_link
+            from skincare.skin_care_info
+            where id = '1'
+        
+2025-08-28 09:14:54.476 - DEBUG: [logger.js:246:9] skin::list 호출됨.
+2025-08-28 09:14:54.477 - DEBUG: [logger.js:246:9] POST /skin/list requested
+2025-08-28 09:14:54.478 - DEBUG: [logger.js:246:9] PARAMS -> {}
+2025-08-28 09:14:54.479 - DEBUG: [logger.js:246:9] SQL -> select count(*) as total from skincare.skin_care_info
+2025-08-28 09:14:54.481 - DEBUG: [logger.js:246:9] SQL -> 
+            select id, skin_type, features, care_tips, morning_routine, evening_routine, seasonal_routine, recommended_products, key_ingredients,
+                purchase_link, created_at, updated_at
+            from skincare.skin_care_info
+        
+2025-08-28 09:14:55.404 - DEBUG: [logger.js:246:9] skin::list 호출됨.
+2025-08-28 09:14:55.404 - DEBUG: [logger.js:246:9] GET /skin/list requested
+2025-08-28 09:14:55.405 - DEBUG: [logger.js:246:9] PARAMS -> {}
+2025-08-28 09:14:55.407 - DEBUG: [logger.js:246:9] SQL -> select count(*) as total from skincare.skin_care_info
+2025-08-28 09:14:55.409 - DEBUG: [logger.js:246:9] SQL -> 
+            select id, skin_type, features, care_tips, morning_routine, evening_routine, seasonal_routine, recommended_products, key_ingredients,
+                purchase_link, created_at, updated_at
+            from skincare.skin_care_info
+        
+2025-08-28 09:14:56.011 - DEBUG: [logger.js:246:9] skin::quality_tips 호출됨.
+2025-08-28 09:14:56.011 - DEBUG: [logger.js:246:9] POST /skin/quality_tips/1 requested
+2025-08-28 09:14:56.012 - DEBUG: [logger.js:246:9] PARAMS -> {"id":"1"}
+2025-08-28 09:14:56.014 - DEBUG: [logger.js:246:9] SQL -> 
+            select id, skin_type, features, care_tips, key_ingredients, purchase_link
+            from skincare.skin_care_info
+            where id = '1'
+        
+2025-08-28 09:15:04.140 - DEBUG: [logger.js:246:9] skin::list 호출됨.
+2025-08-28 09:15:04.141 - DEBUG: [logger.js:246:9] POST /skin/list requested
+2025-08-28 09:15:04.141 - DEBUG: [logger.js:246:9] PARAMS -> {}
+2025-08-28 09:15:04.142 - DEBUG: [logger.js:246:9] SQL -> select count(*) as total from skincare.skin_care_info
+2025-08-28 09:15:04.144 - DEBUG: [logger.js:246:9] SQL -> 
+            select id, skin_type, features, care_tips, morning_routine, evening_routine, seasonal_routine, recommended_products, key_ingredients,
+                purchase_link, created_at, updated_at
+            from skincare.skin_care_info
+        
+2025-08-28 09:15:05.406 - DEBUG: [logger.js:246:9] skin::list 호출됨.
+2025-08-28 09:15:05.406 - DEBUG: [logger.js:246:9] GET /skin/list requested
+2025-08-28 09:15:05.407 - DEBUG: [logger.js:246:9] PARAMS -> {}
+2025-08-28 09:15:05.408 - DEBUG: [logger.js:246:9] SQL -> select count(*) as total from skincare.skin_care_info
+2025-08-28 09:15:05.409 - DEBUG: [logger.js:246:9] SQL -> 
+            select id, skin_type, features, care_tips, morning_routine, evening_routine, seasonal_routine, recommended_products, key_ingredients,
+                purchase_link, created_at, updated_at
+            from skincare.skin_care_info
+        
+2025-08-28 09:15:06.143 - DEBUG: [logger.js:246:9] skin::guide 호출됨.
+2025-08-28 09:15:06.143 - DEBUG: [logger.js:246:9] POST /skin/guide/2 requested
+2025-08-28 09:15:06.144 - DEBUG: [logger.js:246:9] PARAMS -> {"id":"2"}
+2025-08-28 09:15:06.146 - DEBUG: [logger.js:246:9] SQL -> 
+            select id, skin_type, key_ingredients,recommended_products ,purchase_link
+            from skincare.skin_care_info
+            where id = '2'
+        
+2025-08-28 09:15:07.902 - DEBUG: [logger.js:246:9] skin::list 호출됨.
+2025-08-28 09:15:07.903 - DEBUG: [logger.js:246:9] GET /skin/list requested
+2025-08-28 09:15:07.903 - DEBUG: [logger.js:246:9] PARAMS -> {}
+2025-08-28 09:15:07.904 - DEBUG: [logger.js:246:9] SQL -> select count(*) as total from skincare.skin_care_info
+2025-08-28 09:15:07.905 - DEBUG: [logger.js:246:9] SQL -> 
+            select id, skin_type, features, care_tips, morning_routine, evening_routine, seasonal_routine, recommended_products, key_ingredients,
+                purchase_link, created_at, updated_at
+            from skincare.skin_care_info
+        
+2025-08-28 09:15:08.701 - DEBUG: [logger.js:246:9] skin::ampm 호출됨.
+2025-08-28 09:15:08.702 - DEBUG: [logger.js:246:9] POST /skin/ampm/2 requested
+2025-08-28 09:15:08.703 - DEBUG: [logger.js:246:9] PARAMS -> {"id":"2"}
+2025-08-28 09:15:08.704 - DEBUG: [logger.js:246:9] SQL -> 
+            select id, skin_type, morning_routine,evening_routine
+            from skincare.skin_care_info
+            where id = '2'
+        
+2025-08-28 09:15:09.229 - DEBUG: [logger.js:246:9] skin::list 호출됨.
+2025-08-28 09:15:09.230 - DEBUG: [logger.js:246:9] GET /skin/list requested
+2025-08-28 09:15:09.230 - DEBUG: [logger.js:246:9] PARAMS -> {}
+2025-08-28 09:15:09.231 - DEBUG: [logger.js:246:9] SQL -> select count(*) as total from skincare.skin_care_info
+2025-08-28 09:15:09.233 - DEBUG: [logger.js:246:9] SQL -> 
+            select id, skin_type, features, care_tips, morning_routine, evening_routine, seasonal_routine, recommended_products, key_ingredients,
+                purchase_link, created_at, updated_at
+            from skincare.skin_care_info
+        
+2025-08-28 09:15:09.752 - DEBUG: [logger.js:246:9] skin::quality_tips 호출됨.
+2025-08-28 09:15:09.752 - DEBUG: [logger.js:246:9] POST /skin/quality_tips/2 requested
+2025-08-28 09:15:09.753 - DEBUG: [logger.js:246:9] PARAMS -> {"id":"2"}
+2025-08-28 09:15:09.754 - DEBUG: [logger.js:246:9] SQL -> 
+            select id, skin_type, features, care_tips, key_ingredients, purchase_link
+            from skincare.skin_care_info
+            where id = '2'
+        
+2025-08-28 09:15:10.208 - DEBUG: [logger.js:246:9] skin::list 호출됨.
+2025-08-28 09:15:10.208 - DEBUG: [logger.js:246:9] GET /skin/list requested
+2025-08-28 09:15:10.208 - DEBUG: [logger.js:246:9] PARAMS -> {}
+2025-08-28 09:15:10.209 - DEBUG: [logger.js:246:9] SQL -> select count(*) as total from skincare.skin_care_info
+2025-08-28 09:15:10.210 - DEBUG: [logger.js:246:9] SQL -> 
+            select id, skin_type, features, care_tips, morning_routine, evening_routine, seasonal_routine, recommended_products, key_ingredients,
+                purchase_link, created_at, updated_at
+            from skincare.skin_care_info
+        
+2025-08-28 09:15:10.817 - DEBUG: [logger.js:246:9] skin::season 호출됨.
+2025-08-28 09:15:10.820 - DEBUG: [logger.js:246:9] POST /skin/season/2 requested
+2025-08-28 09:15:10.821 - DEBUG: [logger.js:246:9] PARAMS -> {"id":"2"}
+2025-08-28 09:15:10.823 - DEBUG: [logger.js:246:9] SQL -> 
+            select id, skin_type, seasonal_routine
+            from skincare.skin_care_info
+            where id = '2'
+        
+2025-08-28 09:15:11.446 - DEBUG: [logger.js:246:9] skin::list 호출됨.
+2025-08-28 09:15:11.447 - DEBUG: [logger.js:246:9] GET /skin/list requested
+2025-08-28 09:15:11.447 - DEBUG: [logger.js:246:9] PARAMS -> {}
+2025-08-28 09:15:11.448 - DEBUG: [logger.js:246:9] SQL -> select count(*) as total from skincare.skin_care_info
+2025-08-28 09:15:11.449 - DEBUG: [logger.js:246:9] SQL -> 
+            select id, skin_type, features, care_tips, morning_routine, evening_routine, seasonal_routine, recommended_products, key_ingredients,
+                purchase_link, created_at, updated_at
+            from skincare.skin_care_info
+        
+2025-08-28 09:15:31.422 - DEBUG: [logger.js:246:9] skin::quality_tips 호출됨.
+2025-08-28 09:15:31.423 - DEBUG: [logger.js:246:9] POST /skin/quality_tips/2 requested
+2025-08-28 09:15:31.423 - DEBUG: [logger.js:246:9] PARAMS -> {"id":"2"}
+2025-08-28 09:15:31.425 - DEBUG: [logger.js:246:9] SQL -> 
+            select id, skin_type, features, care_tips, key_ingredients, purchase_link
+            from skincare.skin_care_info
+            where id = '2'
+        
+2025-08-28 09:42:30.500 - DEBUG: [logger.js:246:9] skin::quality_tips 호출됨.
+2025-08-28 09:42:30.501 - DEBUG: [logger.js:246:9] POST /skin/quality_tips/2 requested
+2025-08-28 09:42:30.502 - DEBUG: [logger.js:246:9] PARAMS -> {"id":"2"}
+2025-08-28 09:42:30.505 - DEBUG: [logger.js:246:9] SQL -> 
+            select id, skin_type, features, care_tips, key_ingredients, purchase_link
+            from skincare.skin_care_info
+            where id = '2'
+        
+2025-08-28 10:45:02.483 - DEBUG: [logger.js:246:9] skin::list 호출됨.
+2025-08-28 10:45:02.483 - DEBUG: [logger.js:246:9] POST /skin/list requested
+2025-08-28 10:45:02.484 - DEBUG: [logger.js:246:9] PARAMS -> {}
+2025-08-28 10:45:02.486 - DEBUG: [logger.js:246:9] SQL -> select count(*) as total from skincare.skin_care_info
+2025-08-28 10:45:02.487 - DEBUG: [logger.js:246:9] SQL -> 
+            select id, skin_type, features, care_tips, morning_routine, evening_routine, seasonal_routine, recommended_products, key_ingredients,
+                purchase_link, created_at, updated_at
+            from skincare.skin_care_info
+        
+2025-08-28 10:45:03.621 - DEBUG: [logger.js:246:9] skin::list 호출됨.
+2025-08-28 10:45:03.621 - DEBUG: [logger.js:246:9] GET /skin/list requested
+2025-08-28 10:45:03.621 - DEBUG: [logger.js:246:9] PARAMS -> {}
+2025-08-28 10:45:03.623 - DEBUG: [logger.js:246:9] SQL -> select count(*) as total from skincare.skin_care_info
+2025-08-28 10:45:03.624 - DEBUG: [logger.js:246:9] SQL -> 
+            select id, skin_type, features, care_tips, morning_routine, evening_routine, seasonal_routine, recommended_products, key_ingredients,
+                purchase_link, created_at, updated_at
+            from skincare.skin_care_info
+        
+2025-08-28 10:45:03.933 - DEBUG: [logger.js:246:9] skin::ampm 호출됨.
+2025-08-28 10:45:03.958 - DEBUG: [logger.js:246:9] POST /skin/ampm/2 requested
+2025-08-28 10:45:03.959 - DEBUG: [logger.js:246:9] PARAMS -> {"id":"2"}
+2025-08-28 10:45:03.961 - DEBUG: [logger.js:246:9] SQL -> 
+            select id, skin_type, morning_routine,evening_routine
+            from skincare.skin_care_info
+            where id = '2'
+        
+2025-08-28 10:45:04.936 - DEBUG: [logger.js:246:9] skin::list 호출됨.
+2025-08-28 10:45:04.936 - DEBUG: [logger.js:246:9] GET /skin/list requested
+2025-08-28 10:45:04.937 - DEBUG: [logger.js:246:9] PARAMS -> {}
+2025-08-28 10:45:04.938 - DEBUG: [logger.js:246:9] SQL -> select count(*) as total from skincare.skin_care_info
+2025-08-28 10:45:04.939 - DEBUG: [logger.js:246:9] SQL -> 
+            select id, skin_type, features, care_tips, morning_routine, evening_routine, seasonal_routine, recommended_products, key_ingredients,
+                purchase_link, created_at, updated_at
+            from skincare.skin_care_info
+        
+2025-08-28 10:45:05.473 - DEBUG: [logger.js:246:9] skin::quality_tips 호출됨.
+2025-08-28 10:45:05.474 - DEBUG: [logger.js:246:9] POST /skin/quality_tips/2 requested
+2025-08-28 10:45:05.474 - DEBUG: [logger.js:246:9] PARAMS -> {"id":"2"}
+2025-08-28 10:45:05.476 - DEBUG: [logger.js:246:9] SQL -> 
+            select id, skin_type, features, care_tips, key_ingredients, purchase_link
+            from skincare.skin_care_info
+            where id = '2'
+        
+2025-08-28 10:53:26.185 - DEBUG: [logger.js:246:9] skin::list 호출됨.
+2025-08-28 10:53:26.186 - DEBUG: [logger.js:246:9] POST /skin/list requested
+2025-08-28 10:53:26.186 - DEBUG: [logger.js:246:9] PARAMS -> {}
+2025-08-28 10:53:26.188 - DEBUG: [logger.js:246:9] SQL -> select count(*) as total from skincare.skin_care_info
+2025-08-28 10:53:26.192 - DEBUG: [logger.js:246:9] SQL -> 
+            select id, skin_type, features, care_tips, morning_routine, evening_routine, seasonal_routine, recommended_products, key_ingredients,
+                purchase_link, created_at, updated_at
+            from skincare.skin_care_info
+        
+2025-08-28 10:53:27.066 - DEBUG: [logger.js:246:9] skin::list 호출됨.
+2025-08-28 10:53:27.067 - DEBUG: [logger.js:246:9] GET /skin/list requested
+2025-08-28 10:53:27.068 - DEBUG: [logger.js:246:9] PARAMS -> {}
+2025-08-28 10:53:27.070 - DEBUG: [logger.js:246:9] SQL -> select count(*) as total from skincare.skin_care_info
+2025-08-28 10:53:27.072 - DEBUG: [logger.js:246:9] SQL -> 
+            select id, skin_type, features, care_tips, morning_routine, evening_routine, seasonal_routine, recommended_products, key_ingredients,
+                purchase_link, created_at, updated_at
+            from skincare.skin_care_info
+        
+2025-08-28 10:53:27.555 - DEBUG: [logger.js:246:9] skin::quality_tips 호출됨.
+2025-08-28 10:53:27.556 - DEBUG: [logger.js:246:9] POST /skin/quality_tips/2 requested
+2025-08-28 10:53:27.556 - DEBUG: [logger.js:246:9] PARAMS -> {"id":"2"}
+2025-08-28 10:53:27.558 - DEBUG: [logger.js:246:9] SQL -> 
+            select id, skin_type, features, care_tips, key_ingredients, purchase_link
+            from skincare.skin_care_info
+            where id = '2'
+        
+2025-08-28 11:01:52.339 - DEBUG: [logger.js:246:9] skin::list 호출됨.
+2025-08-28 11:01:52.340 - DEBUG: [logger.js:246:9] POST /skin/list requested
+2025-08-28 11:01:52.341 - DEBUG: [logger.js:246:9] PARAMS -> {}
+2025-08-28 11:01:52.342 - DEBUG: [logger.js:246:9] SQL -> select count(*) as total from skincare.skin_care_info
+2025-08-28 11:01:52.343 - DEBUG: [logger.js:246:9] SQL -> 
+            select id, skin_type, features, care_tips, morning_routine, evening_routine, seasonal_routine, recommended_products, key_ingredients,
+                purchase_link, created_at, updated_at
+            from skincare.skin_care_info
+        
+2025-08-28 11:01:53.270 - DEBUG: [logger.js:246:9] skin::list 호출됨.
+2025-08-28 11:01:53.271 - DEBUG: [logger.js:246:9] GET /skin/list requested
+2025-08-28 11:01:53.272 - DEBUG: [logger.js:246:9] PARAMS -> {}
+2025-08-28 11:01:53.273 - DEBUG: [logger.js:246:9] SQL -> select count(*) as total from skincare.skin_care_info
+2025-08-28 11:01:53.275 - DEBUG: [logger.js:246:9] SQL -> 
+            select id, skin_type, features, care_tips, morning_routine, evening_routine, seasonal_routine, recommended_products, key_ingredients,
+                purchase_link, created_at, updated_at
+            from skincare.skin_care_info
+        
+2025-08-28 11:01:53.927 - DEBUG: [logger.js:246:9] skin::quality_tips 호출됨.
+2025-08-28 11:01:53.928 - DEBUG: [logger.js:246:9] POST /skin/quality_tips/2 requested
+2025-08-28 11:01:53.930 - DEBUG: [logger.js:246:9] PARAMS -> {"id":"2"}
+2025-08-28 11:01:53.933 - DEBUG: [logger.js:246:9] SQL -> 
+            select id, skin_type, features, care_tips, key_ingredients, purchase_link
+            from skincare.skin_care_info
+            where id = '2'
+        
+2025-08-28 11:10:19.395 - DEBUG: [logger.js:246:9] skin::quality_tips 호출됨.
+2025-08-28 11:10:19.397 - DEBUG: [logger.js:246:9] POST /skin/quality_tips/2 requested
+2025-08-28 11:10:19.400 - DEBUG: [logger.js:246:9] PARAMS -> {"id":"2"}
+2025-08-28 11:10:19.404 - DEBUG: [logger.js:246:9] SQL -> 
+            select id, skin_type, features, care_tips, key_ingredients, purchase_link
+            from skincare.skin_care_info
+            where id = '2'
+        
+2025-08-28 11:10:51.030 - DEBUG: [logger.js:246:9] skin::list 호출됨.
+2025-08-28 11:10:51.031 - DEBUG: [logger.js:246:9] POST /skin/list requested
+2025-08-28 11:10:51.031 - DEBUG: [logger.js:246:9] PARAMS -> {}
+2025-08-28 11:10:51.032 - DEBUG: [logger.js:246:9] SQL -> select count(*) as total from skincare.skin_care_info
+2025-08-28 11:10:51.033 - DEBUG: [logger.js:246:9] SQL -> 
+            select id, skin_type, features, care_tips, morning_routine, evening_routine, seasonal_routine, recommended_products, key_ingredients,
+                purchase_link, created_at, updated_at
+            from skincare.skin_care_info
+        
+2025-08-28 11:10:52.352 - DEBUG: [logger.js:246:9] skin::list 호출됨.
+2025-08-28 11:10:52.353 - DEBUG: [logger.js:246:9] GET /skin/list requested
+2025-08-28 11:10:52.353 - DEBUG: [logger.js:246:9] PARAMS -> {}
+2025-08-28 11:10:52.355 - DEBUG: [logger.js:246:9] SQL -> select count(*) as total from skincare.skin_care_info
+2025-08-28 11:10:52.356 - DEBUG: [logger.js:246:9] SQL -> 
+            select id, skin_type, features, care_tips, morning_routine, evening_routine, seasonal_routine, recommended_products, key_ingredients,
+                purchase_link, created_at, updated_at
+            from skincare.skin_care_info
+        
+2025-08-28 11:10:53.084 - DEBUG: [logger.js:246:9] skin::quality_tips 호출됨.
+2025-08-28 11:10:53.086 - DEBUG: [logger.js:246:9] POST /skin/quality_tips/1 requested
+2025-08-28 11:10:53.086 - DEBUG: [logger.js:246:9] PARAMS -> {"id":"1"}
+2025-08-28 11:10:53.089 - DEBUG: [logger.js:246:9] SQL -> 
+            select id, skin_type, features, care_tips, key_ingredients, purchase_link
+            from skincare.skin_care_info
+            where id = '1'
+        
+2025-08-28 11:22:25.302 - DEBUG: [logger.js:246:9] skin::list 호출됨.
+2025-08-28 11:22:25.303 - DEBUG: [logger.js:246:9] POST /skin/list requested
+2025-08-28 11:22:25.304 - DEBUG: [logger.js:246:9] PARAMS -> {}
+2025-08-28 11:22:25.305 - DEBUG: [logger.js:246:9] SQL -> select count(*) as total from skincare.skin_care_info
+2025-08-28 11:22:25.306 - DEBUG: [logger.js:246:9] SQL -> 
+            select id, skin_type, features, care_tips, morning_routine, evening_routine, seasonal_routine, recommended_products, key_ingredients,
+                purchase_link, created_at, updated_at
+            from skincare.skin_care_info
+        
+2025-08-28 11:22:28.175 - DEBUG: [logger.js:246:9] skin::list 호출됨.
+2025-08-28 11:22:28.176 - DEBUG: [logger.js:246:9] GET /skin/list requested
+2025-08-28 11:22:28.176 - DEBUG: [logger.js:246:9] PARAMS -> {}
+2025-08-28 11:22:28.178 - DEBUG: [logger.js:246:9] SQL -> select count(*) as total from skincare.skin_care_info
+2025-08-28 11:22:28.180 - DEBUG: [logger.js:246:9] SQL -> 
+            select id, skin_type, features, care_tips, morning_routine, evening_routine, seasonal_routine, recommended_products, key_ingredients,
+                purchase_link, created_at, updated_at
+            from skincare.skin_care_info
+        
+2025-08-28 11:22:32.010 - DEBUG: [logger.js:246:9] skin::list 호출됨.
+2025-08-28 11:22:32.011 - DEBUG: [logger.js:246:9] POST /skin/list requested
+2025-08-28 11:22:32.011 - DEBUG: [logger.js:246:9] PARAMS -> {}
+2025-08-28 11:22:32.013 - DEBUG: [logger.js:246:9] SQL -> select count(*) as total from skincare.skin_care_info
+2025-08-28 11:22:32.014 - DEBUG: [logger.js:246:9] SQL -> 
+            select id, skin_type, features, care_tips, morning_routine, evening_routine, seasonal_routine, recommended_products, key_ingredients,
+                purchase_link, created_at, updated_at
+            from skincare.skin_care_info
+        
+2025-08-28 11:22:34.904 - DEBUG: [logger.js:246:9] skin::list 호출됨.
+2025-08-28 11:22:34.905 - DEBUG: [logger.js:246:9] POST /skin/list requested
+2025-08-28 11:22:34.905 - DEBUG: [logger.js:246:9] PARAMS -> {}
+2025-08-28 11:22:34.906 - DEBUG: [logger.js:246:9] SQL -> select count(*) as total from skincare.skin_care_info
+2025-08-28 11:22:34.907 - DEBUG: [logger.js:246:9] SQL -> 
+            select id, skin_type, features, care_tips, morning_routine, evening_routine, seasonal_routine, recommended_products, key_ingredients,
+                purchase_link, created_at, updated_at
+            from skincare.skin_care_info
+        
+2025-08-28 11:23:07.986 - DEBUG: [logger.js:246:9] skin::list 호출됨.
+2025-08-28 11:23:07.987 - DEBUG: [logger.js:246:9] GET /skin/list requested
+2025-08-28 11:23:07.989 - DEBUG: [logger.js:246:9] PARAMS -> {}
+2025-08-28 11:23:08.003 - DEBUG: [logger.js:246:9] SQL -> select count(*) as total from skincare.skin_care_info
+2025-08-28 11:23:08.004 - DEBUG: [logger.js:246:9] SQL -> 
+            select id, skin_type, features, care_tips, morning_routine, evening_routine, seasonal_routine, recommended_products, key_ingredients,
+                purchase_link, created_at, updated_at
+            from skincare.skin_care_info
+        
+2025-08-28 11:23:11.874 - DEBUG: [logger.js:246:9] skin::list 호출됨.
+2025-08-28 11:23:11.875 - DEBUG: [logger.js:246:9] POST /skin/list requested
+2025-08-28 11:23:11.875 - DEBUG: [logger.js:246:9] PARAMS -> {}
+2025-08-28 11:23:11.877 - DEBUG: [logger.js:246:9] SQL -> select count(*) as total from skincare.skin_care_info
+2025-08-28 11:23:11.878 - DEBUG: [logger.js:246:9] SQL -> 
+            select id, skin_type, features, care_tips, morning_routine, evening_routine, seasonal_routine, recommended_products, key_ingredients,
+                purchase_link, created_at, updated_at
+            from skincare.skin_care_info
+        
+2025-08-28 11:23:13.279 - DEBUG: [logger.js:246:9] skin::list 호출됨.
+2025-08-28 11:23:13.280 - DEBUG: [logger.js:246:9] GET /skin/list requested
+2025-08-28 11:23:13.280 - DEBUG: [logger.js:246:9] PARAMS -> {}
+2025-08-28 11:23:13.282 - DEBUG: [logger.js:246:9] SQL -> select count(*) as total from skincare.skin_care_info
+2025-08-28 11:23:13.283 - DEBUG: [logger.js:246:9] SQL -> 
+            select id, skin_type, features, care_tips, morning_routine, evening_routine, seasonal_routine, recommended_products, key_ingredients,
+                purchase_link, created_at, updated_at
+            from skincare.skin_care_info
+        
+2025-08-28 11:23:15.396 - DEBUG: [logger.js:246:9] skin::list 호출됨.
+2025-08-28 11:23:15.397 - DEBUG: [logger.js:246:9] POST /skin/list requested
+2025-08-28 11:23:15.397 - DEBUG: [logger.js:246:9] PARAMS -> {}
+2025-08-28 11:23:15.398 - DEBUG: [logger.js:246:9] SQL -> select count(*) as total from skincare.skin_care_info
+2025-08-28 11:23:15.399 - DEBUG: [logger.js:246:9] SQL -> 
+            select id, skin_type, features, care_tips, morning_routine, evening_routine, seasonal_routine, recommended_products, key_ingredients,
+                purchase_link, created_at, updated_at
+            from skincare.skin_care_info
+        
+2025-08-28 11:23:16.306 - DEBUG: [logger.js:246:9] skin::list 호출됨.
+2025-08-28 11:23:16.307 - DEBUG: [logger.js:246:9] GET /skin/list requested
+2025-08-28 11:23:16.307 - DEBUG: [logger.js:246:9] PARAMS -> {}
+2025-08-28 11:23:16.309 - DEBUG: [logger.js:246:9] SQL -> select count(*) as total from skincare.skin_care_info
+2025-08-28 11:23:16.310 - DEBUG: [logger.js:246:9] SQL -> 
+            select id, skin_type, features, care_tips, morning_routine, evening_routine, seasonal_routine, recommended_products, key_ingredients,
+                purchase_link, created_at, updated_at
+            from skincare.skin_care_info
+        
+2025-08-28 11:23:17.796 - DEBUG: [logger.js:246:9] skin::list 호출됨.
+2025-08-28 11:23:17.797 - DEBUG: [logger.js:246:9] POST /skin/list requested
+2025-08-28 11:23:17.797 - DEBUG: [logger.js:246:9] PARAMS -> {}
+2025-08-28 11:23:17.799 - DEBUG: [logger.js:246:9] SQL -> select count(*) as total from skincare.skin_care_info
+2025-08-28 11:23:17.800 - DEBUG: [logger.js:246:9] SQL -> 
+            select id, skin_type, features, care_tips, morning_routine, evening_routine, seasonal_routine, recommended_products, key_ingredients,
+                purchase_link, created_at, updated_at
+            from skincare.skin_care_info
+        
+2025-08-28 11:23:19.199 - DEBUG: [logger.js:246:9] skin::list 호출됨.
+2025-08-28 11:23:19.199 - DEBUG: [logger.js:246:9] GET /skin/list requested
+2025-08-28 11:23:19.200 - DEBUG: [logger.js:246:9] PARAMS -> {}
+2025-08-28 11:23:19.201 - DEBUG: [logger.js:246:9] SQL -> select count(*) as total from skincare.skin_care_info
+2025-08-28 11:23:19.202 - DEBUG: [logger.js:246:9] SQL -> 
+            select id, skin_type, features, care_tips, morning_routine, evening_routine, seasonal_routine, recommended_products, key_ingredients,
+                purchase_link, created_at, updated_at
+            from skincare.skin_care_info
+        
+2025-08-28 11:23:25.148 - DEBUG: [logger.js:246:9] skin::quality_tips 호출됨.
+2025-08-28 11:23:25.150 - DEBUG: [logger.js:246:9] POST /skin/quality_tips/1 requested
+2025-08-28 11:23:25.152 - DEBUG: [logger.js:246:9] PARAMS -> {"id":"1"}
+2025-08-28 11:23:25.155 - DEBUG: [logger.js:246:9] SQL -> 
+            select id, skin_type, features, care_tips, key_ingredients, purchase_link
+            from skincare.skin_care_info
+            where id = '1'
+        
+2025-08-28 11:23:28.434 - DEBUG: [logger.js:246:9] skin::list 호출됨.
+2025-08-28 11:23:28.435 - DEBUG: [logger.js:246:9] GET /skin/list requested
+2025-08-28 11:23:28.435 - DEBUG: [logger.js:246:9] PARAMS -> {}
+2025-08-28 11:23:28.436 - DEBUG: [logger.js:246:9] SQL -> select count(*) as total from skincare.skin_care_info
+2025-08-28 11:23:28.437 - DEBUG: [logger.js:246:9] SQL -> 
+            select id, skin_type, features, care_tips, morning_routine, evening_routine, seasonal_routine, recommended_products, key_ingredients,
+                purchase_link, created_at, updated_at
+            from skincare.skin_care_info
+        
+2025-08-28 11:23:29.097 - DEBUG: [logger.js:246:9] skin::ampm 호출됨.
+2025-08-28 11:23:29.098 - DEBUG: [logger.js:246:9] POST /skin/ampm/1 requested
+2025-08-28 11:23:29.099 - DEBUG: [logger.js:246:9] PARAMS -> {"id":"1"}
+2025-08-28 11:23:29.100 - DEBUG: [logger.js:246:9] SQL -> 
+            select id, skin_type, morning_routine,evening_routine
+            from skincare.skin_care_info
+            where id = '1'
+        
+2025-08-28 11:23:35.194 - DEBUG: [logger.js:246:9] skin::list 호출됨.
+2025-08-28 11:23:35.194 - DEBUG: [logger.js:246:9] GET /skin/list requested
+2025-08-28 11:23:35.195 - DEBUG: [logger.js:246:9] PARAMS -> {}
+2025-08-28 11:23:35.196 - DEBUG: [logger.js:246:9] SQL -> select count(*) as total from skincare.skin_care_info
+2025-08-28 11:23:35.197 - DEBUG: [logger.js:246:9] SQL -> 
+            select id, skin_type, features, care_tips, morning_routine, evening_routine, seasonal_routine, recommended_products, key_ingredients,
+                purchase_link, created_at, updated_at
+            from skincare.skin_care_info
+        
+2025-08-28 11:23:35.820 - DEBUG: [logger.js:246:9] skin::season 호출됨.
+2025-08-28 11:23:35.820 - DEBUG: [logger.js:246:9] POST /skin/season/1 requested
+2025-08-28 11:23:35.821 - DEBUG: [logger.js:246:9] PARAMS -> {"id":"1"}
+2025-08-28 11:23:35.822 - DEBUG: [logger.js:246:9] SQL -> 
+            select id, skin_type, seasonal_routine
+            from skincare.skin_care_info
+            where id = '1'
+        
+2025-08-28 11:23:39.817 - DEBUG: [logger.js:246:9] skin::list 호출됨.
+2025-08-28 11:23:39.818 - DEBUG: [logger.js:246:9] GET /skin/list requested
+2025-08-28 11:23:39.818 - DEBUG: [logger.js:246:9] PARAMS -> {}
+2025-08-28 11:23:39.819 - DEBUG: [logger.js:246:9] SQL -> select count(*) as total from skincare.skin_care_info
+2025-08-28 11:23:39.820 - DEBUG: [logger.js:246:9] SQL -> 
+            select id, skin_type, features, care_tips, morning_routine, evening_routine, seasonal_routine, recommended_products, key_ingredients,
+                purchase_link, created_at, updated_at
+            from skincare.skin_care_info
+        
+2025-08-28 11:23:40.535 - DEBUG: [logger.js:246:9] skin::guide 호출됨.
+2025-08-28 11:23:40.535 - DEBUG: [logger.js:246:9] POST /skin/guide/1 requested
+2025-08-28 11:23:40.536 - DEBUG: [logger.js:246:9] PARAMS -> {"id":"1"}
+2025-08-28 11:23:40.537 - DEBUG: [logger.js:246:9] SQL -> 
+            select id, skin_type, key_ingredients,recommended_products ,purchase_link
+            from skincare.skin_care_info
+            where id = '1'
+        
+2025-08-28 11:23:45.266 - DEBUG: [logger.js:246:9] skin::list 호출됨.
+2025-08-28 11:23:45.267 - DEBUG: [logger.js:246:9] POST /skin/list requested
+2025-08-28 11:23:45.267 - DEBUG: [logger.js:246:9] PARAMS -> {}
+2025-08-28 11:23:45.268 - DEBUG: [logger.js:246:9] SQL -> select count(*) as total from skincare.skin_care_info
+2025-08-28 11:23:45.269 - DEBUG: [logger.js:246:9] SQL -> 
+            select id, skin_type, features, care_tips, morning_routine, evening_routine, seasonal_routine, recommended_products, key_ingredients,
+                purchase_link, created_at, updated_at
+            from skincare.skin_care_info
+        
+2025-08-28 11:23:46.119 - DEBUG: [logger.js:246:9] skin::list 호출됨.
+2025-08-28 11:23:46.119 - DEBUG: [logger.js:246:9] GET /skin/list requested
+2025-08-28 11:23:46.120 - DEBUG: [logger.js:246:9] PARAMS -> {}
+2025-08-28 11:23:46.121 - DEBUG: [logger.js:246:9] SQL -> select count(*) as total from skincare.skin_care_info
+2025-08-28 11:23:46.122 - DEBUG: [logger.js:246:9] SQL -> 
+            select id, skin_type, features, care_tips, morning_routine, evening_routine, seasonal_routine, recommended_products, key_ingredients,
+                purchase_link, created_at, updated_at
+            from skincare.skin_care_info
+        
+2025-08-28 11:23:46.975 - DEBUG: [logger.js:246:9] skin::quality_tips 호출됨.
+2025-08-28 11:23:46.976 - DEBUG: [logger.js:246:9] POST /skin/quality_tips/1 requested
+2025-08-28 11:23:46.976 - DEBUG: [logger.js:246:9] PARAMS -> {"id":"1"}
+2025-08-28 11:23:46.978 - DEBUG: [logger.js:246:9] SQL -> 
+            select id, skin_type, features, care_tips, key_ingredients, purchase_link
+            from skincare.skin_care_info
+            where id = '1'
+        
+2025-08-28 11:28:07.029 - DEBUG: [logger.js:246:9] skin::list 호출됨.
+2025-08-28 11:28:07.053 - DEBUG: [logger.js:246:9] POST /skin/list requested
+2025-08-28 11:28:07.074 - DEBUG: [logger.js:246:9] PARAMS -> {}
+2025-08-28 11:28:07.077 - DEBUG: [logger.js:246:9] SQL -> select count(*) as total from skincare.skin_care_info
+2025-08-28 11:28:07.079 - DEBUG: [logger.js:246:9] SQL -> 
+            select id, skin_type, features, care_tips, morning_routine, evening_routine, seasonal_routine, recommended_products, key_ingredients,
+                purchase_link, created_at, updated_at
+            from skincare.skin_care_info
+        
+2025-08-28 11:28:08.598 - DEBUG: [logger.js:246:9] skin::list 호출됨.
+2025-08-28 11:28:08.598 - DEBUG: [logger.js:246:9] GET /skin/list requested
+2025-08-28 11:28:08.599 - DEBUG: [logger.js:246:9] PARAMS -> {}
+2025-08-28 11:28:08.600 - DEBUG: [logger.js:246:9] SQL -> select count(*) as total from skincare.skin_care_info
+2025-08-28 11:28:08.602 - DEBUG: [logger.js:246:9] SQL -> 
+            select id, skin_type, features, care_tips, morning_routine, evening_routine, seasonal_routine, recommended_products, key_ingredients,
+                purchase_link, created_at, updated_at
+            from skincare.skin_care_info
+        
+2025-08-28 11:28:10.694 - DEBUG: [logger.js:246:9] skin::quality_tips 호출됨.
+2025-08-28 11:28:10.695 - DEBUG: [logger.js:246:9] POST /skin/quality_tips/undefined requested
+2025-08-28 11:28:10.697 - DEBUG: [logger.js:246:9] PARAMS -> {"id":"undefined"}
+2025-08-28 11:28:10.700 - DEBUG: [logger.js:246:9] SQL -> 
+            select id, skin_type, features, care_tips, key_ingredients, purchase_link
+            from skincare.skin_care_info
+            where id = 'undefined'
+        
+2025-08-28 11:28:27.604 - DEBUG: [logger.js:246:9] skin::quality_tips 호출됨.
+2025-08-28 11:28:27.606 - DEBUG: [logger.js:246:9] POST /skin/quality_tips/undefined requested
+2025-08-28 11:28:27.610 - DEBUG: [logger.js:246:9] PARAMS -> {"id":"undefined"}
+2025-08-28 11:28:27.621 - DEBUG: [logger.js:246:9] SQL -> 
+            select id, skin_type, features, care_tips, key_ingredients, purchase_link
+            from skincare.skin_care_info
+            where id = 'undefined'
+        
+2025-08-28 11:28:57.264 - DEBUG: [logger.js:246:9] skin::list 호출됨.
+2025-08-28 11:28:57.265 - DEBUG: [logger.js:246:9] POST /skin/list requested
+2025-08-28 11:28:57.265 - DEBUG: [logger.js:246:9] PARAMS -> {}
+2025-08-28 11:28:57.267 - DEBUG: [logger.js:246:9] SQL -> select count(*) as total from skincare.skin_care_info
+2025-08-28 11:28:57.271 - DEBUG: [logger.js:246:9] SQL -> 
+            select id, skin_type, features, care_tips, morning_routine, evening_routine, seasonal_routine, recommended_products, key_ingredients,
+                purchase_link, created_at, updated_at
+            from skincare.skin_care_info
+        
+2025-08-28 11:28:58.729 - DEBUG: [logger.js:246:9] skin::list 호출됨.
+2025-08-28 11:28:58.730 - DEBUG: [logger.js:246:9] GET /skin/list requested
+2025-08-28 11:28:58.730 - DEBUG: [logger.js:246:9] PARAMS -> {}
+2025-08-28 11:28:58.731 - DEBUG: [logger.js:246:9] SQL -> select count(*) as total from skincare.skin_care_info
+2025-08-28 11:28:58.733 - DEBUG: [logger.js:246:9] SQL -> 
+            select id, skin_type, features, care_tips, morning_routine, evening_routine, seasonal_routine, recommended_products, key_ingredients,
+                purchase_link, created_at, updated_at
+            from skincare.skin_care_info
+        
+2025-08-28 11:28:59.720 - DEBUG: [logger.js:246:9] skin::quality_tips 호출됨.
+2025-08-28 11:28:59.721 - DEBUG: [logger.js:246:9] POST /skin/quality_tips/undefined requested
+2025-08-28 11:28:59.721 - DEBUG: [logger.js:246:9] PARAMS -> {"id":"undefined"}
+2025-08-28 11:28:59.723 - DEBUG: [logger.js:246:9] SQL -> 
+            select id, skin_type, features, care_tips, key_ingredients, purchase_link
+            from skincare.skin_care_info
+            where id = 'undefined'
+        
+2025-08-28 11:29:14.625 - DEBUG: [logger.js:246:9] skin::list 호출됨.
+2025-08-28 11:29:14.626 - DEBUG: [logger.js:246:9] POST /skin/list requested
+2025-08-28 11:29:14.626 - DEBUG: [logger.js:246:9] PARAMS -> {}
+2025-08-28 11:29:14.628 - DEBUG: [logger.js:246:9] SQL -> select count(*) as total from skincare.skin_care_info
+2025-08-28 11:29:14.630 - DEBUG: [logger.js:246:9] SQL -> 
+            select id, skin_type, features, care_tips, morning_routine, evening_routine, seasonal_routine, recommended_products, key_ingredients,
+                purchase_link, created_at, updated_at
+            from skincare.skin_care_info
+        
+2025-08-28 11:29:15.749 - DEBUG: [logger.js:246:9] skin::list 호출됨.
+2025-08-28 11:29:15.750 - DEBUG: [logger.js:246:9] GET /skin/list requested
+2025-08-28 11:29:15.750 - DEBUG: [logger.js:246:9] PARAMS -> {}
+2025-08-28 11:29:15.752 - DEBUG: [logger.js:246:9] SQL -> select count(*) as total from skincare.skin_care_info
+2025-08-28 11:29:15.754 - DEBUG: [logger.js:246:9] SQL -> 
+            select id, skin_type, features, care_tips, morning_routine, evening_routine, seasonal_routine, recommended_products, key_ingredients,
+                purchase_link, created_at, updated_at
+            from skincare.skin_care_info
+        
+2025-08-28 11:29:17.861 - DEBUG: [logger.js:246:9] skin::quality_tips 호출됨.
+2025-08-28 11:29:17.862 - DEBUG: [logger.js:246:9] POST /skin/quality_tips/1 requested
+2025-08-28 11:29:17.862 - DEBUG: [logger.js:246:9] PARAMS -> {"id":"1"}
+2025-08-28 11:29:17.865 - DEBUG: [logger.js:246:9] SQL -> 
+            select id, skin_type, features, care_tips, key_ingredients, purchase_link
+            from skincare.skin_care_info
+            where id = '1'
+        
+2025-08-28 11:30:36.533 - DEBUG: [logger.js:246:9] skin::quality_tips 호출됨.
+2025-08-28 11:30:36.534 - DEBUG: [logger.js:246:9] POST /skin/quality_tips/1 requested
+2025-08-28 11:30:36.534 - DEBUG: [logger.js:246:9] PARAMS -> {"id":"1"}
+2025-08-28 11:30:36.536 - DEBUG: [logger.js:246:9] SQL -> 
+            select id, skin_type, features, care_tips, key_ingredients, purchase_link
+            from skincare.skin_care_info
+            where id = '1'
+        
+2025-08-28 11:30:43.674 - DEBUG: [logger.js:246:9] skin::quality_tips 호출됨.
+2025-08-28 11:30:43.675 - DEBUG: [logger.js:246:9] POST /skin/quality_tips/1 requested
+2025-08-28 11:30:43.677 - DEBUG: [logger.js:246:9] PARAMS -> {"id":"1"}
+2025-08-28 11:30:43.682 - DEBUG: [logger.js:246:9] SQL -> 
+            select id, skin_type, features, care_tips, key_ingredients, purchase_link
+            from skincare.skin_care_info
+            where id = '1'
+        
+2025-08-28 11:30:51.653 - DEBUG: [logger.js:246:9] skin::list 호출됨.
+2025-08-28 11:30:51.655 - DEBUG: [logger.js:246:9] POST /skin/list requested
+2025-08-28 11:30:51.692 - DEBUG: [logger.js:246:9] PARAMS -> {}
+2025-08-28 11:30:51.707 - DEBUG: [logger.js:246:9] SQL -> select count(*) as total from skincare.skin_care_info
+2025-08-28 11:30:51.710 - DEBUG: [logger.js:246:9] SQL -> 
+            select id, skin_type, features, care_tips, morning_routine, evening_routine, seasonal_routine, recommended_products, key_ingredients,
+                purchase_link, created_at, updated_at
+            from skincare.skin_care_info
+        
+2025-08-28 11:30:53.077 - DEBUG: [logger.js:246:9] skin::list 호출됨.
+2025-08-28 11:30:53.078 - DEBUG: [logger.js:246:9] GET /skin/list requested
+2025-08-28 11:30:53.079 - DEBUG: [logger.js:246:9] PARAMS -> {}
+2025-08-28 11:30:53.080 - DEBUG: [logger.js:246:9] SQL -> select count(*) as total from skincare.skin_care_info
+2025-08-28 11:30:53.083 - DEBUG: [logger.js:246:9] SQL -> 
+            select id, skin_type, features, care_tips, morning_routine, evening_routine, seasonal_routine, recommended_products, key_ingredients,
+                purchase_link, created_at, updated_at
+            from skincare.skin_care_info
+        
+2025-08-28 11:30:54.808 - DEBUG: [logger.js:246:9] skin::quality_tips 호출됨.
+2025-08-28 11:30:54.809 - DEBUG: [logger.js:246:9] POST /skin/quality_tips/1 requested
+2025-08-28 11:30:54.809 - DEBUG: [logger.js:246:9] PARAMS -> {"id":"1"}
+2025-08-28 11:30:54.811 - DEBUG: [logger.js:246:9] SQL -> 
+            select id, skin_type, features, care_tips, key_ingredients, purchase_link
+            from skincare.skin_care_info
+            where id = '1'
+        
+2025-08-28 11:33:21.171 - DEBUG: [logger.js:246:9] skin::list 호출됨.
+2025-08-28 11:33:21.173 - DEBUG: [logger.js:246:9] POST /skin/list requested
+2025-08-28 11:33:21.174 - DEBUG: [logger.js:246:9] PARAMS -> {}
+2025-08-28 11:33:21.175 - DEBUG: [logger.js:246:9] SQL -> select count(*) as total from skincare.skin_care_info
+2025-08-28 11:33:21.177 - DEBUG: [logger.js:246:9] SQL -> 
+            select id, skin_type, features, care_tips, morning_routine, evening_routine, seasonal_routine, recommended_products, key_ingredients,
+                purchase_link, created_at, updated_at
+            from skincare.skin_care_info
+        
+2025-08-28 11:33:22.199 - DEBUG: [logger.js:246:9] skin::list 호출됨.
+2025-08-28 11:33:22.200 - DEBUG: [logger.js:246:9] GET /skin/list requested
+2025-08-28 11:33:22.203 - DEBUG: [logger.js:246:9] PARAMS -> {}
+2025-08-28 11:33:22.219 - DEBUG: [logger.js:246:9] SQL -> select count(*) as total from skincare.skin_care_info
+2025-08-28 11:33:22.223 - DEBUG: [logger.js:246:9] SQL -> 
+            select id, skin_type, features, care_tips, morning_routine, evening_routine, seasonal_routine, recommended_products, key_ingredients,
+                purchase_link, created_at, updated_at
+            from skincare.skin_care_info
+        
+2025-08-28 11:33:30.923 - DEBUG: [logger.js:246:9] skin::quality_tips 호출됨.
+2025-08-28 11:33:30.926 - DEBUG: [logger.js:246:9] POST /skin/quality_tips/1 requested
+2025-08-28 11:33:30.927 - DEBUG: [logger.js:246:9] PARAMS -> {"id":"1"}
+2025-08-28 11:33:30.934 - DEBUG: [logger.js:246:9] SQL -> 
+            select id, skin_type, features, care_tips, key_ingredients, purchase_link
+            from skincare.skin_care_info
+            where id = '1'
+        
+2025-08-28 11:35:34.086 - DEBUG: [logger.js:246:9] skin::quality_tips 호출됨.
+2025-08-28 11:35:34.087 - DEBUG: [logger.js:246:9] POST /skin/quality_tips/1 requested
+2025-08-28 11:35:34.087 - DEBUG: [logger.js:246:9] PARAMS -> {"id":"1"}
+2025-08-28 11:35:34.089 - DEBUG: [logger.js:246:9] SQL -> 
+            select id, skin_type, features, care_tips, key_ingredients, purchase_link
+            from skincare.skin_care_info
+            where id = '1'
+        
+2025-08-28 11:36:26.481 - DEBUG: [logger.js:246:9] skin::quality_tips 호출됨.
+2025-08-28 11:36:26.482 - DEBUG: [logger.js:246:9] POST /skin/quality_tips/1 requested
+2025-08-28 11:36:26.483 - DEBUG: [logger.js:246:9] PARAMS -> {"id":"1"}
+2025-08-28 11:36:26.484 - DEBUG: [logger.js:246:9] SQL -> 
+            select id, skin_type, features, care_tips, key_ingredients, purchase_link
+            from skincare.skin_care_info
+            where id = '1'
+        
+2025-08-28 11:36:42.561 - DEBUG: [logger.js:246:9] skin::quality_tips 호출됨.
+2025-08-28 11:36:42.562 - DEBUG: [logger.js:246:9] POST /skin/quality_tips/1 requested
+2025-08-28 11:36:42.562 - DEBUG: [logger.js:246:9] PARAMS -> {"id":"1"}
+2025-08-28 11:36:42.565 - DEBUG: [logger.js:246:9] SQL -> 
+            select id, skin_type, features, care_tips, key_ingredients, purchase_link
+            from skincare.skin_care_info
+            where id = '1'
+        
+2025-08-28 11:37:03.652 - DEBUG: [logger.js:246:9] skin::quality_tips 호출됨.
+2025-08-28 11:37:03.653 - DEBUG: [logger.js:246:9] POST /skin/quality_tips/1 requested
+2025-08-28 11:37:03.653 - DEBUG: [logger.js:246:9] PARAMS -> {"id":"1"}
+2025-08-28 11:37:03.657 - DEBUG: [logger.js:246:9] SQL -> 
+            select id, skin_type, features, care_tips, key_ingredients, purchase_link
+            from skincare.skin_care_info
+            where id = '1'
+        
+2025-08-28 11:37:06.640 - DEBUG: [logger.js:246:9] skin::quality_tips 호출됨.
+2025-08-28 11:37:06.640 - DEBUG: [logger.js:246:9] POST /skin/quality_tips/1 requested
+2025-08-28 11:37:06.641 - DEBUG: [logger.js:246:9] PARAMS -> {"id":"1"}
+2025-08-28 11:37:06.643 - DEBUG: [logger.js:246:9] SQL -> 
+            select id, skin_type, features, care_tips, key_ingredients, purchase_link
+            from skincare.skin_care_info
+            where id = '1'
+        
+2025-08-28 11:37:12.480 - DEBUG: [logger.js:246:9] skin::quality_tips 호출됨.
+2025-08-28 11:37:12.480 - DEBUG: [logger.js:246:9] POST /skin/quality_tips/1 requested
+2025-08-28 11:37:12.481 - DEBUG: [logger.js:246:9] PARAMS -> {"id":"1"}
+2025-08-28 11:37:12.483 - DEBUG: [logger.js:246:9] SQL -> 
+            select id, skin_type, features, care_tips, key_ingredients, purchase_link
+            from skincare.skin_care_info
+            where id = '1'
+        
+2025-08-28 11:39:10.263 - DEBUG: [logger.js:246:9] skin::list 호출됨.
+2025-08-28 11:39:10.264 - DEBUG: [logger.js:246:9] POST /skin/list requested
+2025-08-28 11:39:10.264 - DEBUG: [logger.js:246:9] PARAMS -> {}
+2025-08-28 11:39:10.267 - DEBUG: [logger.js:246:9] SQL -> select count(*) as total from skincare.skin_care_info
+2025-08-28 11:39:10.268 - DEBUG: [logger.js:246:9] SQL -> 
+            select id, skin_type, features, care_tips, morning_routine, evening_routine, seasonal_routine, recommended_products, key_ingredients,
+                purchase_link, created_at, updated_at
+            from skincare.skin_care_info
+        
+2025-08-28 11:39:11.648 - DEBUG: [logger.js:246:9] skin::list 호출됨.
+2025-08-28 11:39:11.649 - DEBUG: [logger.js:246:9] GET /skin/list requested
+2025-08-28 11:39:11.649 - DEBUG: [logger.js:246:9] PARAMS -> {}
+2025-08-28 11:39:11.650 - DEBUG: [logger.js:246:9] SQL -> select count(*) as total from skincare.skin_care_info
+2025-08-28 11:39:11.651 - DEBUG: [logger.js:246:9] SQL -> 
+            select id, skin_type, features, care_tips, morning_routine, evening_routine, seasonal_routine, recommended_products, key_ingredients,
+                purchase_link, created_at, updated_at
+            from skincare.skin_care_info
+        
+2025-08-28 11:39:13.042 - DEBUG: [logger.js:246:9] skin::quality_tips 호출됨.
+2025-08-28 11:39:13.043 - DEBUG: [logger.js:246:9] POST /skin/quality_tips/1 requested
+2025-08-28 11:39:13.044 - DEBUG: [logger.js:246:9] PARAMS -> {"id":"1"}
+2025-08-28 11:39:13.045 - DEBUG: [logger.js:246:9] SQL -> 
+            select id, skin_type, features, care_tips, key_ingredients, purchase_link
+            from skincare.skin_care_info
+            where id = '1'
+        
+2025-08-28 11:39:40.720 - INFO: [logger.js:246:9] service loader called.
+2025-08-28 11:39:40.733 - INFO: [logger.js:246:9] controller loader called.
+2025-08-28 11:39:40.733 - DEBUG: [logger.js:246:9] external_loader called.
+2025-08-28 11:39:40.734 - DEBUG: [logger.js:246:9] No external configuration.
+2025-08-28 11:39:40.927 - INFO: [logger.js:246:9] Http Server started.
+2025-08-28 11:39:40.928 - INFO: [logger.js:246:9] Base URL -> http://localhost:8001
+2025-08-28 11:39:40.928 - INFO: [logger.js:246:9] Namespace -> ::_8001_1348
+2025-08-28 11:39:40.930 - DEBUG: [logger.js:246:9] database SQL file loaded.
+2025-08-28 11:39:45.185 - DEBUG: [logger.js:246:9] skin::list 호출됨.
+2025-08-28 11:39:45.186 - DEBUG: [logger.js:246:9] GET /skin/list requested
+2025-08-28 11:39:45.186 - DEBUG: [logger.js:246:9] PARAMS -> {}
+2025-08-28 11:39:45.209 - DEBUG: [logger.js:246:9] SQL -> select count(*) as total from skincare.skin_care_info
+2025-08-28 11:39:45.211 - DEBUG: [logger.js:246:9] SQL -> 
+            select id, skin_type, features, care_tips, morning_routine, evening_routine, seasonal_routine, recommended_products, key_ingredients,
+                purchase_link, created_at, updated_at
+            from skincare.skin_care_info
+        
+2025-08-28 11:39:46.271 - DEBUG: [logger.js:246:9] skin::quality_tips 호출됨.
+2025-08-28 11:39:46.272 - DEBUG: [logger.js:246:9] POST /skin/quality_tips/1 requested
+2025-08-28 11:39:46.272 - DEBUG: [logger.js:246:9] PARAMS -> {"id":"1"}
+2025-08-28 11:39:46.274 - DEBUG: [logger.js:246:9] SQL -> 
+            select id, skin_type, features, care_tips, key_ingredients, purchase_link
+            from skincare.skin_care_info
+            where id = '1'
+        
+2025-08-28 11:39:58.154 - DEBUG: [logger.js:246:9] skin::list 호출됨.
+2025-08-28 11:39:58.155 - DEBUG: [logger.js:246:9] POST /skin/list requested
+2025-08-28 11:39:58.155 - DEBUG: [logger.js:246:9] PARAMS -> {}
+2025-08-28 11:39:58.157 - DEBUG: [logger.js:246:9] SQL -> select count(*) as total from skincare.skin_care_info
+2025-08-28 11:39:58.158 - DEBUG: [logger.js:246:9] SQL -> 
+            select id, skin_type, features, care_tips, morning_routine, evening_routine, seasonal_routine, recommended_products, key_ingredients,
+                purchase_link, created_at, updated_at
+            from skincare.skin_care_info
+        
+2025-08-28 11:39:59.212 - DEBUG: [logger.js:246:9] skin::list 호출됨.
+2025-08-28 11:39:59.213 - DEBUG: [logger.js:246:9] GET /skin/list requested
+2025-08-28 11:39:59.213 - DEBUG: [logger.js:246:9] PARAMS -> {}
+2025-08-28 11:39:59.215 - DEBUG: [logger.js:246:9] SQL -> select count(*) as total from skincare.skin_care_info
+2025-08-28 11:39:59.216 - DEBUG: [logger.js:246:9] SQL -> 
+            select id, skin_type, features, care_tips, morning_routine, evening_routine, seasonal_routine, recommended_products, key_ingredients,
+                purchase_link, created_at, updated_at
+            from skincare.skin_care_info
+        
+2025-08-28 11:40:01.740 - DEBUG: [logger.js:246:9] skin::quality_tips 호출됨.
+2025-08-28 11:40:01.741 - DEBUG: [logger.js:246:9] POST /skin/quality_tips/1 requested
+2025-08-28 11:40:01.742 - DEBUG: [logger.js:246:9] PARAMS -> {"id":"1"}
+2025-08-28 11:40:01.745 - DEBUG: [logger.js:246:9] SQL -> 
+            select id, skin_type, features, care_tips, key_ingredients, purchase_link
+            from skincare.skin_care_info
+            where id = '1'
+        
+2025-08-28 11:40:28.160 - DEBUG: [logger.js:246:9] skin::list 호출됨.
+2025-08-28 11:40:28.161 - DEBUG: [logger.js:246:9] GET /skin/list requested
+2025-08-28 11:40:28.161 - DEBUG: [logger.js:246:9] PARAMS -> {}
+2025-08-28 11:40:28.164 - DEBUG: [logger.js:246:9] SQL -> select count(*) as total from skincare.skin_care_info
+2025-08-28 11:40:28.167 - DEBUG: [logger.js:246:9] SQL -> 
+            select id, skin_type, features, care_tips, morning_routine, evening_routine, seasonal_routine, recommended_products, key_ingredients,
+                purchase_link, created_at, updated_at
+            from skincare.skin_care_info
+        
+2025-08-28 11:40:28.955 - DEBUG: [logger.js:246:9] skin::quality_tips 호출됨.
+2025-08-28 11:40:28.956 - DEBUG: [logger.js:246:9] POST /skin/quality_tips/1 requested
+2025-08-28 11:40:28.956 - DEBUG: [logger.js:246:9] PARAMS -> {"id":"1"}
+2025-08-28 11:40:28.958 - DEBUG: [logger.js:246:9] SQL -> 
+            select id, skin_type, features, care_tips, key_ingredients, purchase_link
+            from skincare.skin_care_info
+            where id = '1'
+        
+2025-08-28 11:40:36.320 - DEBUG: [logger.js:246:9] skin::list 호출됨.
+2025-08-28 11:40:36.320 - DEBUG: [logger.js:246:9] GET /skin/list requested
+2025-08-28 11:40:36.321 - DEBUG: [logger.js:246:9] PARAMS -> {}
+2025-08-28 11:40:36.322 - DEBUG: [logger.js:246:9] SQL -> select count(*) as total from skincare.skin_care_info
+2025-08-28 11:40:36.323 - DEBUG: [logger.js:246:9] SQL -> 
+            select id, skin_type, features, care_tips, morning_routine, evening_routine, seasonal_routine, recommended_products, key_ingredients,
+                purchase_link, created_at, updated_at
+            from skincare.skin_care_info
+        
+2025-08-28 11:40:37.350 - DEBUG: [logger.js:246:9] skin::quality_tips 호출됨.
+2025-08-28 11:40:37.350 - DEBUG: [logger.js:246:9] POST /skin/quality_tips/1 requested
+2025-08-28 11:40:37.351 - DEBUG: [logger.js:246:9] PARAMS -> {"id":"1"}
+2025-08-28 11:40:37.352 - DEBUG: [logger.js:246:9] SQL -> 
+            select id, skin_type, features, care_tips, key_ingredients, purchase_link
+            from skincare.skin_care_info
+            where id = '1'
+        
+2025-08-28 11:41:46.506 - DEBUG: [logger.js:246:9] skin::quality_tips 호출됨.
+2025-08-28 11:41:46.522 - DEBUG: [logger.js:246:9] POST /skin/quality_tips/1 requested
+2025-08-28 11:41:46.525 - DEBUG: [logger.js:246:9] PARAMS -> {"id":"1"}
+2025-08-28 11:41:46.535 - DEBUG: [logger.js:246:9] SQL -> 
+            select id, skin_type, features, care_tips, key_ingredients, purchase_link
+            from skincare.skin_care_info
+            where id = '1'
+        
+2025-08-28 11:42:17.106 - DEBUG: [logger.js:246:9] skin::list 호출됨.
+2025-08-28 11:42:17.107 - DEBUG: [logger.js:246:9] POST /skin/list requested
+2025-08-28 11:42:17.107 - DEBUG: [logger.js:246:9] PARAMS -> {}
+2025-08-28 11:42:17.109 - DEBUG: [logger.js:246:9] SQL -> select count(*) as total from skincare.skin_care_info
+2025-08-28 11:42:17.111 - DEBUG: [logger.js:246:9] SQL -> 
+            select id, skin_type, features, care_tips, morning_routine, evening_routine, seasonal_routine, recommended_products, key_ingredients,
+                purchase_link, created_at, updated_at
+            from skincare.skin_care_info
+        
+2025-08-28 11:42:18.375 - DEBUG: [logger.js:246:9] skin::list 호출됨.
+2025-08-28 11:42:18.376 - DEBUG: [logger.js:246:9] GET /skin/list requested
+2025-08-28 11:42:18.376 - DEBUG: [logger.js:246:9] PARAMS -> {}
+2025-08-28 11:42:18.377 - DEBUG: [logger.js:246:9] SQL -> select count(*) as total from skincare.skin_care_info
+2025-08-28 11:42:18.378 - DEBUG: [logger.js:246:9] SQL -> 
+            select id, skin_type, features, care_tips, morning_routine, evening_routine, seasonal_routine, recommended_products, key_ingredients,
+                purchase_link, created_at, updated_at
+            from skincare.skin_care_info
+        
+2025-08-28 11:42:20.226 - DEBUG: [logger.js:246:9] skin::quality_tips 호출됨.
+2025-08-28 11:42:20.227 - DEBUG: [logger.js:246:9] POST /skin/quality_tips/2 requested
+2025-08-28 11:42:20.228 - DEBUG: [logger.js:246:9] PARAMS -> {"id":"2"}
+2025-08-28 11:42:20.230 - DEBUG: [logger.js:246:9] SQL -> 
+            select id, skin_type, features, care_tips, key_ingredients, purchase_link
+            from skincare.skin_care_info
+            where id = '2'
+        
+2025-08-28 11:42:43.726 - DEBUG: [logger.js:246:9] skin::list 호출됨.
+2025-08-28 11:42:43.785 - DEBUG: [logger.js:246:9] POST /skin/list requested
+2025-08-28 11:42:43.789 - DEBUG: [logger.js:246:9] PARAMS -> {}
+2025-08-28 11:42:43.794 - DEBUG: [logger.js:246:9] SQL -> select count(*) as total from skincare.skin_care_info
+2025-08-28 11:42:43.795 - DEBUG: [logger.js:246:9] SQL -> 
+            select id, skin_type, features, care_tips, morning_routine, evening_routine, seasonal_routine, recommended_products, key_ingredients,
+                purchase_link, created_at, updated_at
+            from skincare.skin_care_info
+        
+2025-08-28 11:42:44.909 - DEBUG: [logger.js:246:9] skin::list 호출됨.
+2025-08-28 11:42:44.912 - DEBUG: [logger.js:246:9] GET /skin/list requested
+2025-08-28 11:42:44.918 - DEBUG: [logger.js:246:9] PARAMS -> {}
+2025-08-28 11:42:44.920 - DEBUG: [logger.js:246:9] SQL -> select count(*) as total from skincare.skin_care_info
+2025-08-28 11:42:44.923 - DEBUG: [logger.js:246:9] SQL -> 
+            select id, skin_type, features, care_tips, morning_routine, evening_routine, seasonal_routine, recommended_products, key_ingredients,
+                purchase_link, created_at, updated_at
+            from skincare.skin_care_info
+        
+2025-08-28 11:42:46.946 - DEBUG: [logger.js:246:9] skin::quality_tips 호출됨.
+2025-08-28 11:42:46.947 - DEBUG: [logger.js:246:9] POST /skin/quality_tips/4 requested
+2025-08-28 11:42:46.947 - DEBUG: [logger.js:246:9] PARAMS -> {"id":"4"}
+2025-08-28 11:42:46.949 - DEBUG: [logger.js:246:9] SQL -> 
+            select id, skin_type, features, care_tips, key_ingredients, purchase_link
+            from skincare.skin_care_info
+            where id = '4'
+        
+2025-08-28 11:42:54.376 - DEBUG: [logger.js:246:9] skin::quality_tips 호출됨.
+2025-08-28 11:42:54.377 - DEBUG: [logger.js:246:9] POST /skin/quality_tips/4 requested
+2025-08-28 11:42:54.377 - DEBUG: [logger.js:246:9] PARAMS -> {"id":"4"}
+2025-08-28 11:42:54.380 - DEBUG: [logger.js:246:9] SQL -> 
+            select id, skin_type, features, care_tips, key_ingredients, purchase_link
+            from skincare.skin_care_info
+            where id = '4'
+        
+2025-08-28 11:42:57.975 - DEBUG: [logger.js:246:9] skin::list 호출됨.
+2025-08-28 11:42:57.976 - DEBUG: [logger.js:246:9] POST /skin/list requested
+2025-08-28 11:42:57.978 - DEBUG: [logger.js:246:9] PARAMS -> {}
+2025-08-28 11:42:57.980 - DEBUG: [logger.js:246:9] SQL -> select count(*) as total from skincare.skin_care_info
+2025-08-28 11:42:57.989 - DEBUG: [logger.js:246:9] SQL -> 
+            select id, skin_type, features, care_tips, morning_routine, evening_routine, seasonal_routine, recommended_products, key_ingredients,
+                purchase_link, created_at, updated_at
+            from skincare.skin_care_info
+        
+2025-08-28 11:42:59.383 - DEBUG: [logger.js:246:9] skin::list 호출됨.
+2025-08-28 11:42:59.384 - DEBUG: [logger.js:246:9] GET /skin/list requested
+2025-08-28 11:42:59.385 - DEBUG: [logger.js:246:9] PARAMS -> {}
+2025-08-28 11:42:59.386 - DEBUG: [logger.js:246:9] SQL -> select count(*) as total from skincare.skin_care_info
+2025-08-28 11:42:59.387 - DEBUG: [logger.js:246:9] SQL -> 
+            select id, skin_type, features, care_tips, morning_routine, evening_routine, seasonal_routine, recommended_products, key_ingredients,
+                purchase_link, created_at, updated_at
+            from skincare.skin_care_info
+        
+2025-08-28 11:43:00.977 - DEBUG: [logger.js:246:9] skin::quality_tips 호출됨.
+2025-08-28 11:43:00.980 - DEBUG: [logger.js:246:9] POST /skin/quality_tips/2 requested
+2025-08-28 11:43:00.988 - DEBUG: [logger.js:246:9] PARAMS -> {"id":"2"}
+2025-08-28 11:43:00.991 - DEBUG: [logger.js:246:9] SQL -> 
+            select id, skin_type, features, care_tips, key_ingredients, purchase_link
+            from skincare.skin_care_info
+            where id = '2'
+        
+2025-08-28 11:45:00.333 - DEBUG: [logger.js:246:9] skin::list 호출됨.
+2025-08-28 11:45:00.334 - DEBUG: [logger.js:246:9] POST /skin/list requested
+2025-08-28 11:45:00.334 - DEBUG: [logger.js:246:9] PARAMS -> {}
+2025-08-28 11:45:00.335 - DEBUG: [logger.js:246:9] SQL -> select count(*) as total from skincare.skin_care_info
+2025-08-28 11:45:00.336 - DEBUG: [logger.js:246:9] SQL -> 
+            select id, skin_type, features, care_tips, morning_routine, evening_routine, seasonal_routine, recommended_products, key_ingredients,
+                purchase_link, created_at, updated_at
+            from skincare.skin_care_info
+        
+2025-08-28 11:45:01.597 - DEBUG: [logger.js:246:9] skin::list 호출됨.
+2025-08-28 11:45:01.598 - DEBUG: [logger.js:246:9] GET /skin/list requested
+2025-08-28 11:45:01.599 - DEBUG: [logger.js:246:9] PARAMS -> {}
+2025-08-28 11:45:01.603 - DEBUG: [logger.js:246:9] SQL -> select count(*) as total from skincare.skin_care_info
+2025-08-28 11:45:01.607 - DEBUG: [logger.js:246:9] SQL -> 
+            select id, skin_type, features, care_tips, morning_routine, evening_routine, seasonal_routine, recommended_products, key_ingredients,
+                purchase_link, created_at, updated_at
+            from skincare.skin_care_info
+        
+2025-08-28 11:45:03.021 - DEBUG: [logger.js:246:9] skin::quality_tips 호출됨.
+2025-08-28 11:45:03.022 - DEBUG: [logger.js:246:9] POST /skin/quality_tips/1 requested
+2025-08-28 11:45:03.024 - DEBUG: [logger.js:246:9] PARAMS -> {"id":"1"}
+2025-08-28 11:45:03.026 - DEBUG: [logger.js:246:9] SQL -> 
+            select id, skin_type, features, care_tips, key_ingredients, purchase_link
+            from skincare.skin_care_info
+            where id = '1'
+        
+2025-08-28 11:46:47.476 - DEBUG: [logger.js:246:9] skin::quality_tips 호출됨.
+2025-08-28 11:46:47.480 - DEBUG: [logger.js:246:9] POST /skin/quality_tips/1 requested
+2025-08-28 11:46:47.480 - DEBUG: [logger.js:246:9] PARAMS -> {"id":"1"}
+2025-08-28 11:46:47.486 - DEBUG: [logger.js:246:9] SQL -> 
+            select id, skin_type, features, care_tips, key_ingredients, purchase_link
+            from skincare.skin_care_info
+            where id = '1'
+        
+2025-08-28 11:47:45.995 - DEBUG: [logger.js:246:9] skin::quality_tips 호출됨.
+2025-08-28 11:47:45.996 - DEBUG: [logger.js:246:9] POST /skin/quality_tips/1 requested
+2025-08-28 11:47:45.996 - DEBUG: [logger.js:246:9] PARAMS -> {"id":"1"}
+2025-08-28 11:47:46.000 - DEBUG: [logger.js:246:9] SQL -> 
+            select id, skin_type, features, care_tips, key_ingredients, purchase_link
+            from skincare.skin_care_info
+            where id = '1'
+        
+2025-08-28 11:47:51.875 - DEBUG: [logger.js:246:9] skin::quality_tips 호출됨.
+2025-08-28 11:47:51.875 - DEBUG: [logger.js:246:9] POST /skin/quality_tips/1 requested
+2025-08-28 11:47:51.875 - DEBUG: [logger.js:246:9] PARAMS -> {"id":"1"}
+2025-08-28 11:47:51.877 - DEBUG: [logger.js:246:9] SQL -> 
+            select id, skin_type, features, care_tips, key_ingredients, purchase_link
+            from skincare.skin_care_info
+            where id = '1'
+        
+2025-08-28 11:48:33.843 - DEBUG: [logger.js:246:9] skin::quality_tips 호출됨.
+2025-08-28 11:48:33.845 - DEBUG: [logger.js:246:9] POST /skin/quality_tips/1 requested
+2025-08-28 11:48:33.848 - DEBUG: [logger.js:246:9] PARAMS -> {"id":"1"}
+2025-08-28 11:48:33.863 - DEBUG: [logger.js:246:9] SQL -> 
+            select id, skin_type, features, care_tips, key_ingredients, purchase_link
+            from skincare.skin_care_info
+            where id = '1'
+        
+2025-08-28 11:50:06.322 - DEBUG: [logger.js:246:9] skin::list 호출됨.
+2025-08-28 11:50:06.323 - DEBUG: [logger.js:246:9] POST /skin/list requested
+2025-08-28 11:50:06.324 - DEBUG: [logger.js:246:9] PARAMS -> {}
+2025-08-28 11:50:06.325 - DEBUG: [logger.js:246:9] SQL -> select count(*) as total from skincare.skin_care_info
+2025-08-28 11:50:06.327 - DEBUG: [logger.js:246:9] SQL -> 
+            select id, skin_type, features, care_tips, morning_routine, evening_routine, seasonal_routine, recommended_products, key_ingredients,
+                purchase_link, created_at, updated_at
+            from skincare.skin_care_info
+        
+2025-08-28 11:50:07.628 - DEBUG: [logger.js:246:9] skin::list 호출됨.
+2025-08-28 11:50:07.628 - DEBUG: [logger.js:246:9] GET /skin/list requested
+2025-08-28 11:50:07.628 - DEBUG: [logger.js:246:9] PARAMS -> {}
+2025-08-28 11:50:07.630 - DEBUG: [logger.js:246:9] SQL -> select count(*) as total from skincare.skin_care_info
+2025-08-28 11:50:07.632 - DEBUG: [logger.js:246:9] SQL -> 
+            select id, skin_type, features, care_tips, morning_routine, evening_routine, seasonal_routine, recommended_products, key_ingredients,
+                purchase_link, created_at, updated_at
+            from skincare.skin_care_info
+        
+2025-08-28 11:50:09.910 - DEBUG: [logger.js:246:9] skin::quality_tips 호출됨.
+2025-08-28 11:50:09.912 - DEBUG: [logger.js:246:9] POST /skin/quality_tips/1 requested
+2025-08-28 11:50:09.914 - DEBUG: [logger.js:246:9] PARAMS -> {"id":"1"}
+2025-08-28 11:50:09.916 - DEBUG: [logger.js:246:9] SQL -> 
+            select id, skin_type, features, care_tips, key_ingredients, purchase_link
+            from skincare.skin_care_info
+            where id = '1'
+        
+2025-08-28 11:50:24.434 - DEBUG: [logger.js:246:9] skin::list 호출됨.
+2025-08-28 11:50:24.435 - DEBUG: [logger.js:246:9] GET /skin/list requested
+2025-08-28 11:50:24.436 - DEBUG: [logger.js:246:9] PARAMS -> {}
+2025-08-28 11:50:24.437 - DEBUG: [logger.js:246:9] SQL -> select count(*) as total from skincare.skin_care_info
+2025-08-28 11:50:24.438 - DEBUG: [logger.js:246:9] SQL -> 
+            select id, skin_type, features, care_tips, morning_routine, evening_routine, seasonal_routine, recommended_products, key_ingredients,
+                purchase_link, created_at, updated_at
+            from skincare.skin_care_info
+        
+2025-08-28 11:50:25.410 - DEBUG: [logger.js:246:9] skin::ampm 호출됨.
+2025-08-28 11:50:25.411 - DEBUG: [logger.js:246:9] POST /skin/ampm/1 requested
+2025-08-28 11:50:25.413 - DEBUG: [logger.js:246:9] PARAMS -> {"id":"1"}
+2025-08-28 11:50:25.419 - DEBUG: [logger.js:246:9] SQL -> 
+            select id, skin_type, morning_routine,evening_routine
+            from skincare.skin_care_info
+            where id = '1'
+        
+2025-08-28 11:50:43.592 - DEBUG: [logger.js:246:9] skin::list 호출됨.
+2025-08-28 11:50:43.592 - DEBUG: [logger.js:246:9] POST /skin/list requested
+2025-08-28 11:50:43.593 - DEBUG: [logger.js:246:9] PARAMS -> {}
+2025-08-28 11:50:43.594 - DEBUG: [logger.js:246:9] SQL -> select count(*) as total from skincare.skin_care_info
+2025-08-28 11:50:43.596 - DEBUG: [logger.js:246:9] SQL -> 
+            select id, skin_type, features, care_tips, morning_routine, evening_routine, seasonal_routine, recommended_products, key_ingredients,
+                purchase_link, created_at, updated_at
+            from skincare.skin_care_info
+        
+2025-08-28 11:50:44.625 - DEBUG: [logger.js:246:9] skin::list 호출됨.
+2025-08-28 11:50:44.625 - DEBUG: [logger.js:246:9] GET /skin/list requested
+2025-08-28 11:50:44.626 - DEBUG: [logger.js:246:9] PARAMS -> {}
+2025-08-28 11:50:44.627 - DEBUG: [logger.js:246:9] SQL -> select count(*) as total from skincare.skin_care_info
+2025-08-28 11:50:44.628 - DEBUG: [logger.js:246:9] SQL -> 
+            select id, skin_type, features, care_tips, morning_routine, evening_routine, seasonal_routine, recommended_products, key_ingredients,
+                purchase_link, created_at, updated_at
+            from skincare.skin_care_info
+        
+2025-08-28 11:50:45.625 - DEBUG: [logger.js:246:9] skin::quality_tips 호출됨.
+2025-08-28 11:50:45.626 - DEBUG: [logger.js:246:9] POST /skin/quality_tips/1 requested
+2025-08-28 11:50:45.627 - DEBUG: [logger.js:246:9] PARAMS -> {"id":"1"}
+2025-08-28 11:50:45.628 - DEBUG: [logger.js:246:9] SQL -> 
+            select id, skin_type, features, care_tips, key_ingredients, purchase_link
+            from skincare.skin_care_info
+            where id = '1'
+        
+2025-08-28 11:51:08.836 - DEBUG: [logger.js:246:9] skin::list 호출됨.
+2025-08-28 11:51:08.837 - DEBUG: [logger.js:246:9] GET /skin/list requested
+2025-08-28 11:51:08.838 - DEBUG: [logger.js:246:9] PARAMS -> {}
+2025-08-28 11:51:08.839 - DEBUG: [logger.js:246:9] SQL -> select count(*) as total from skincare.skin_care_info
+2025-08-28 11:51:08.840 - DEBUG: [logger.js:246:9] SQL -> 
+            select id, skin_type, features, care_tips, morning_routine, evening_routine, seasonal_routine, recommended_products, key_ingredients,
+                purchase_link, created_at, updated_at
+            from skincare.skin_care_info
+        
+2025-08-28 11:51:10.003 - DEBUG: [logger.js:246:9] skin::quality_tips 호출됨.
+2025-08-28 11:51:10.004 - DEBUG: [logger.js:246:9] POST /skin/quality_tips/1 requested
+2025-08-28 11:51:10.004 - DEBUG: [logger.js:246:9] PARAMS -> {"id":"1"}
+2025-08-28 11:51:10.006 - DEBUG: [logger.js:246:9] SQL -> 
+            select id, skin_type, features, care_tips, key_ingredients, purchase_link
+            from skincare.skin_care_info
+            where id = '1'
+        
+2025-08-28 11:51:49.649 - DEBUG: [logger.js:246:9] skin::list 호출됨.
+2025-08-28 11:51:49.650 - DEBUG: [logger.js:246:9] POST /skin/list requested
+2025-08-28 11:51:49.650 - DEBUG: [logger.js:246:9] PARAMS -> {}
+2025-08-28 11:51:49.652 - DEBUG: [logger.js:246:9] SQL -> select count(*) as total from skincare.skin_care_info
+2025-08-28 11:51:49.653 - DEBUG: [logger.js:246:9] SQL -> 
+            select id, skin_type, features, care_tips, morning_routine, evening_routine, seasonal_routine, recommended_products, key_ingredients,
+                purchase_link, created_at, updated_at
+            from skincare.skin_care_info
+        
+2025-08-28 11:51:50.913 - DEBUG: [logger.js:246:9] skin::list 호출됨.
+2025-08-28 11:51:50.914 - DEBUG: [logger.js:246:9] GET /skin/list requested
+2025-08-28 11:51:50.914 - DEBUG: [logger.js:246:9] PARAMS -> {}
+2025-08-28 11:51:50.916 - DEBUG: [logger.js:246:9] SQL -> select count(*) as total from skincare.skin_care_info
+2025-08-28 11:51:50.917 - DEBUG: [logger.js:246:9] SQL -> 
+            select id, skin_type, features, care_tips, morning_routine, evening_routine, seasonal_routine, recommended_products, key_ingredients,
+                purchase_link, created_at, updated_at
+            from skincare.skin_care_info
+        
+2025-08-28 11:51:53.166 - DEBUG: [logger.js:246:9] skin::quality_tips 호출됨.
+2025-08-28 11:51:53.167 - DEBUG: [logger.js:246:9] POST /skin/quality_tips/2 requested
+2025-08-28 11:51:53.167 - DEBUG: [logger.js:246:9] PARAMS -> {"id":"2"}
+2025-08-28 11:51:53.169 - DEBUG: [logger.js:246:9] SQL -> 
+            select id, skin_type, features, care_tips, key_ingredients, purchase_link
+            from skincare.skin_care_info
+            where id = '2'
+        
+2025-08-28 11:52:16.787 - DEBUG: [logger.js:246:9] skin::list 호출됨.
+2025-08-28 11:52:16.787 - DEBUG: [logger.js:246:9] GET /skin/list requested
+2025-08-28 11:52:16.788 - DEBUG: [logger.js:246:9] PARAMS -> {}
+2025-08-28 11:52:16.790 - DEBUG: [logger.js:246:9] SQL -> select count(*) as total from skincare.skin_care_info
+2025-08-28 11:52:16.791 - DEBUG: [logger.js:246:9] SQL -> 
+            select id, skin_type, features, care_tips, morning_routine, evening_routine, seasonal_routine, recommended_products, key_ingredients,
+                purchase_link, created_at, updated_at
+            from skincare.skin_care_info
+        
+2025-08-28 11:52:18.984 - DEBUG: [logger.js:246:9] skin::quality_tips 호출됨.
+2025-08-28 11:52:18.985 - DEBUG: [logger.js:246:9] POST /skin/quality_tips/2 requested
+2025-08-28 11:52:18.985 - DEBUG: [logger.js:246:9] PARAMS -> {"id":"2"}
+2025-08-28 11:52:18.986 - DEBUG: [logger.js:246:9] SQL -> 
+            select id, skin_type, features, care_tips, key_ingredients, purchase_link
+            from skincare.skin_care_info
+            where id = '2'
+        
+2025-08-28 11:52:42.621 - DEBUG: [logger.js:246:9] skin::list 호출됨.
+2025-08-28 11:52:42.621 - DEBUG: [logger.js:246:9] POST /skin/list requested
+2025-08-28 11:52:42.622 - DEBUG: [logger.js:246:9] PARAMS -> {}
+2025-08-28 11:52:42.624 - DEBUG: [logger.js:246:9] SQL -> select count(*) as total from skincare.skin_care_info
+2025-08-28 11:52:42.626 - DEBUG: [logger.js:246:9] SQL -> 
+            select id, skin_type, features, care_tips, morning_routine, evening_routine, seasonal_routine, recommended_products, key_ingredients,
+                purchase_link, created_at, updated_at
+            from skincare.skin_care_info
+        
+2025-08-28 11:52:43.416 - DEBUG: [logger.js:246:9] skin::list 호출됨.
+2025-08-28 11:52:43.417 - DEBUG: [logger.js:246:9] GET /skin/list requested
+2025-08-28 11:52:43.418 - DEBUG: [logger.js:246:9] PARAMS -> {}
+2025-08-28 11:52:43.420 - DEBUG: [logger.js:246:9] SQL -> select count(*) as total from skincare.skin_care_info
+2025-08-28 11:52:43.421 - DEBUG: [logger.js:246:9] SQL -> 
+            select id, skin_type, features, care_tips, morning_routine, evening_routine, seasonal_routine, recommended_products, key_ingredients,
+                purchase_link, created_at, updated_at
+            from skincare.skin_care_info
+        
+2025-08-28 11:52:44.760 - DEBUG: [logger.js:246:9] skin::quality_tips 호출됨.
+2025-08-28 11:52:44.761 - DEBUG: [logger.js:246:9] POST /skin/quality_tips/2 requested
+2025-08-28 11:52:44.761 - DEBUG: [logger.js:246:9] PARAMS -> {"id":"2"}
+2025-08-28 11:52:44.762 - DEBUG: [logger.js:246:9] SQL -> 
+            select id, skin_type, features, care_tips, key_ingredients, purchase_link
+            from skincare.skin_care_info
+            where id = '2'
+        
+2025-08-28 11:52:57.592 - DEBUG: [logger.js:246:9] skin::list 호출됨.
+2025-08-28 11:52:57.592 - DEBUG: [logger.js:246:9] POST /skin/list requested
+2025-08-28 11:52:57.593 - DEBUG: [logger.js:246:9] PARAMS -> {}
+2025-08-28 11:52:57.594 - DEBUG: [logger.js:246:9] SQL -> select count(*) as total from skincare.skin_care_info
+2025-08-28 11:52:57.595 - DEBUG: [logger.js:246:9] SQL -> 
+            select id, skin_type, features, care_tips, morning_routine, evening_routine, seasonal_routine, recommended_products, key_ingredients,
+                purchase_link, created_at, updated_at
+            from skincare.skin_care_info
+        
+2025-08-28 11:52:58.583 - DEBUG: [logger.js:246:9] skin::list 호출됨.
+2025-08-28 11:52:58.586 - DEBUG: [logger.js:246:9] GET /skin/list requested
+2025-08-28 11:52:58.586 - DEBUG: [logger.js:246:9] PARAMS -> {}
+2025-08-28 11:52:58.613 - DEBUG: [logger.js:246:9] SQL -> select count(*) as total from skincare.skin_care_info
+2025-08-28 11:52:58.614 - DEBUG: [logger.js:246:9] SQL -> 
+            select id, skin_type, features, care_tips, morning_routine, evening_routine, seasonal_routine, recommended_products, key_ingredients,
+                purchase_link, created_at, updated_at
+            from skincare.skin_care_info
+        
+2025-08-28 11:53:00.989 - DEBUG: [logger.js:246:9] skin::quality_tips 호출됨.
+2025-08-28 11:53:00.990 - DEBUG: [logger.js:246:9] POST /skin/quality_tips/4 requested
+2025-08-28 11:53:00.991 - DEBUG: [logger.js:246:9] PARAMS -> {"id":"4"}
+2025-08-28 11:53:00.993 - DEBUG: [logger.js:246:9] SQL -> 
+            select id, skin_type, features, care_tips, key_ingredients, purchase_link
+            from skincare.skin_care_info
+            where id = '4'
+        
+2025-08-28 11:54:56.173 - DEBUG: [logger.js:246:9] skin::list 호출됨.
+2025-08-28 11:54:56.173 - DEBUG: [logger.js:246:9] POST /skin/list requested
+2025-08-28 11:54:56.174 - DEBUG: [logger.js:246:9] PARAMS -> {}
+2025-08-28 11:54:56.175 - DEBUG: [logger.js:246:9] SQL -> select count(*) as total from skincare.skin_care_info
+2025-08-28 11:54:56.177 - DEBUG: [logger.js:246:9] SQL -> 
+            select id, skin_type, features, care_tips, morning_routine, evening_routine, seasonal_routine, recommended_products, key_ingredients,
+                purchase_link, created_at, updated_at
+            from skincare.skin_care_info
+        
+2025-08-28 11:55:00.210 - DEBUG: [logger.js:246:9] skin::list 호출됨.
+2025-08-28 11:55:00.212 - DEBUG: [logger.js:246:9] GET /skin/list requested
+2025-08-28 11:55:00.212 - DEBUG: [logger.js:246:9] PARAMS -> {}
+2025-08-28 11:55:00.214 - DEBUG: [logger.js:246:9] SQL -> select count(*) as total from skincare.skin_care_info
+2025-08-28 11:55:00.216 - DEBUG: [logger.js:246:9] SQL -> 
+            select id, skin_type, features, care_tips, morning_routine, evening_routine, seasonal_routine, recommended_products, key_ingredients,
+                purchase_link, created_at, updated_at
+            from skincare.skin_care_info
+        
+2025-08-28 11:55:02.636 - DEBUG: [logger.js:246:9] skin::quality_tips 호출됨.
+2025-08-28 11:55:02.637 - DEBUG: [logger.js:246:9] POST /skin/quality_tips/1 requested
+2025-08-28 11:55:02.638 - DEBUG: [logger.js:246:9] PARAMS -> {"id":"1"}
+2025-08-28 11:55:02.639 - DEBUG: [logger.js:246:9] SQL -> 
+            select id, skin_type, features, care_tips, key_ingredients, purchase_link
+            from skincare.skin_care_info
+            where id = '1'
+        
+2025-08-28 11:56:13.585 - DEBUG: [logger.js:246:9] skin::quality_tips 호출됨.
+2025-08-28 11:56:13.586 - DEBUG: [logger.js:246:9] POST /skin/quality_tips/1 requested
+2025-08-28 11:56:13.586 - DEBUG: [logger.js:246:9] PARAMS -> {"id":"1"}
+2025-08-28 11:56:13.587 - DEBUG: [logger.js:246:9] SQL -> 
+            select id, skin_type, features, care_tips, key_ingredients, purchase_link
+            from skincare.skin_care_info
+            where id = '1'
+        
+2025-08-28 11:56:36.833 - DEBUG: [logger.js:246:9] skin::quality_tips 호출됨.
+2025-08-28 11:56:36.834 - DEBUG: [logger.js:246:9] POST /skin/quality_tips/1 requested
+2025-08-28 11:56:36.834 - DEBUG: [logger.js:246:9] PARAMS -> {"id":"1"}
+2025-08-28 11:56:36.837 - DEBUG: [logger.js:246:9] SQL -> 
+            select id, skin_type, features, care_tips, key_ingredients, purchase_link
+            from skincare.skin_care_info
+            where id = '1'
+        
+2025-08-28 11:58:46.561 - DEBUG: [logger.js:246:9] skin::list 호출됨.
+2025-08-28 11:58:46.562 - DEBUG: [logger.js:246:9] POST /skin/list requested
+2025-08-28 11:58:46.562 - DEBUG: [logger.js:246:9] PARAMS -> {}
+2025-08-28 11:58:46.563 - DEBUG: [logger.js:246:9] SQL -> select count(*) as total from skincare.skin_care_info
+2025-08-28 11:58:46.564 - DEBUG: [logger.js:246:9] SQL -> 
+            select id, skin_type, features, care_tips, morning_routine, evening_routine, seasonal_routine, recommended_products, key_ingredients,
+                purchase_link, created_at, updated_at
+            from skincare.skin_care_info
+        
+2025-08-28 11:58:47.947 - DEBUG: [logger.js:246:9] skin::list 호출됨.
+2025-08-28 11:58:47.948 - DEBUG: [logger.js:246:9] GET /skin/list requested
+2025-08-28 11:58:47.948 - DEBUG: [logger.js:246:9] PARAMS -> {}
+2025-08-28 11:58:47.950 - DEBUG: [logger.js:246:9] SQL -> select count(*) as total from skincare.skin_care_info
+2025-08-28 11:58:47.952 - DEBUG: [logger.js:246:9] SQL -> 
+            select id, skin_type, features, care_tips, morning_routine, evening_routine, seasonal_routine, recommended_products, key_ingredients,
+                purchase_link, created_at, updated_at
+            from skincare.skin_care_info
+        
+2025-08-28 11:58:49.920 - DEBUG: [logger.js:246:9] skin::quality_tips 호출됨.
+2025-08-28 11:58:49.921 - DEBUG: [logger.js:246:9] POST /skin/quality_tips/1 requested
+2025-08-28 11:58:49.922 - DEBUG: [logger.js:246:9] PARAMS -> {"id":"1"}
+2025-08-28 11:58:49.925 - DEBUG: [logger.js:246:9] SQL -> 
+            select id, skin_type, features, care_tips, key_ingredients, purchase_link
+            from skincare.skin_care_info
+            where id = '1'
+        
+2025-08-28 11:59:18.899 - DEBUG: [logger.js:246:9] skin::quality_tips 호출됨.
+2025-08-28 11:59:18.900 - DEBUG: [logger.js:246:9] POST /skin/quality_tips/1 requested
+2025-08-28 11:59:18.901 - DEBUG: [logger.js:246:9] PARAMS -> {"id":"1"}
+2025-08-28 11:59:18.902 - DEBUG: [logger.js:246:9] SQL -> 
+            select id, skin_type, features, care_tips, key_ingredients, purchase_link
+            from skincare.skin_care_info
+            where id = '1'
+        
+2025-08-28 11:59:25.544 - DEBUG: [logger.js:246:9] skin::list 호출됨.
+2025-08-28 11:59:25.544 - DEBUG: [logger.js:246:9] POST /skin/list requested
+2025-08-28 11:59:25.545 - DEBUG: [logger.js:246:9] PARAMS -> {}
+2025-08-28 11:59:25.546 - DEBUG: [logger.js:246:9] SQL -> select count(*) as total from skincare.skin_care_info
+2025-08-28 11:59:25.547 - DEBUG: [logger.js:246:9] SQL -> 
+            select id, skin_type, features, care_tips, morning_routine, evening_routine, seasonal_routine, recommended_products, key_ingredients,
+                purchase_link, created_at, updated_at
+            from skincare.skin_care_info
+        
+2025-08-28 11:59:26.564 - DEBUG: [logger.js:246:9] skin::list 호출됨.
+2025-08-28 11:59:26.564 - DEBUG: [logger.js:246:9] GET /skin/list requested
+2025-08-28 11:59:26.567 - DEBUG: [logger.js:246:9] PARAMS -> {}
+2025-08-28 11:59:26.569 - DEBUG: [logger.js:246:9] SQL -> select count(*) as total from skincare.skin_care_info
+2025-08-28 11:59:26.570 - DEBUG: [logger.js:246:9] SQL -> 
+            select id, skin_type, features, care_tips, morning_routine, evening_routine, seasonal_routine, recommended_products, key_ingredients,
+                purchase_link, created_at, updated_at
+            from skincare.skin_care_info
+        
+2025-08-28 11:59:27.187 - DEBUG: [logger.js:246:9] skin::quality_tips 호출됨.
+2025-08-28 11:59:27.187 - DEBUG: [logger.js:246:9] POST /skin/quality_tips/1 requested
+2025-08-28 11:59:27.188 - DEBUG: [logger.js:246:9] PARAMS -> {"id":"1"}
+2025-08-28 11:59:27.189 - DEBUG: [logger.js:246:9] SQL -> 
+            select id, skin_type, features, care_tips, key_ingredients, purchase_link
+            from skincare.skin_care_info
+            where id = '1'
+        
+2025-08-28 11:59:28.630 - DEBUG: [logger.js:246:9] skin::list 호출됨.
+2025-08-28 11:59:28.631 - DEBUG: [logger.js:246:9] POST /skin/list requested
+2025-08-28 11:59:28.631 - DEBUG: [logger.js:246:9] PARAMS -> {}
+2025-08-28 11:59:28.632 - DEBUG: [logger.js:246:9] SQL -> select count(*) as total from skincare.skin_care_info
+2025-08-28 11:59:28.633 - DEBUG: [logger.js:246:9] SQL -> 
+            select id, skin_type, features, care_tips, morning_routine, evening_routine, seasonal_routine, recommended_products, key_ingredients,
+                purchase_link, created_at, updated_at
+            from skincare.skin_care_info
+        
+2025-08-28 11:59:29.828 - DEBUG: [logger.js:246:9] skin::list 호출됨.
+2025-08-28 11:59:29.829 - DEBUG: [logger.js:246:9] GET /skin/list requested
+2025-08-28 11:59:29.829 - DEBUG: [logger.js:246:9] PARAMS -> {}
+2025-08-28 11:59:29.831 - DEBUG: [logger.js:246:9] SQL -> select count(*) as total from skincare.skin_care_info
+2025-08-28 11:59:29.832 - DEBUG: [logger.js:246:9] SQL -> 
+            select id, skin_type, features, care_tips, morning_routine, evening_routine, seasonal_routine, recommended_products, key_ingredients,
+                purchase_link, created_at, updated_at
+            from skincare.skin_care_info
+        
+2025-08-28 11:59:31.195 - DEBUG: [logger.js:246:9] skin::quality_tips 호출됨.
+2025-08-28 11:59:31.196 - DEBUG: [logger.js:246:9] POST /skin/quality_tips/2 requested
+2025-08-28 11:59:31.196 - DEBUG: [logger.js:246:9] PARAMS -> {"id":"2"}
+2025-08-28 11:59:31.197 - DEBUG: [logger.js:246:9] SQL -> 
+            select id, skin_type, features, care_tips, key_ingredients, purchase_link
+            from skincare.skin_care_info
+            where id = '2'
+        
+2025-08-28 11:59:35.914 - DEBUG: [logger.js:246:9] skin::list 호출됨.
+2025-08-28 11:59:35.914 - DEBUG: [logger.js:246:9] POST /skin/list requested
+2025-08-28 11:59:35.915 - DEBUG: [logger.js:246:9] PARAMS -> {}
+2025-08-28 11:59:35.916 - DEBUG: [logger.js:246:9] SQL -> select count(*) as total from skincare.skin_care_info
+2025-08-28 11:59:35.917 - DEBUG: [logger.js:246:9] SQL -> 
+            select id, skin_type, features, care_tips, morning_routine, evening_routine, seasonal_routine, recommended_products, key_ingredients,
+                purchase_link, created_at, updated_at
+            from skincare.skin_care_info
+        
+2025-08-28 11:59:36.670 - DEBUG: [logger.js:246:9] skin::list 호출됨.
+2025-08-28 11:59:36.670 - DEBUG: [logger.js:246:9] GET /skin/list requested
+2025-08-28 11:59:36.671 - DEBUG: [logger.js:246:9] PARAMS -> {}
+2025-08-28 11:59:36.672 - DEBUG: [logger.js:246:9] SQL -> select count(*) as total from skincare.skin_care_info
+2025-08-28 11:59:36.674 - DEBUG: [logger.js:246:9] SQL -> 
+            select id, skin_type, features, care_tips, morning_routine, evening_routine, seasonal_routine, recommended_products, key_ingredients,
+                purchase_link, created_at, updated_at
+            from skincare.skin_care_info
+        
+2025-08-28 11:59:37.352 - DEBUG: [logger.js:246:9] skin::quality_tips 호출됨.
+2025-08-28 11:59:37.352 - DEBUG: [logger.js:246:9] POST /skin/quality_tips/1 requested
+2025-08-28 11:59:37.353 - DEBUG: [logger.js:246:9] PARAMS -> {"id":"1"}
+2025-08-28 11:59:37.355 - DEBUG: [logger.js:246:9] SQL -> 
+            select id, skin_type, features, care_tips, key_ingredients, purchase_link
+            from skincare.skin_care_info
+            where id = '1'
+        
+2025-08-28 11:59:38.334 - DEBUG: [logger.js:246:9] skin::list 호출됨.
+2025-08-28 11:59:38.335 - DEBUG: [logger.js:246:9] POST /skin/list requested
+2025-08-28 11:59:38.335 - DEBUG: [logger.js:246:9] PARAMS -> {}
+2025-08-28 11:59:38.337 - DEBUG: [logger.js:246:9] SQL -> select count(*) as total from skincare.skin_care_info
+2025-08-28 11:59:38.338 - DEBUG: [logger.js:246:9] SQL -> 
+            select id, skin_type, features, care_tips, morning_routine, evening_routine, seasonal_routine, recommended_products, key_ingredients,
+                purchase_link, created_at, updated_at
+            from skincare.skin_care_info
+        
+2025-08-28 11:59:38.878 - DEBUG: [logger.js:246:9] skin::list 호출됨.
+2025-08-28 11:59:38.895 - DEBUG: [logger.js:246:9] GET /skin/list requested
+2025-08-28 11:59:38.895 - DEBUG: [logger.js:246:9] PARAMS -> {}
+2025-08-28 11:59:38.898 - DEBUG: [logger.js:246:9] SQL -> select count(*) as total from skincare.skin_care_info
+2025-08-28 11:59:38.900 - DEBUG: [logger.js:246:9] SQL -> 
+            select id, skin_type, features, care_tips, morning_routine, evening_routine, seasonal_routine, recommended_products, key_ingredients,
+                purchase_link, created_at, updated_at
+            from skincare.skin_care_info
+        
+2025-08-28 11:59:39.722 - DEBUG: [logger.js:246:9] skin::quality_tips 호출됨.
+2025-08-28 11:59:39.723 - DEBUG: [logger.js:246:9] POST /skin/quality_tips/2 requested
+2025-08-28 11:59:39.723 - DEBUG: [logger.js:246:9] PARAMS -> {"id":"2"}
+2025-08-28 11:59:39.724 - DEBUG: [logger.js:246:9] SQL -> 
+            select id, skin_type, features, care_tips, key_ingredients, purchase_link
+            from skincare.skin_care_info
+            where id = '2'
+        
+2025-08-28 11:59:48.949 - DEBUG: [logger.js:246:9] skin::list 호출됨.
+2025-08-28 11:59:48.949 - DEBUG: [logger.js:246:9] POST /skin/list requested
+2025-08-28 11:59:48.950 - DEBUG: [logger.js:246:9] PARAMS -> {}
+2025-08-28 11:59:48.951 - DEBUG: [logger.js:246:9] SQL -> select count(*) as total from skincare.skin_care_info
+2025-08-28 11:59:48.952 - DEBUG: [logger.js:246:9] SQL -> 
+            select id, skin_type, features, care_tips, morning_routine, evening_routine, seasonal_routine, recommended_products, key_ingredients,
+                purchase_link, created_at, updated_at
+            from skincare.skin_care_info
+        
+2025-08-28 11:59:49.959 - DEBUG: [logger.js:246:9] skin::list 호출됨.
+2025-08-28 11:59:49.959 - DEBUG: [logger.js:246:9] GET /skin/list requested
+2025-08-28 11:59:49.959 - DEBUG: [logger.js:246:9] PARAMS -> {}
+2025-08-28 11:59:49.961 - DEBUG: [logger.js:246:9] SQL -> select count(*) as total from skincare.skin_care_info
+2025-08-28 11:59:49.962 - DEBUG: [logger.js:246:9] SQL -> 
+            select id, skin_type, features, care_tips, morning_routine, evening_routine, seasonal_routine, recommended_products, key_ingredients,
+                purchase_link, created_at, updated_at
+            from skincare.skin_care_info
+        
+2025-08-28 11:59:50.562 - DEBUG: [logger.js:246:9] skin::quality_tips 호출됨.
+2025-08-28 11:59:50.562 - DEBUG: [logger.js:246:9] POST /skin/quality_tips/3 requested
+2025-08-28 11:59:50.563 - DEBUG: [logger.js:246:9] PARAMS -> {"id":"3"}
+2025-08-28 11:59:50.564 - DEBUG: [logger.js:246:9] SQL -> 
+            select id, skin_type, features, care_tips, key_ingredients, purchase_link
+            from skincare.skin_care_info
+            where id = '3'
+        
+2025-08-28 11:59:51.529 - DEBUG: [logger.js:246:9] skin::list 호출됨.
+2025-08-28 11:59:51.529 - DEBUG: [logger.js:246:9] POST /skin/list requested
+2025-08-28 11:59:51.530 - DEBUG: [logger.js:246:9] PARAMS -> {}
+2025-08-28 11:59:51.530 - DEBUG: [logger.js:246:9] SQL -> select count(*) as total from skincare.skin_care_info
+2025-08-28 11:59:51.531 - DEBUG: [logger.js:246:9] SQL -> 
+            select id, skin_type, features, care_tips, morning_routine, evening_routine, seasonal_routine, recommended_products, key_ingredients,
+                purchase_link, created_at, updated_at
+            from skincare.skin_care_info
+        
+2025-08-28 11:59:52.523 - DEBUG: [logger.js:246:9] skin::list 호출됨.
+2025-08-28 11:59:52.523 - DEBUG: [logger.js:246:9] GET /skin/list requested
+2025-08-28 11:59:52.524 - DEBUG: [logger.js:246:9] PARAMS -> {}
+2025-08-28 11:59:52.525 - DEBUG: [logger.js:246:9] SQL -> select count(*) as total from skincare.skin_care_info
+2025-08-28 11:59:52.526 - DEBUG: [logger.js:246:9] SQL -> 
+            select id, skin_type, features, care_tips, morning_routine, evening_routine, seasonal_routine, recommended_products, key_ingredients,
+                purchase_link, created_at, updated_at
+            from skincare.skin_care_info
+        
+2025-08-28 11:59:53.130 - DEBUG: [logger.js:246:9] skin::quality_tips 호출됨.
+2025-08-28 11:59:53.130 - DEBUG: [logger.js:246:9] POST /skin/quality_tips/4 requested
+2025-08-28 11:59:53.131 - DEBUG: [logger.js:246:9] PARAMS -> {"id":"4"}
+2025-08-28 11:59:53.132 - DEBUG: [logger.js:246:9] SQL -> 
+            select id, skin_type, features, care_tips, key_ingredients, purchase_link
+            from skincare.skin_care_info
+            where id = '4'
+        
+2025-08-28 11:59:53.953 - DEBUG: [logger.js:246:9] skin::list 호출됨.
+2025-08-28 11:59:53.954 - DEBUG: [logger.js:246:9] POST /skin/list requested
+2025-08-28 11:59:53.954 - DEBUG: [logger.js:246:9] PARAMS -> {}
+2025-08-28 11:59:53.955 - DEBUG: [logger.js:246:9] SQL -> select count(*) as total from skincare.skin_care_info
+2025-08-28 11:59:53.956 - DEBUG: [logger.js:246:9] SQL -> 
+            select id, skin_type, features, care_tips, morning_routine, evening_routine, seasonal_routine, recommended_products, key_ingredients,
+                purchase_link, created_at, updated_at
+            from skincare.skin_care_info
+        
+2025-08-28 11:59:55.059 - DEBUG: [logger.js:246:9] skin::list 호출됨.
+2025-08-28 11:59:55.060 - DEBUG: [logger.js:246:9] GET /skin/list requested
+2025-08-28 11:59:55.060 - DEBUG: [logger.js:246:9] PARAMS -> {}
+2025-08-28 11:59:55.062 - DEBUG: [logger.js:246:9] SQL -> select count(*) as total from skincare.skin_care_info
+2025-08-28 11:59:55.063 - DEBUG: [logger.js:246:9] SQL -> 
+            select id, skin_type, features, care_tips, morning_routine, evening_routine, seasonal_routine, recommended_products, key_ingredients,
+                purchase_link, created_at, updated_at
+            from skincare.skin_care_info
+        
+2025-08-28 11:59:55.474 - DEBUG: [logger.js:246:9] skin::quality_tips 호출됨.
+2025-08-28 11:59:55.474 - DEBUG: [logger.js:246:9] POST /skin/quality_tips/1 requested
+2025-08-28 11:59:55.475 - DEBUG: [logger.js:246:9] PARAMS -> {"id":"1"}
+2025-08-28 11:59:55.476 - DEBUG: [logger.js:246:9] SQL -> 
+            select id, skin_type, features, care_tips, key_ingredients, purchase_link
+            from skincare.skin_care_info
+            where id = '1'
+        
+2025-08-28 12:00:32.433 - DEBUG: [logger.js:246:9] skin::list 호출됨.
+2025-08-28 12:00:32.434 - DEBUG: [logger.js:246:9] POST /skin/list requested
+2025-08-28 12:00:32.434 - DEBUG: [logger.js:246:9] PARAMS -> {}
+2025-08-28 12:00:32.435 - DEBUG: [logger.js:246:9] SQL -> select count(*) as total from skincare.skin_care_info
+2025-08-28 12:00:32.436 - DEBUG: [logger.js:246:9] SQL -> 
+            select id, skin_type, features, care_tips, morning_routine, evening_routine, seasonal_routine, recommended_products, key_ingredients,
+                purchase_link, created_at, updated_at
+            from skincare.skin_care_info
+        
+2025-08-28 12:00:36.398 - DEBUG: [logger.js:246:9] skin::list 호출됨.
+2025-08-28 12:00:36.399 - DEBUG: [logger.js:246:9] GET /skin/list requested
+2025-08-28 12:00:36.399 - DEBUG: [logger.js:246:9] PARAMS -> {}
+2025-08-28 12:00:36.401 - DEBUG: [logger.js:246:9] SQL -> select count(*) as total from skincare.skin_care_info
+2025-08-28 12:00:36.427 - DEBUG: [logger.js:246:9] SQL -> 
+            select id, skin_type, features, care_tips, morning_routine, evening_routine, seasonal_routine, recommended_products, key_ingredients,
+                purchase_link, created_at, updated_at
+            from skincare.skin_care_info
+        
+2025-08-28 12:00:39.165 - DEBUG: [logger.js:246:9] skin::quality_tips 호출됨.
+2025-08-28 12:00:39.166 - DEBUG: [logger.js:246:9] POST /skin/quality_tips/4 requested
+2025-08-28 12:00:39.167 - DEBUG: [logger.js:246:9] PARAMS -> {"id":"4"}
+2025-08-28 12:00:39.168 - DEBUG: [logger.js:246:9] SQL -> 
+            select id, skin_type, features, care_tips, key_ingredients, purchase_link
+            from skincare.skin_care_info
+            where id = '4'
+        
+2025-08-28 12:02:04.396 - DEBUG: [logger.js:246:9] skin::list 호출됨.
+2025-08-28 12:02:04.397 - DEBUG: [logger.js:246:9] POST /skin/list requested
+2025-08-28 12:02:04.398 - DEBUG: [logger.js:246:9] PARAMS -> {}
+2025-08-28 12:02:04.399 - DEBUG: [logger.js:246:9] SQL -> select count(*) as total from skincare.skin_care_info
+2025-08-28 12:02:04.400 - DEBUG: [logger.js:246:9] SQL -> 
+            select id, skin_type, features, care_tips, morning_routine, evening_routine, seasonal_routine, recommended_products, key_ingredients,
+                purchase_link, created_at, updated_at
+            from skincare.skin_care_info
+        
+2025-08-28 12:02:05.526 - DEBUG: [logger.js:246:9] skin::list 호출됨.
+2025-08-28 12:02:05.527 - DEBUG: [logger.js:246:9] GET /skin/list requested
+2025-08-28 12:02:05.527 - DEBUG: [logger.js:246:9] PARAMS -> {}
+2025-08-28 12:02:05.529 - DEBUG: [logger.js:246:9] SQL -> select count(*) as total from skincare.skin_care_info
+2025-08-28 12:02:05.530 - DEBUG: [logger.js:246:9] SQL -> 
+            select id, skin_type, features, care_tips, morning_routine, evening_routine, seasonal_routine, recommended_products, key_ingredients,
+                purchase_link, created_at, updated_at
+            from skincare.skin_care_info
+        
+2025-08-28 12:02:06.222 - DEBUG: [logger.js:246:9] skin::quality_tips 호출됨.
+2025-08-28 12:02:06.222 - DEBUG: [logger.js:246:9] POST /skin/quality_tips/1 requested
+2025-08-28 12:02:06.223 - DEBUG: [logger.js:246:9] PARAMS -> {"id":"1"}
+2025-08-28 12:02:06.224 - DEBUG: [logger.js:246:9] SQL -> 
+            select id, skin_type, features, care_tips, key_ingredients, purchase_link
+            from skincare.skin_care_info
+            where id = '1'
+        
+2025-08-28 12:02:24.858 - DEBUG: [logger.js:246:9] skin::list 호출됨.
+2025-08-28 12:02:24.859 - DEBUG: [logger.js:246:9] POST /skin/list requested
+2025-08-28 12:02:24.860 - DEBUG: [logger.js:246:9] PARAMS -> {}
+2025-08-28 12:02:24.861 - DEBUG: [logger.js:246:9] SQL -> select count(*) as total from skincare.skin_care_info
+2025-08-28 12:02:24.862 - DEBUG: [logger.js:246:9] SQL -> 
+            select id, skin_type, features, care_tips, morning_routine, evening_routine, seasonal_routine, recommended_products, key_ingredients,
+                purchase_link, created_at, updated_at
+            from skincare.skin_care_info
+        
+2025-08-28 12:02:25.891 - DEBUG: [logger.js:246:9] skin::list 호출됨.
+2025-08-28 12:02:25.892 - DEBUG: [logger.js:246:9] GET /skin/list requested
+2025-08-28 12:02:25.892 - DEBUG: [logger.js:246:9] PARAMS -> {}
+2025-08-28 12:02:25.894 - DEBUG: [logger.js:246:9] SQL -> select count(*) as total from skincare.skin_care_info
+2025-08-28 12:02:25.895 - DEBUG: [logger.js:246:9] SQL -> 
+            select id, skin_type, features, care_tips, morning_routine, evening_routine, seasonal_routine, recommended_products, key_ingredients,
+                purchase_link, created_at, updated_at
+            from skincare.skin_care_info
+        
+2025-08-28 12:02:27.908 - DEBUG: [logger.js:246:9] skin::quality_tips 호출됨.
+2025-08-28 12:02:27.908 - DEBUG: [logger.js:246:9] POST /skin/quality_tips/1 requested
+2025-08-28 12:02:27.909 - DEBUG: [logger.js:246:9] PARAMS -> {"id":"1"}
+2025-08-28 12:02:27.910 - DEBUG: [logger.js:246:9] SQL -> 
+            select id, skin_type, features, care_tips, key_ingredients, purchase_link
+            from skincare.skin_care_info
+            where id = '1'
+        
+2025-08-28 12:02:33.322 - DEBUG: [logger.js:246:9] skin::list 호출됨.
+2025-08-28 12:02:33.322 - DEBUG: [logger.js:246:9] POST /skin/list requested
+2025-08-28 12:02:33.323 - DEBUG: [logger.js:246:9] PARAMS -> {}
+2025-08-28 12:02:33.324 - DEBUG: [logger.js:246:9] SQL -> select count(*) as total from skincare.skin_care_info
+2025-08-28 12:02:33.324 - DEBUG: [logger.js:246:9] SQL -> 
+            select id, skin_type, features, care_tips, morning_routine, evening_routine, seasonal_routine, recommended_products, key_ingredients,
+                purchase_link, created_at, updated_at
+            from skincare.skin_care_info
+        
+2025-08-28 12:02:36.612 - DEBUG: [logger.js:246:9] skin::list 호출됨.
+2025-08-28 12:02:36.612 - DEBUG: [logger.js:246:9] GET /skin/list requested
+2025-08-28 12:02:36.613 - DEBUG: [logger.js:246:9] PARAMS -> {}
+2025-08-28 12:02:36.614 - DEBUG: [logger.js:246:9] SQL -> select count(*) as total from skincare.skin_care_info
+2025-08-28 12:02:36.615 - DEBUG: [logger.js:246:9] SQL -> 
+            select id, skin_type, features, care_tips, morning_routine, evening_routine, seasonal_routine, recommended_products, key_ingredients,
+                purchase_link, created_at, updated_at
+            from skincare.skin_care_info
+        
+2025-08-28 12:02:40.017 - DEBUG: [logger.js:246:9] skin::list 호출됨.
+2025-08-28 12:02:40.018 - DEBUG: [logger.js:246:9] POST /skin/list requested
+2025-08-28 12:02:40.018 - DEBUG: [logger.js:246:9] PARAMS -> {}
+2025-08-28 12:02:40.019 - DEBUG: [logger.js:246:9] SQL -> select count(*) as total from skincare.skin_care_info
+2025-08-28 12:02:40.020 - DEBUG: [logger.js:246:9] SQL -> 
+            select id, skin_type, features, care_tips, morning_routine, evening_routine, seasonal_routine, recommended_products, key_ingredients,
+                purchase_link, created_at, updated_at
+            from skincare.skin_care_info
+        
+2025-08-28 12:02:40.730 - DEBUG: [logger.js:246:9] skin::list 호출됨.
+2025-08-28 12:02:40.730 - DEBUG: [logger.js:246:9] POST /skin/list requested
+2025-08-28 12:02:40.731 - DEBUG: [logger.js:246:9] PARAMS -> {}
+2025-08-28 12:02:40.732 - DEBUG: [logger.js:246:9] SQL -> select count(*) as total from skincare.skin_care_info
+2025-08-28 12:02:40.732 - DEBUG: [logger.js:246:9] SQL -> 
+            select id, skin_type, features, care_tips, morning_routine, evening_routine, seasonal_routine, recommended_products, key_ingredients,
+                purchase_link, created_at, updated_at
+            from skincare.skin_care_info
+        
+2025-08-28 12:02:43.323 - DEBUG: [logger.js:246:9] skin::list 호출됨.
+2025-08-28 12:02:43.324 - DEBUG: [logger.js:246:9] GET /skin/list requested
+2025-08-28 12:02:43.324 - DEBUG: [logger.js:246:9] PARAMS -> {}
+2025-08-28 12:02:43.326 - DEBUG: [logger.js:246:9] SQL -> select count(*) as total from skincare.skin_care_info
+2025-08-28 12:02:43.328 - DEBUG: [logger.js:246:9] SQL -> 
+            select id, skin_type, features, care_tips, morning_routine, evening_routine, seasonal_routine, recommended_products, key_ingredients,
+                purchase_link, created_at, updated_at
+            from skincare.skin_care_info
+        
+2025-08-28 12:02:44.106 - DEBUG: [logger.js:246:9] skin::quality_tips 호출됨.
+2025-08-28 12:02:44.108 - DEBUG: [logger.js:246:9] POST /skin/quality_tips/2 requested
+2025-08-28 12:02:44.109 - DEBUG: [logger.js:246:9] PARAMS -> {"id":"2"}
+2025-08-28 12:02:44.110 - DEBUG: [logger.js:246:9] SQL -> 
+            select id, skin_type, features, care_tips, key_ingredients, purchase_link
+            from skincare.skin_care_info
+            where id = '2'
+        
+2025-08-28 12:05:08.442 - DEBUG: [logger.js:246:9] skin::list 호출됨.
+2025-08-28 12:05:08.443 - DEBUG: [logger.js:246:9] POST /skin/list requested
+2025-08-28 12:05:08.443 - DEBUG: [logger.js:246:9] PARAMS -> {}
+2025-08-28 12:05:08.444 - DEBUG: [logger.js:246:9] SQL -> select count(*) as total from skincare.skin_care_info
+2025-08-28 12:05:08.445 - DEBUG: [logger.js:246:9] SQL -> 
+            select id, skin_type, features, care_tips, morning_routine, evening_routine, seasonal_routine, recommended_products, key_ingredients,
+                purchase_link, created_at, updated_at
+            from skincare.skin_care_info
+        
+2025-08-28 12:05:09.404 - DEBUG: [logger.js:246:9] skin::list 호출됨.
+2025-08-28 12:05:09.405 - DEBUG: [logger.js:246:9] GET /skin/list requested
+2025-08-28 12:05:09.405 - DEBUG: [logger.js:246:9] PARAMS -> {}
+2025-08-28 12:05:09.408 - DEBUG: [logger.js:246:9] SQL -> select count(*) as total from skincare.skin_care_info
+2025-08-28 12:05:09.410 - DEBUG: [logger.js:246:9] SQL -> 
+            select id, skin_type, features, care_tips, morning_routine, evening_routine, seasonal_routine, recommended_products, key_ingredients,
+                purchase_link, created_at, updated_at
+            from skincare.skin_care_info
+        
+2025-08-28 12:05:10.075 - DEBUG: [logger.js:246:9] skin::quality_tips 호출됨.
+2025-08-28 12:05:10.075 - DEBUG: [logger.js:246:9] POST /skin/quality_tips/1 requested
+2025-08-28 12:05:10.076 - DEBUG: [logger.js:246:9] PARAMS -> {"id":"1"}
+2025-08-28 12:05:10.077 - DEBUG: [logger.js:246:9] SQL -> 
+            select id, skin_type, features, care_tips, key_ingredients, purchase_link
+            from skincare.skin_care_info
+            where id = '1'
+        
+2025-08-28 12:05:10.823 - DEBUG: [logger.js:246:9] skin::list 호출됨.
+2025-08-28 12:05:10.823 - DEBUG: [logger.js:246:9] GET /skin/list requested
+2025-08-28 12:05:10.824 - DEBUG: [logger.js:246:9] PARAMS -> {}
+2025-08-28 12:05:10.824 - DEBUG: [logger.js:246:9] SQL -> select count(*) as total from skincare.skin_care_info
+2025-08-28 12:05:10.826 - DEBUG: [logger.js:246:9] SQL -> 
+            select id, skin_type, features, care_tips, morning_routine, evening_routine, seasonal_routine, recommended_products, key_ingredients,
+                purchase_link, created_at, updated_at
+            from skincare.skin_care_info
+        
+2025-08-28 12:05:26.363 - DEBUG: [logger.js:246:9] skin::quality_tips 호출됨.
+2025-08-28 12:05:26.364 - DEBUG: [logger.js:246:9] POST /skin/quality_tips/1 requested
+2025-08-28 12:05:26.365 - DEBUG: [logger.js:246:9] PARAMS -> {"id":"1"}
+2025-08-28 12:05:26.366 - DEBUG: [logger.js:246:9] SQL -> 
+            select id, skin_type, features, care_tips, key_ingredients, purchase_link
+            from skincare.skin_care_info
+            where id = '1'
+        
+2025-08-28 12:05:28.403 - DEBUG: [logger.js:246:9] skin::list 호출됨.
+2025-08-28 12:05:28.404 - DEBUG: [logger.js:246:9] POST /skin/list requested
+2025-08-28 12:05:28.405 - DEBUG: [logger.js:246:9] PARAMS -> {}
+2025-08-28 12:05:28.406 - DEBUG: [logger.js:246:9] SQL -> select count(*) as total from skincare.skin_care_info
+2025-08-28 12:05:28.407 - DEBUG: [logger.js:246:9] SQL -> 
+            select id, skin_type, features, care_tips, morning_routine, evening_routine, seasonal_routine, recommended_products, key_ingredients,
+                purchase_link, created_at, updated_at
+            from skincare.skin_care_info
+        
+2025-08-28 12:05:29.140 - DEBUG: [logger.js:246:9] skin::list 호출됨.
+2025-08-28 12:05:29.140 - DEBUG: [logger.js:246:9] GET /skin/list requested
+2025-08-28 12:05:29.141 - DEBUG: [logger.js:246:9] PARAMS -> {}
+2025-08-28 12:05:29.142 - DEBUG: [logger.js:246:9] SQL -> select count(*) as total from skincare.skin_care_info
+2025-08-28 12:05:29.143 - DEBUG: [logger.js:246:9] SQL -> 
+            select id, skin_type, features, care_tips, morning_routine, evening_routine, seasonal_routine, recommended_products, key_ingredients,
+                purchase_link, created_at, updated_at
+            from skincare.skin_care_info
+        
+2025-08-28 12:05:29.563 - DEBUG: [logger.js:246:9] skin::quality_tips 호출됨.
+2025-08-28 12:05:29.564 - DEBUG: [logger.js:246:9] POST /skin/quality_tips/2 requested
+2025-08-28 12:05:29.565 - DEBUG: [logger.js:246:9] PARAMS -> {"id":"2"}
+2025-08-28 12:05:29.567 - DEBUG: [logger.js:246:9] SQL -> 
+            select id, skin_type, features, care_tips, key_ingredients, purchase_link
+            from skincare.skin_care_info
+            where id = '2'
+        
+2025-08-28 12:05:42.276 - DEBUG: [logger.js:246:9] skin::list 호출됨.
+2025-08-28 12:05:42.276 - DEBUG: [logger.js:246:9] POST /skin/list requested
+2025-08-28 12:05:42.277 - DEBUG: [logger.js:246:9] PARAMS -> {}
+2025-08-28 12:05:42.278 - DEBUG: [logger.js:246:9] SQL -> select count(*) as total from skincare.skin_care_info
+2025-08-28 12:05:42.279 - DEBUG: [logger.js:246:9] SQL -> 
+            select id, skin_type, features, care_tips, morning_routine, evening_routine, seasonal_routine, recommended_products, key_ingredients,
+                purchase_link, created_at, updated_at
+            from skincare.skin_care_info
+        
+2025-08-28 12:05:46.300 - DEBUG: [logger.js:246:9] skin::list 호출됨.
+2025-08-28 12:05:46.300 - DEBUG: [logger.js:246:9] GET /skin/list requested
+2025-08-28 12:05:46.301 - DEBUG: [logger.js:246:9] PARAMS -> {}
+2025-08-28 12:05:46.302 - DEBUG: [logger.js:246:9] SQL -> select count(*) as total from skincare.skin_care_info
+2025-08-28 12:05:46.304 - DEBUG: [logger.js:246:9] SQL -> 
+            select id, skin_type, features, care_tips, morning_routine, evening_routine, seasonal_routine, recommended_products, key_ingredients,
+                purchase_link, created_at, updated_at
+            from skincare.skin_care_info
+        
+2025-08-28 12:05:47.093 - DEBUG: [logger.js:246:9] skin::quality_tips 호출됨.
+2025-08-28 12:05:47.094 - DEBUG: [logger.js:246:9] POST /skin/quality_tips/3 requested
+2025-08-28 12:05:47.095 - DEBUG: [logger.js:246:9] PARAMS -> {"id":"3"}
+2025-08-28 12:05:47.097 - DEBUG: [logger.js:246:9] SQL -> 
+            select id, skin_type, features, care_tips, key_ingredients, purchase_link
+            from skincare.skin_care_info
+            where id = '3'
+        
+2025-08-28 12:05:48.746 - DEBUG: [logger.js:246:9] skin::list 호출됨.
+2025-08-28 12:05:48.747 - DEBUG: [logger.js:246:9] POST /skin/list requested
+2025-08-28 12:05:48.747 - DEBUG: [logger.js:246:9] PARAMS -> {}
+2025-08-28 12:05:48.748 - DEBUG: [logger.js:246:9] SQL -> select count(*) as total from skincare.skin_care_info
+2025-08-28 12:05:48.749 - DEBUG: [logger.js:246:9] SQL -> 
+            select id, skin_type, features, care_tips, morning_routine, evening_routine, seasonal_routine, recommended_products, key_ingredients,
+                purchase_link, created_at, updated_at
+            from skincare.skin_care_info
+        
+2025-08-28 12:05:49.358 - DEBUG: [logger.js:246:9] skin::list 호출됨.
+2025-08-28 12:05:49.359 - DEBUG: [logger.js:246:9] GET /skin/list requested
+2025-08-28 12:05:49.360 - DEBUG: [logger.js:246:9] PARAMS -> {}
+2025-08-28 12:05:49.361 - DEBUG: [logger.js:246:9] SQL -> select count(*) as total from skincare.skin_care_info
+2025-08-28 12:05:49.362 - DEBUG: [logger.js:246:9] SQL -> 
+            select id, skin_type, features, care_tips, morning_routine, evening_routine, seasonal_routine, recommended_products, key_ingredients,
+                purchase_link, created_at, updated_at
+            from skincare.skin_care_info
+        
+2025-08-28 12:05:50.517 - DEBUG: [logger.js:246:9] skin::quality_tips 호출됨.
+2025-08-28 12:05:50.518 - DEBUG: [logger.js:246:9] POST /skin/quality_tips/4 requested
+2025-08-28 12:05:50.519 - DEBUG: [logger.js:246:9] PARAMS -> {"id":"4"}
+2025-08-28 12:05:50.521 - DEBUG: [logger.js:246:9] SQL -> 
+            select id, skin_type, features, care_tips, key_ingredients, purchase_link
+            from skincare.skin_care_info
+            where id = '4'
+        
+2025-08-28 12:05:51.353 - DEBUG: [logger.js:246:9] skin::list 호출됨.
+2025-08-28 12:05:51.354 - DEBUG: [logger.js:246:9] POST /skin/list requested
+2025-08-28 12:05:51.355 - DEBUG: [logger.js:246:9] PARAMS -> {}
+2025-08-28 12:05:51.356 - DEBUG: [logger.js:246:9] SQL -> select count(*) as total from skincare.skin_care_info
+2025-08-28 12:05:51.357 - DEBUG: [logger.js:246:9] SQL -> 
+            select id, skin_type, features, care_tips, morning_routine, evening_routine, seasonal_routine, recommended_products, key_ingredients,
+                purchase_link, created_at, updated_at
+            from skincare.skin_care_info
+        
+2025-08-28 12:06:00.024 - DEBUG: [logger.js:246:9] skin::list 호출됨.
+2025-08-28 12:06:00.025 - DEBUG: [logger.js:246:9] GET /skin/list requested
+2025-08-28 12:06:00.026 - DEBUG: [logger.js:246:9] PARAMS -> {}
+2025-08-28 12:06:00.027 - DEBUG: [logger.js:246:9] SQL -> select count(*) as total from skincare.skin_care_info
+2025-08-28 12:06:00.028 - DEBUG: [logger.js:246:9] SQL -> 
+            select id, skin_type, features, care_tips, morning_routine, evening_routine, seasonal_routine, recommended_products, key_ingredients,
+                purchase_link, created_at, updated_at
+            from skincare.skin_care_info
+        
+2025-08-28 12:06:39.117 - DEBUG: [logger.js:246:9] skin::quality_tips 호출됨.
+2025-08-28 12:06:39.124 - DEBUG: [logger.js:246:9] POST /skin/quality_tips/2 requested
+2025-08-28 12:06:39.125 - DEBUG: [logger.js:246:9] PARAMS -> {"id":"2"}
+2025-08-28 12:06:39.129 - DEBUG: [logger.js:246:9] SQL -> 
+            select id, skin_type, features, care_tips, key_ingredients, purchase_link
+            from skincare.skin_care_info
+            where id = '2'
+        
+2025-08-28 12:07:00.862 - DEBUG: [logger.js:246:9] skin::list 호출됨.
+2025-08-28 12:07:00.863 - DEBUG: [logger.js:246:9] POST /skin/list requested
+2025-08-28 12:07:00.863 - DEBUG: [logger.js:246:9] PARAMS -> {}
+2025-08-28 12:07:00.864 - DEBUG: [logger.js:246:9] SQL -> select count(*) as total from skincare.skin_care_info
+2025-08-28 12:07:00.865 - DEBUG: [logger.js:246:9] SQL -> 
+            select id, skin_type, features, care_tips, morning_routine, evening_routine, seasonal_routine, recommended_products, key_ingredients,
+                purchase_link, created_at, updated_at
+            from skincare.skin_care_info
+        
+2025-08-28 12:07:02.430 - DEBUG: [logger.js:246:9] skin::list 호출됨.
+2025-08-28 12:07:02.431 - DEBUG: [logger.js:246:9] GET /skin/list requested
+2025-08-28 12:07:02.431 - DEBUG: [logger.js:246:9] PARAMS -> {}
+2025-08-28 12:07:02.432 - DEBUG: [logger.js:246:9] SQL -> select count(*) as total from skincare.skin_care_info
+2025-08-28 12:07:02.433 - DEBUG: [logger.js:246:9] SQL -> 
+            select id, skin_type, features, care_tips, morning_routine, evening_routine, seasonal_routine, recommended_products, key_ingredients,
+                purchase_link, created_at, updated_at
+            from skincare.skin_care_info
+        
+2025-08-28 12:07:04.626 - DEBUG: [logger.js:246:9] skin::quality_tips 호출됨.
+2025-08-28 12:07:04.627 - DEBUG: [logger.js:246:9] POST /skin/quality_tips/1 requested
+2025-08-28 12:07:04.628 - DEBUG: [logger.js:246:9] PARAMS -> {"id":"1"}
+2025-08-28 12:07:04.632 - DEBUG: [logger.js:246:9] SQL -> 
+            select id, skin_type, features, care_tips, key_ingredients, purchase_link
+            from skincare.skin_care_info
+            where id = '1'
+        
+2025-08-28 12:09:08.604 - INFO: [logger.js:246:9] service loader called.
+2025-08-28 12:09:08.620 - INFO: [logger.js:246:9] controller loader called.
+2025-08-28 12:09:08.621 - DEBUG: [logger.js:246:9] external_loader called.
+2025-08-28 12:09:08.621 - DEBUG: [logger.js:246:9] No external configuration.
+2025-08-28 12:09:08.853 - INFO: [logger.js:246:9] Http Server started.
+2025-08-28 12:09:08.854 - INFO: [logger.js:246:9] Base URL -> http://localhost:8001
+2025-08-28 12:09:08.855 - INFO: [logger.js:246:9] Namespace -> ::_8001_20456
+2025-08-28 12:09:08.857 - DEBUG: [logger.js:246:9] database SQL file loaded.
+2025-08-28 12:09:17.092 - DEBUG: [logger.js:246:9] skin::list 호출됨.
+2025-08-28 12:09:17.093 - DEBUG: [logger.js:246:9] POST /skin/list requested
+2025-08-28 12:09:17.094 - DEBUG: [logger.js:246:9] PARAMS -> {}
+2025-08-28 12:09:17.117 - DEBUG: [logger.js:246:9] SQL -> select count(*) as total from skincare.skin_care_info
+2025-08-28 12:09:17.119 - DEBUG: [logger.js:246:9] SQL -> 
+            select id, skin_type, features, care_tips, morning_routine, evening_routine, seasonal_routine, recommended_products, key_ingredients,
+                purchase_link, created_at, updated_at
+            from skincare.skin_care_info
+        
+2025-08-28 12:09:19.287 - DEBUG: [logger.js:246:9] skin::list 호출됨.
+2025-08-28 12:09:19.288 - DEBUG: [logger.js:246:9] GET /skin/list requested
+2025-08-28 12:09:19.288 - DEBUG: [logger.js:246:9] PARAMS -> {}
+2025-08-28 12:09:19.290 - DEBUG: [logger.js:246:9] SQL -> select count(*) as total from skincare.skin_care_info
+2025-08-28 12:09:19.292 - DEBUG: [logger.js:246:9] SQL -> 
+            select id, skin_type, features, care_tips, morning_routine, evening_routine, seasonal_routine, recommended_products, key_ingredients,
+                purchase_link, created_at, updated_at
+            from skincare.skin_care_info
+        
+2025-08-28 12:09:20.282 - DEBUG: [logger.js:246:9] skin::quality_tips 호출됨.
+2025-08-28 12:09:20.283 - DEBUG: [logger.js:246:9] POST /skin/quality_tips/1 requested
+2025-08-28 12:09:20.284 - DEBUG: [logger.js:246:9] PARAMS -> {"id":"1"}
+2025-08-28 12:09:20.286 - DEBUG: [logger.js:246:9] SQL -> 
+            select id, skin_type, features, care_tips, key_ingredients, purchase_link
+            from skincare.skin_care_info
+            where id = '1'
+        
+2025-08-28 12:12:55.847 - DEBUG: [logger.js:246:9] skin::list 호출됨.
+2025-08-28 12:12:55.847 - DEBUG: [logger.js:246:9] POST /skin/list requested
+2025-08-28 12:12:55.848 - DEBUG: [logger.js:246:9] PARAMS -> {}
+2025-08-28 12:12:55.849 - DEBUG: [logger.js:246:9] SQL -> select count(*) as total from skincare.skin_care_info
+2025-08-28 12:12:55.850 - DEBUG: [logger.js:246:9] SQL -> 
+            select id, skin_type, features, care_tips, morning_routine, evening_routine, seasonal_routine, recommended_products, key_ingredients,
+                purchase_link, created_at, updated_at
+            from skincare.skin_care_info
+        
+2025-08-28 12:12:57.357 - DEBUG: [logger.js:246:9] skin::list 호출됨.
+2025-08-28 12:12:57.358 - DEBUG: [logger.js:246:9] GET /skin/list requested
+2025-08-28 12:12:57.358 - DEBUG: [logger.js:246:9] PARAMS -> {}
+2025-08-28 12:12:57.360 - DEBUG: [logger.js:246:9] SQL -> select count(*) as total from skincare.skin_care_info
+2025-08-28 12:12:57.361 - DEBUG: [logger.js:246:9] SQL -> 
+            select id, skin_type, features, care_tips, morning_routine, evening_routine, seasonal_routine, recommended_products, key_ingredients,
+                purchase_link, created_at, updated_at
+            from skincare.skin_care_info
+        
+2025-08-28 12:12:58.417 - DEBUG: [logger.js:246:9] skin::quality_tips 호출됨.
+2025-08-28 12:12:58.417 - DEBUG: [logger.js:246:9] POST /skin/quality_tips/1 requested
+2025-08-28 12:12:58.418 - DEBUG: [logger.js:246:9] PARAMS -> {"id":"1"}
+2025-08-28 12:12:58.420 - DEBUG: [logger.js:246:9] SQL -> 
+            select id, skin_type, features, care_tips, key_ingredients, purchase_link
+            from skincare.skin_care_info
+            where id = '1'
+        

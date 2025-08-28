@@ -7,13 +7,11 @@
     </div>
 
     <div v-for="(item, index) in cards" class="col-6 d-flex justify-content-center align-items-center" @click="item.method">
-      <div class="card"
+      <div class="card bgi-position-center bgi-size-cover"
            :style="{
             height: `200px`,
             width: `290px`,
             backgroundImage :  `url(${item.bg})`,
-            backgroundSize : 'cover',
-            backgroundPosition : 'center',
             opacity: 0.8
       }">
         <div class="card-body d-flex flex-column justify-content-center align-items-center">
@@ -52,7 +50,7 @@ const skinType = skins.value[selectedIndex.value].skin_type
 // 컴포넌트가 마운트될 때(화면에 처음 나타날 때) 실행되는 훅입니다.
 onMounted(() => {
   console.log(`ProblemView::onMounted 호출됨`);
-  title.value ='홈'; // 페이지 타이틀을 '홈'으로 설정합니다.
+  title.value ='고민거리'; // 페이지 타이틀을 '홈'으로 설정합니다.
 
   // 콘솔에 현재 선택된 인덱스와 객체 정보를 출력합니다.
   console.log(`현재 선택된 인덱스 > ${selectedIndex.value}`)

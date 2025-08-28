@@ -1,20 +1,72 @@
 <template>
-  <div class="content-bg bg-cover bg-center" style="background-image: url('src/assets/svg/pado.svg')">
-    <div class="d-flex justify-content-center align-items-center">
-      <span class="fs-1 fw-bold text-hover-gray-500">{{ skinType }} 타입</span>
+  <div class="card row content-bg bg-cover bg-center" style="background-image: url('src/assets/svg/pado.svg')">
+
+    <div class="card-body d-flex flex-column justify-content-end align-items-center p-3">
+      <div class="d-flex flex-column justify-content-center align-items-center">
+        <label class="fs-sm-3hx">문제점 및 해결방안</label>
+      </div>
     </div>
 
-    <nav class="my-3">
-      <div class="d-flex align-items-center justify-content-between">
-        <span class="btn btn-active-color-muted">문제점</span>
-        <span class="btn btn-active-color-muted">아침저녁루틴</span>
-        <span class="btn btn-active-color-muted">계절별루틴</span>
-        <span class="btn btn-active-color-muted">제품추천</span>
-      </div>
-    </nav>
 
-    <div class="d-flex justify-content-center align-items-end">
-      <button class=" btn btn-primary pt-3" @click="goToProblem">뒤로가기</button>
+
+    <!-- =========== 주 내용 시작 ===========-->
+    <div class="card-body row">
+      <div class="card bgi-position-center bgi-size-cover w-100 m-3" style="
+        background-image: url('src/assets/images/problem.png');
+        height:280px;">
+      </div>
+
+      <!--특징-->
+      <div class="d-flex flex-column rounded p-5 mb-4">
+        <div class="border-bottom-dashed">
+          <label class="fw-bold fs-4">특징</label>
+        </div>
+
+        <div>
+          <p>{{tips.features}}</p>
+        </div>
+      </div>
+
+      <!--케어 팁-->
+      <div class="d-flex flex-column border rounded p-5 mb-4">
+        <div>
+          <label class="fw-bold fs-4">케어팁</label>
+        </div>
+
+        <div>
+          <label> {{tips.care_tips}} </label>
+        </div>
+      </div>
+
+      <!--제품추천-->
+      <div class="d-flex flex-column border rounded p-5 mb-4">
+        <div>
+          <label class="fw-bold fs-4">제품추천</label>
+        </div>
+
+        <div>
+          <label> {{tips.key_ingredients}} </label>
+        </div>
+      </div>
+
+      <!--최저가 링크-->
+      <div class="d-flex flex-column border rounded p-5 mb-4">
+        <div>
+          <label class="fw-bold fs-4">최저가 링크</label>
+        </div>
+
+        <div>
+          <a :href="`${tips.purchase_link}`">제품 구매 링크</a>
+        </div>
+      </div>
+
+    </div>
+
+
+    <div class="card-footer mb-20">
+      <div class="d-flex flex-column justify-content-center align-items-center">
+        <button class="btn btn-primary pt-3" @click="goToProblem">뒤로가기</button>
+      </div>
     </div>
   </div>
 </template>
@@ -43,17 +95,18 @@ const { skins, selectedIndex } = storeToRefs(skinStore);
 
 // 스토어에서 가져온 데이터로 `skinType` 변수를 초기화합니다.
 // **주의**: `skins.value`가 아직 로드되지 않았을 경우, 이 코드는 오류를 발생시킵니다.
-const QualityTips = skins.value[selectedIndex.value]
-const skinType = QualityTips.skin_type
+const selectedSkin  = skins.value[selectedIndex.value]
+
+let tips =ref({})
 
 // 컴포넌트가 마운트될 때(화면에 처음 나타날 때) 실행되는 훅입니다.
 onMounted(() => {
   console.log(`QualityTipsView::onMounted 호출됨`);
-  title.value ='홈'; // 페이지 타이틀을 '홈'으로 설정합니다.
+  title.value =selectedSkin.skin_type+'타입'; // 페이지 타이틀을 '홈'으로 설정합니다.
 
   // 콘솔에 현재 인덱스와 선택된 객체 정보를 출력합니다.
   console.log(`현재 선택된 인덱스 > ${selectedIndex.value}`)
-  console.log(`현재 선택된 객체 > ${skins.value[selectedIndex.value]}`);
+  console.log(`현재 선택된 객체 > ${tips}`);
 
   requestSkinQualityTips() // 서버에서 특징 및 팁 데이터를 가져오는 함수를 호출합니다.
 })
@@ -63,7 +116,7 @@ onMounted(() => {
 async function requestSkinQualityTips() {
   try{
     // `QualityTips.id`에서 `id` 값을 추출합니다.
-    const id = QualityTips.id
+    const id = selectedSkin.id
 
     // `axios`를 사용하여 서버에 `POST` 요청을 보냅니다.
     const response = await axios({
@@ -73,7 +126,9 @@ async function requestSkinQualityTips() {
       timeout: 5000, // 요청이 5초 안에 응답이 없으면 타임아웃됩니다.
       responseType: "json" // 응답 데이터 형식을 JSON으로 지정합니다.
     })
-    console.log(`응답 -> ${JSON.stringify(response.data.data.data)}`)
+    console.log(`응답 -> ${JSON.stringify(response.data.data.data[selectedIndex.value])}`)
+
+    tips.value =response.data.data.data[selectedIndex.value] //QualityTips 화면에서 사용할 데이터
 
   } catch (err) {
     // API 요청 실패 시 에러를 콘솔에 출력합니다.
@@ -88,7 +143,5 @@ function goToProblem() {
 </script>
 
 <style scoped>
-/*
-`scoped`: 이 스타일이 현재 컴포넌트에만 적용되도록 제한합니다.
-*/
+
 </style>
