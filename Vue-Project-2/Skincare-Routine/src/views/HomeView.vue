@@ -8,10 +8,10 @@
 
     <div v-for="(item, index) in cards" :key="item.id" class="col-6 d-flex justify-content-center align-items-center mb-10">
       <div class="d-flex flex-column align-items-center" @click="item.method(index)">
-        <span class="text-gray fs-5 fw-bold mb-2 bg-light-primary rounded p-3">{{item.type}}</span>
+        <span class="text-gray fs-5 fw-bold mb-2 bg-light-primary rounded p-3" >{{item.type}}</span>
       </div>
 
-      <div class="card bgi-position-center bgi-size-cover"
+      <div class="card bgi-position-center bgi-size-cover" @click="item.method(index)"
            :style="{
             height: `200px`,
             width: `290px`,
@@ -80,7 +80,7 @@ function oilyType(index) {
   console.log(`oilyType 함수 호출됨, index: ${index}`);
   mode.value = 'oily'; // 스토어의 mode 값을 'oily'로 변경
   selectedIndex.value = index; // 스토어에 선택된 인덱스 저장
-  router.replace('/problem',{index}); // 'problem' 경로로 이동
+  router.push('/problem',{index}); // 'problem' 경로로 이동
 }
 
 // 민감성 타입 선택 시 실행되는 함수
@@ -88,7 +88,7 @@ function sensitiveType(index) {
   console.log(`sensitiveType 함수 호출됨, index: ${index}`);
   mode.value = 'sensitive';
   selectedIndex.value = index;
-  router.replace('/problem',{index});
+  router.push('/problem',{index});
 }
 
 // 건성 타입 선택 시 실행되는 함수
@@ -96,7 +96,7 @@ function dryType(index) {
   console.log(`dryType 함수 호출됨, index: ${index}`);
   mode.value = 'dry';
   selectedIndex.value = index;
-  router.replace('/problem',{index});
+  router.push('/problem',{index});
 }
 
 // 복합성 타입 선택 시 실행되는 함수
@@ -104,7 +104,7 @@ function combinationType(index) {
   console.log(`combinationType 함수 호출됨, index: ${index}`);
   mode.value = 'combination';
   selectedIndex.value = index;
-  router.replace('/problem',{index});
+  router.push('/problem',{index});
 }
 
 </script>

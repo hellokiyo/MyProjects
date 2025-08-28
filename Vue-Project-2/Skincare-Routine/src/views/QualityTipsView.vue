@@ -23,7 +23,7 @@
         </div>
 
         <div>
-          <p>{{tips.features}}</p>
+          <p>{{selectedSkin.features}}</p>
         </div>
       </div>
 
@@ -34,7 +34,7 @@
         </div>
 
         <div>
-          <label> {{tips.care_tips}} </label>
+          <label> {{selectedSkin.care_tips}} </label>
         </div>
       </div>
 
@@ -45,7 +45,7 @@
         </div>
 
         <div>
-          <label> {{tips.key_ingredients}} </label>
+          <label> {{selectedSkin.key_ingredients}} </label>
         </div>
       </div>
 
@@ -56,7 +56,7 @@
         </div>
 
         <div>
-          <a :href="`${tips.purchase_link}`">제품 구매 링크</a>
+          <a :href="`${selectedSkin.purchase_link}`">제품 구매 링크</a>
         </div>
       </div>
 
@@ -97,21 +97,22 @@ const { skins, selectedIndex } = storeToRefs(skinStore);
 // **주의**: `skins.value`가 아직 로드되지 않았을 경우, 이 코드는 오류를 발생시킵니다.
 const selectedSkin  = skins.value[selectedIndex.value]
 
+
 let tips =ref({})
 
 // 컴포넌트가 마운트될 때(화면에 처음 나타날 때) 실행되는 훅입니다.
 onMounted(() => {
   console.log(`QualityTipsView::onMounted 호출됨`);
-  title.value =selectedSkin.skin_type+'타입'; // 페이지 타이틀을 '홈'으로 설정합니다.
+  title.value =selectedSkin.skin_type+'타입'; // 페이지 타이틀을 '스킨타입'으로 설정합니다.
 
   // 콘솔에 현재 인덱스와 선택된 객체 정보를 출력합니다.
   console.log(`현재 선택된 인덱스 > ${selectedIndex.value}`)
-  console.log(`현재 선택된 객체 > ${tips}`);
+  console.log(`현재 선택된 객체 >`,tips.value);  // 지금 필요한건 지금 특징 및 케어 팁 api
 
-  requestSkinQualityTips() // 서버에서 특징 및 팁 데이터를 가져오는 함수를 호출합니다.
+  //requestSkinQualityTips() // 서버에서 특징 및 팁 데이터를 가져오는 함수를 호출합니다.
 })
 
-// ===== 특징 및 케어 팁 API 호출 (목록) =====
+/*// ===== 특징 및 케어 팁 API 호출 (목록) =====
 // 서버로부터 특징 및 팁 데이터를 가져오는 비동기 함수입니다.
 async function requestSkinQualityTips() {
   try{
@@ -134,11 +135,11 @@ async function requestSkinQualityTips() {
     // API 요청 실패 시 에러를 콘솔에 출력합니다.
     console.error(`에러 -> ${err}`);
   }
-}
+}*/
 
 // '뒤로가기' 버튼 클릭 시 실행되는 함수
 function goToProblem() {
-  router.replace('/problem') // `/problem` 경로로 이동합니다.
+  router.push('/problem') // `/problem` 경로로 이동합니다.
 }
 </script>
 

@@ -12,32 +12,67 @@
     <!-- =========== 주 내용 시작 ===========-->
     <div class="card-body row">
       <div class="card bgi-position-center bgi-size-cover w-100 m-3" style="
-        background-image: url('src/assets/images/skin/skin3.png');
+        background-image: url('src/assets/images/skin/skin4.png');
         height:280px;">
       </div>
 
-      <!--특징-->
+      <!--피부타입-->
       <div class="d-flex flex-column rounded p-5 mb-4">
         <div class="border-bottom-dashed">
-          <label class="fw-bold fs-4">특징</label>
+          <label class="fw-bold fs-4">피부타입</label>
         </div>
 
         <div>
-          <p></p>
+          <p>{{selectedSkin.skin_type}}</p>
         </div>
       </div>
+
+      <!--추천 성분-->
+      <div class="d-flex flex-column rounded p-5 mb-4">
+        <div class="border-bottom-dashed">
+          <label class="fw-bold fs-4">추천 성분</label>
+        </div>
+
+        <div>
+          <p>{{selectedSkin.key_ingredients}}</p>
+        </div>
+      </div>
+
+      <!--제품 예시-->
+      <div class="d-flex flex-column rounded p-5 mb-4">
+        <div class="border-bottom-dashed">
+          <label class="fw-bold fs-4">제품 예시</label>
+        </div>
+
+        <div>
+          <p>{{selectedSkin.recommended_products}}</p>
+        </div>
+      </div>
+
+      <!--최저가 링크-->
+      <div class="d-flex flex-column rounded p-5 mb-4">
+        <div class="border-bottom-dashed">
+          <label class="fw-bold fs-4">최저가 링크</label>
+        </div>
+
+        <div>
+          <a :href="`${selectedSkin.recommended_products}`">제품 링크</a>
+        </div>
+      </div>
+
 
 
     </div>
 
 
-    <div class="card-footer">
+    <div class="card-footer mb-20">
       <div class="d-flex flex-column justify-content-center align-items-center">
         <button class="btn btn-primary pt-3" @click="goToProblem">뒤로가기</button>
       </div>
     </div>
   </div>
 </template>
+
 
 <script setup>
 // Vue의 Composition API 함수들을 불러옵니다.
@@ -53,6 +88,7 @@ import axios from 'axios';
 import {requestConfig} from "../../app.config.js";
 import { useSkinStore } from "@/stores/skin";
 
+
 // 스토어 실행 및 반응형 변수 가져오기
 const appStore = useAppStore();
 const { title } = storeToRefs(appStore); // appStore의 title 상태를 반응형으로 가져옵니다.
@@ -62,28 +98,29 @@ const { skins, selectedIndex } = storeToRefs(skinStore); // skinStore의 skins, 
 
 // 스토어에서 가져온 데이터로 skinType 변수를 초기화합니다.
 // 주의: skins.value가 아직 로드되지 않았을 경우 오류가 발생할 수 있습니다.
-const QualityTips = skins.value[selectedIndex.value]
-const skinType = QualityTips.skin_type
+let guide = ref({})
+const selectedSkin  = skins.value[selectedIndex.value]
 
 // 컴포넌트가 마운트될 때(화면에 처음 나타날 때) 실행되는 훅입니다.
 onMounted(() => {
   console.log(`ProductGuideView::onMounted 호출됨`);
 
-  title.value ='홈'; // 페이지 타이틀을 '홈'으로 설정합니다.
+  title.value =selectedSkin.skin_type+'타입';  // 페이지 타이틀을 '스킨타입'으로 설정합니다.
 
   // 콘솔에 현재 인덱스와 선택된 객체 정보를 출력합니다.
   console.log(`현재 선택된 인덱스 > ${selectedIndex.value}`)
-  console.log(`현재 선택된 객체 > ${skins.value[selectedIndex.value]}`);
+  console.log(`현재 선택된 객체 >`,selectedSkin);
 
-  requestSkingGuide() // 서버에서 특징 및 팁 데이터를 가져오는 함수를 호출합니다.
+  //requestSkingGuide() // 서버에서 특징 및 팁 데이터를 가져오는 함수를 호출합니다.
 })
 
+/*
 // =====  제품 추천 및 최저가 링크 API 호출 (목록) =====
 // 서버로부터 특징 및 팁 데이터를 가져오는 비동기 함수입니다.
 async function requestSkingGuide() {
   try{
     // QualityTips.id에서 id 값을 추출합니다.
-    const id = QualityTips.id
+    const id = selectedSkin.id
 
     // axios를 사용하여 서버에 POST 요청을 보냅니다.
     const response = await axios({
@@ -93,17 +130,20 @@ async function requestSkingGuide() {
       timeout: 5000, // 요청이 5초 안에 응답이 없으면 타임아웃됩니다.
       responseType: "json" // 응답 데이터 형식을 JSON으로 지정합니다.
     })
-    console.log(`응답 -> ${JSON.stringify(response.data.data.data)}`)
+    console.log(`응답 -> ${JSON.stringify(response.data.data.data[selectedIndex.value])}`)
+
+    guide.value = response.data.data.data[selectedIndex.value]
 
   } catch (err) {
     // API 요청 실패 시 에러를 콘솔에 출력합니다.
     console.error(`에러 -> ${err}`);
   }
 }
+*/
 
 // '뒤로가기' 버튼 클릭 시 실행되는 함수
 function goToProblem() {
-  router.replace('/problem') // '/problem' 경로로 이동합니다.
+  router.push('/problem') // '/problem' 경로로 이동합니다.
 }
 </script>
 

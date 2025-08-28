@@ -90,27 +90,27 @@ const cards =ref( [
 ])
 
 // '문제점 및 해결방안' 카드 클릭 시 실행되는 함수
-function selectQualityTips(index) {
+function selectQualityTips() {
   console.log(`selectQualityTips 함수 호출됨`);
-  router.replace('/qualityTips'); // '/qualityTips' 경로로 이동합니다.
+  router.push('/qualityTips'); // '/qualityTips' 경로로 이동합니다.
 }
 
 // '아침/저녁 루틴' 카드 클릭 시 실행되는 함수
-function selectAmPm(index) {
+function selectAmPm() {
   console.log(`selectAmPm 함수 호출됨`);
-  router.replace('/ampm'); // '/ampm' 경로로 이동합니다.
+  router.push('/ampm'); // '/ampm' 경로로 이동합니다.
 }
 
 // '계절별 피부 관리 루틴' 카드 클릭 시 실행되는 함수
-function selectSeason(index) {
+function selectSeason() {
   console.log(`selectSeason 함수 호출됨`);
-  router.replace('/season'); // '/season' 경로로 이동합니다.
+  router.push('/season'); // '/season' 경로로 이동합니다.
 }
 
 // '제품 추천 및 최저가 링크' 카드 클릭 시 실행되는 함수
-function selectGuide(index) {
+function selectGuide() {
   console.log(`selectGuide 함수 호출됨`);
-  router.replace('/guide'); // '/guide' 경로로 이동합니다.
+  router.push('/guide'); // '/guide' 경로로 이동합니다.
 }
 
 </script>
