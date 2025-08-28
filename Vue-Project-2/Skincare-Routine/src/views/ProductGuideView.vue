@@ -7,8 +7,6 @@
       </div>
     </div>
 
-
-
     <!-- =========== 주 내용 시작 ===========-->
     <div class="card-body row">
       <div class="card bgi-position-center bgi-size-cover w-100 m-3" style="
@@ -17,50 +15,48 @@
       </div>
 
       <!--피부타입-->
-      <div class="d-flex flex-column rounded p-5 mb-4">
-        <div class="border-bottom-dashed">
+      <div class="d-flex flex-column justify-content-center align-items-center border rounded p-5 mb-4">
+        <div>
           <label class="fw-bold fs-4">피부타입</label>
         </div>
 
         <div>
-          <p>{{selectedSkin.skin_type}}</p>
+          <p>{{guide.skin_type}}</p>
         </div>
       </div>
 
       <!--추천 성분-->
-      <div class="d-flex flex-column rounded p-5 mb-4">
-        <div class="border-bottom-dashed">
+      <div class="d-flex flex-column justify-content-center align-items-center border rounded p-5 mb-4">
+        <div>
           <label class="fw-bold fs-4">추천 성분</label>
         </div>
 
         <div>
-          <p>{{selectedSkin.key_ingredients}}</p>
+          <p>{{guide.key_ingredients}}</p>
         </div>
       </div>
 
       <!--제품 예시-->
-      <div class="d-flex flex-column rounded p-5 mb-4">
-        <div class="border-bottom-dashed">
+      <div class="d-flex flex-column justify-content-center align-items-center border rounded p-5 mb-4">
+        <div>
           <label class="fw-bold fs-4">제품 예시</label>
         </div>
 
         <div>
-          <p>{{selectedSkin.recommended_products}}</p>
+          <p>{{guide.recommended_products}}</p>
         </div>
       </div>
 
       <!--최저가 링크-->
-      <div class="d-flex flex-column rounded p-5 mb-4">
-        <div class="border-bottom-dashed">
+      <div class="d-flex flex-column justify-content-center align-items-center border rounded p-5 mb-4">
+        <div>
           <label class="fw-bold fs-4">최저가 링크</label>
         </div>
 
         <div>
-          <a :href="`${selectedSkin.recommended_products}`">제품 링크</a>
+          <a :href="`${guide.recommended_products}`">제품 링크</a>
         </div>
       </div>
-
-
 
     </div>
 
@@ -111,10 +107,10 @@ onMounted(() => {
   console.log(`현재 선택된 인덱스 > ${selectedIndex.value}`)
   console.log(`현재 선택된 객체 >`,selectedSkin);
 
-  //requestSkingGuide() // 서버에서 특징 및 팁 데이터를 가져오는 함수를 호출합니다.
+  requestSkingGuide() // 서버에서 특징 및 팁 데이터를 가져오는 함수를 호출합니다.
 })
 
-/*
+
 // =====  제품 추천 및 최저가 링크 API 호출 (목록) =====
 // 서버로부터 특징 및 팁 데이터를 가져오는 비동기 함수입니다.
 async function requestSkingGuide() {
@@ -139,7 +135,7 @@ async function requestSkingGuide() {
     console.error(`에러 -> ${err}`);
   }
 }
-*/
+
 
 // '뒤로가기' 버튼 클릭 시 실행되는 함수
 function goToProblem() {

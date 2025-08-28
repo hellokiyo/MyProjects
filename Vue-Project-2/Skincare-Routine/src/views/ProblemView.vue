@@ -7,13 +7,8 @@
     </div>
 
     <div v-for="(item, index) in cards" class="col-6 d-flex justify-content-center align-items-center" @click="item.method">
-      <div class="card bgi-position-center bgi-size-cover"
-           :style="{
-            height: `200px`,
-            width: `290px`,
-            backgroundImage :  `url(${item.bg})`,
-            opacity: 0.8
-      }">
+      <div class="card h-200px w-300px bgi-position-center bgi-size-cover"
+           :style="{ backgroundImage : `url(${item.bg})`}">
         <div class="card-body d-flex flex-column justify-content-center align-items-center">
           <span class="text-danger fs-5 fw-bold mb-2 bg-light-primary rounded p-3">{{item.title}}</span>
         </div>

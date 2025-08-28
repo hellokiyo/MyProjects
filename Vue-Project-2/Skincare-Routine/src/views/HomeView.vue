@@ -11,13 +11,8 @@
         <span class="text-gray fs-5 fw-bold mb-2 bg-light-primary rounded p-3" >{{item.type}}</span>
       </div>
 
-      <div class="card bgi-position-center bgi-size-cover" @click="item.method(index)"
-           :style="{
-            height: `200px`,
-            width: `290px`,
-            backgroundImage :  `url(${item.bg})`,
-            opacity: 0.8
-      }">
+      <div class="card h-200px w-300px bgi-position-center bgi-size-cover" @click="item.method(index)"
+           :style="{ backgroundImage :  `url(${item.bg})`}">
       </div>
     </div>
   </div>
@@ -57,7 +52,7 @@ async function requestSkinList() {
       timeout: 5000,
       responseType: "json"
     });
-    console.log(`응답 -> ${JSON.stringify(response.data.data.data)}`);
+    //console.log(`응답 -> ${JSON.stringify(response.data.data.data)}`);
     skins.value = response.data.data.data; // 서버 응답 데이터를 Pinia 스토어에 저장
   } catch (err) {
     console.error(`에러 -> ${err}`);

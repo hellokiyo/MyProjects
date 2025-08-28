@@ -17,8 +17,8 @@
       </div>
 
       <!--특징-->
-      <div class="d-flex flex-column rounded p-5 mb-4">
-        <div class="border-bottom-dashed">
+      <div class="d-flex flex-column justify-content-center align-items-center border rounded p-5 mb-4">
+        <div>
           <label class="fw-bold fs-4">특징</label>
         </div>
 
@@ -28,7 +28,7 @@
       </div>
 
       <!--케어 팁-->
-      <div class="d-flex flex-column border rounded p-5 mb-4">
+      <div class="d-flex flex-column justify-content-center align-items-center border rounded p-5 mb-4">
         <div>
           <label class="fw-bold fs-4">케어팁</label>
         </div>
@@ -39,7 +39,7 @@
       </div>
 
       <!--제품추천-->
-      <div class="d-flex flex-column border rounded p-5 mb-4">
+      <div class="d-flex flex-column justify-content-center align-items-center border rounded p-5 mb-4">
         <div>
           <label class="fw-bold fs-4">제품추천</label>
         </div>
@@ -50,8 +50,8 @@
       </div>
 
       <!--최저가 링크-->
-      <div class="d-flex flex-column border rounded p-5 mb-4">
-        <div>
+      <div class="d-flex flex-column justify-content-center align-items-center border rounded p-5 mb-4">
+        <div >
           <label class="fw-bold fs-4">최저가 링크</label>
         </div>
 

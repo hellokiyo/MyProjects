@@ -17,8 +17,8 @@
       </div>
 
       <!--봄-->
-      <div class="d-flex flex-column rounded p-5 mb-4">
-        <div class="border-bottom-dashed">
+      <div class="d-flex flex-column justify-content-center align-items-center border rounded p-5 mb-4">
+        <div>
           <label class="fw-bold fs-4">봄</label>
         </div>
 
@@ -28,8 +28,8 @@
       </div>
 
       <!--여름-->
-      <div class="d-flex flex-column rounded p-5 mb-4">
-        <div class="border-bottom-dashed">
+      <div class="d-flex flex-column justify-content-center align-items-center border rounded p-5 mb-4">
+        <div>
           <label class="fw-bold fs-4">여름</label>
         </div>
 
@@ -39,8 +39,8 @@
       </div>
 
       <!--가을-->
-      <div class="d-flex flex-column rounded p-5 mb-4">
-        <div class="border-bottom-dashed">
+      <div class="d-flex flex-column justify-content-center align-items-center border rounded p-5 mb-4">
+        <div>
           <label class="fw-bold fs-4">가을</label>
         </div>
 
@@ -50,8 +50,8 @@
       </div>
 
       <!--겨울-->
-      <div class="d-flex flex-column rounded p-5 mb-4">
-        <div class="border-bottom-dashed">
+      <div class="d-flex flex-column justify-content-center align-items-center border rounded p-5 mb-4">
+        <div>
           <label class="fw-bold fs-4">겨울</label>
         </div>
 
